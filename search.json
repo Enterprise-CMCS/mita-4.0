@@ -1,0 +1,761 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Medicaid Information Technology Architecture",
+    "section": "",
+    "text": "What is MITA\nThe Medicaid Information Technology Architecture (MITA) Framework is an initiative by the Centers for Medicare & Medicaid Services (CMS) in partnership with State Medicaid Agencies (SMAs) and Medicaid systems vendors. It aims to establish national guidance and best practice references for processes, data standards, and technologies that facilitate planning and enhance program administration for State Medicaid Enterprises. Building upon the foundation of previous versions, MITA 4.0 supports the Medicaid mission and goals by facilitating integrated business and information technology transformations. This version refines, refocuses, and repurposes MITA to better align with the evolving needs of SMAs.\nMITA 4.0 introduces several new approaches to enhance its relevance and accessibility, with the goal of making it more meaningful for stakeholders while streamlining processes to reduce the burden on state agencies. The framework incorporates various state agency viewpoints to improve efficiency and better align with the Advanced Planning Document process, certification outcomes, and state agency acquisition processes. Additionally, MITA 4.0 provides guidance that reflects current healthcare and IT trends, ensuring that it remains at the forefront of technological advancements.\nBy focusing on these enhancements, MITA 4.0 ensures that technology decisions align with Medicaid business needs, optimizing adaptability, flexibility, interoperability, and data sharing. This evolution enables significant improvements in policy, decision-making, and daily operations, ultimately advancing the capabilities of State Medicaid Enterprises.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is MITA?</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#what-is-mita",
+    "href": "index.html#what-is-mita",
+    "title": "Medicaid Information Technology Architecture",
+    "section": "",
+    "text": "MITA Framework is a consolidation of principles, models, and guidelines that combine to form a template for the States to use to develop their own enterprise architectures.\nMITA processes provide guidance for State Medicaid Enterprise to use in adopting the MITA Framework through shared leadership, collaboration, and reuse of solutions.\nMITA planning guidelines help States prepare the MITA State Self-Assessment (SS-A) and Roadmap to develop enterprise architectures to align to and advance increasingly in MITA maturity for business, architecture, and data. The guidelines serve as the basis for a state’s requests for appropriate Federal Financial Participation (FFP) for their Medicaid Management Information Systems (MMIS) as well as Medicaid Information Technology (IT) system(s) projects related to eligibility determination and enrollment functions.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is MITA?</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#standards-and-conditions",
+    "href": "index.html#standards-and-conditions",
+    "title": "Medicaid Information Technology Architecture",
+    "section": "Standards and Conditions",
+    "text": "Standards and Conditions\nThe MITA framework plays an important role in helping states meet the standards and conditions outlined in Standards and Conditions within 42 CFR 433.112 required for enhanced federal financial participation (FFP) for Medicaid technology investments funded through an approved APD. By providing a structured approach to planning and development, MITA assists states in aligning their technology solutions with Medicaid business needs and federal requirements. It encourages the use of modular, flexible systems that promote interoperability and data sharing, ensuring that states can effectively coordinate with other health services and systems. MITA also guides states in preparing their Advanced Planning Document (APD) submissions, offering a roadmap to compliance and efficiency. This alignment not only facilitates adherence to federal standards but also supports states in achieving their Medicaid program goals more efficiently, effectively, and sustainably, optimizing adaptability and enhancing overall program administration.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is MITA?</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#mita-4.0-goals",
+    "href": "index.html#mita-4.0-goals",
+    "title": "Medicaid Information Technology Architecture",
+    "section": "MITA 4.0 Goals",
+    "text": "MITA 4.0 Goals\n\nDevelop seamless and integrated systems that communicate effectively to achieve common Medicaid goals through interoperability and common standards.\nPromote an environment that supports flexibility, adaptability, and rapid response to changes in programs and technology.\nPromote an enterprise view that supports enabling technologies that align with Medicaid business processes and technologies.\nProvide data that is timely, accurate, usable, and easily accessible in order to support analysis and decision making for health care management and program administration.\nProvide performance measurement for accountability and planning.\nCoordinate with public health and other partners to integrate health outcomes within the Medicaid community.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is MITA?</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#mita-4.0-design-principles",
+    "href": "index.html#mita-4.0-design-principles",
+    "title": "Medicaid Information Technology Architecture",
+    "section": "MITA 4.0 Design Principles",
+    "text": "MITA 4.0 Design Principles\nDuring the development of MITA 4.0, workgroup participants identified a set of core principles designed to prioritize updates MITA 3.0 that make MITA more meaningful and accessible to SMAs. These principles ensure that MITA remains a relevant and valuable tool for State Medicaid Agencies and their stakeholders.\nDefine Clear Linkages Between Capabilities and Outcomes: Establish clear definitions for both MITA Capabilities and Outcomes, and articulate the relationship between outcomes and the MITA architectures. This principle ensures that every capability is directly aligned with desired outcomes, linking strategic objectives with operational execution in a coherent framework.\nBusiness-Driven Transformation: Define business transformations with a focus on aligning IT solutions with both common and unique state needs. This principle ensures that technology initiatives are directly informed by business objectives, leading to more effective and tailored solutions.\nStandards First: Promote data and technical standards to improve IT development cost-effectiveness. By prioritizing standards, we aim to streamline processes and reduce complexity, ultimately enhancing interoperability and efficiency.\nReduce Burden on SMAs: Simplify processes and requirements to alleviate the administrative load on State Medicaid Agencies, enabling them to focus more on service delivery and less on compliance.\nEnable Automation: Encourage the adoption of automated processes to increase efficiency and accuracy in Medicaid operations, reducing manual intervention and the potential for errors.\nRelease Guidance Aligned with Current Trends: Provide guidance that reflects the latest trends in healthcare and IT, ensuring that MITA 4.0 remains relevant and forward-looking in its approach to Medicaid management.\nIntegrate with Other Activities: Enhance the integration of MITA with related activities such as APD development, Certification, T-MSIS reporting, and state procurement processes. This principle aims to create a cohesive framework that supports comprehensive Medicaid management and aligns with broader state and federal initiatives.\nTransition to a Web-Enabled Presentation: Move from the static, PDF-based MITA 3.0 to a dynamic, web-enabled format. This principle facilitates easier maintenance and continuous improvement by the community, allowing for real-time updates and enabling stakeholders to access the most current information. By fostering a collaborative environment, we encourage the sharing of insights and innovations, making MITA a more robust and adaptable framework for all users.\nThese principles are foundational to the development and implementation of MITA 4.0, ensuring it effectively supports the evolving needs of Medicaid operations.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is MITA?</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#concepts",
+    "href": "index.html#concepts",
+    "title": "Medicaid Information Technology Architecture",
+    "section": "Concepts",
+    "text": "Concepts\n\nOutcomes: Define what SMAs aim to achieve through the implementation of MITA.\nBusiness Process Model: Define common business processes for the Medicaid Enterprise.\nMaturity Model: Illustrate the maturation of Medicaid operations over time.\nCapability Matrices: Align business, information, and technical capabilities with the Maturity Model.\nState Self-Assessment (SS-A): Represent current and future business, information, and technical capabilities.\n\nMITA 4.0 ensures that technology decisions align with Medicaid business needs, optimizing adaptability, flexibility, interoperability, and data sharing. This evolution enables significant improvements in policy, decision-making, and daily operations. Explore the MITA 4.0 Framework to advance your State Medicaid Enterprise.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is MITA?</span>"
+    ]
+  },
+  {
+    "objectID": "mitaAdopt.html",
+    "href": "mitaAdopt.html",
+    "title": "\nWhy Adopt MITA?\n",
+    "section": "",
+    "text": "Why Adopt MITA?\n\n\nThe MITA Initiative provides significant benefits to Medicaid stakeholders, including the public, states, and the federal government.\n\n\nHelping the Public\n\n\n\nMITA helps the public by making it easier for people to access healthcare. MITA helps improve the quality of care and drives data for decision-making to improve health outcomes and public safety. It also makes Medicaid enterprise systems more efficient, reduces fraud, and saves money by using standardized practices and reusable tools.\n\n\n\nHelping the States\n\n\n\nMITA helps states by supporting Medicaid program management and health reform efforts. MITA promotes prevention and wellness through collaboration and aligning technology with Medicaid priorities to get the most out of investments and support national health initiatives.\n\n&lt;br&gt;\n\nHelping CMS\n\n\n\nMITA helps the federal government by streamlining how CMS reviews state Medicaid IT plans, aligning with national health goals and making better use of resources. MITA enhances coordination across agencies to improve processes, inform decisions, and lower costs for developing systems.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Why Adopt MITA 4.0?</span>"
+    ]
+  },
+  {
+    "objectID": "mitaDiffernt.html",
+    "href": "mitaDiffernt.html",
+    "title": "\nHow is MITA 4.0 Different?\n",
+    "section": "",
+    "text": "How is MITA 4.0 Different?\n\n\nMITA 4.0 builds on MITA 3.0 to support Medicaid’s mission by helping states modernize their business processes and technology systems to improve the administration of their Medicaid programs. MITA 4.0 evolves and refines the MITA framework to better meet the changing needs of State Medicaid Agencies.\n\n\n\n\nClick the image below to learn more:",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>How is MITA 4.0 different?</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityOverview.html",
+    "href": "capabilityOverview.html",
+    "title": "MITA Capability Model",
+    "section": "",
+    "text": "Model Objective\nThe MITA 4.0 Capability Reference Model is a key component of the MITA 4.0 Framework. The primary objective of the reference model is to support the alignment of capabilities across SMA’s to enable leverage, reuse and interoperability across SMA’s.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Why Capabilities?</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityOverview.html#model-definition",
+    "href": "capabilityOverview.html#model-definition",
+    "title": "MITA Capability Model",
+    "section": "Model Definition",
+    "text": "Model Definition\nA capability is defined as an ability that an SMA possesses or seeks to develop to achieve its goals and meet its desired outcomes. It represents what the SMA can do without attempting to explain how, why or where the SMA uses the capability. It may be an ability that may exist within the SMA today or be required to enable a new direction or reach a new desired outcome. Each capability is composed of the following: • Outcomes – The definition of the desired outcomes that require the capability to be achieved. • Roles – The individual roles that are responsible for providing the capability. • Business Processes – The business processes that are performed to deliver the capability. • Information – The information and the data management capabilities that are needed to deliver the capability. • Technology – The technology that is used to automate the capability.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Why Capabilities?</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityOverview.html#mita-3.0-vs.-mita-4.0-capabilities",
+    "href": "capabilityOverview.html#mita-3.0-vs.-mita-4.0-capabilities",
+    "title": "MITA Capability Model",
+    "section": "MITA 3.0 vs. MITA 4.0 Capabilities",
+    "text": "MITA 3.0 vs. MITA 4.0 Capabilities\nMITA 3.0 defines capabilities as the competence of an individual, organization or system to perform a function or process. The MITA 4.0 framework changes the definition of a capability to not include the concept of competence. The capability in MITA 4.0 focuses only on the ability that an SMA possesses or seeks to develop, agnostic of how well the SMA performs that capability. The purpose of the state self-assessment (SS-A) in MITA 4.0 is to assess the maturity of the capability and how well the SMA performs the capability based on the outcomes, roles, business processes, information and technology that an SMA has defined and implemented to support that capability. The MITA 4.0 capabilities are closely aligned to the following concepts in MITA 3.0: • MITA 3.0 Business Areas and Categories • Technical Service Areas and Classifications\n\n\n\nMITA 4.0 vs. MITA 3.0 Capabilities",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Why Capabilities?</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityOverview.html#model-structure",
+    "href": "capabilityOverview.html#model-structure",
+    "title": "MITA Capability Model",
+    "section": "Model Structure",
+    "text": "Model Structure\nA capability reference model is an abstract framework that defines concepts used for grouping capabilities that share a common meaning. It is used to establish a shared definition of capability concepts that cross organizational boundaries and helps to identify opportunities for sharing, leveraging and reuse. The MITA 4.0 Capability Reference Model is designed to identify the key capability concepts that are needed to support the Medicaid Program and achieve the goals and outcomes established for MITA 4.0. The MITA 4.0 Capability Model is grouped into (2) levels including: • Capability Domain - High-level capability used to group common capabilities • Capability Area – Detailed capabilities that decomposes the capability domain into sub-capabilities that can be used by SMA’s to classify their capabilities. There are one to many distinct Capability Areas for each Capability Domain. Each Capability Area can have one to many distinct Capabilities defined within it .",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Why Capabilities?</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityOverview.html#model-application",
+    "href": "capabilityOverview.html#model-application",
+    "title": "MITA Capability Model",
+    "section": "Model Application",
+    "text": "Model Application\nSMA’s will use the MITA 4.0 Capability Reference Model to classify their own capabilities. The MITA 4.0 Capability Reference Model provides SMA’s the freedom to define their capabilities based on their own state-specific needs. The SMA’s should use the capability domains and areas in the reference model to classify their state-specific capabilities. Using the reference model enables alignment of capabilities across SMA’s and enables states and CMS the ability to do the following: • Identify opportunities to collaborate, leverage and reuse. • Consistently assess and report capability maturity.\n\n\n\nMITA 4.0 Reference Model Application Example",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Why Capabilities?</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityOverview.html#model-contents",
+    "href": "capabilityOverview.html#model-contents",
+    "title": "MITA Capability Model",
+    "section": "Model Contents",
+    "text": "Model Contents\nThe capability domains identified in the MITA 4.0 Capability Reference Model are organized into (3) distinct groups including: • Strategic – Identifies capabilities that an SMA possesses or seeks to develop that enable them to establish and maintain its enterprise strategy. • Core – identifies capabilities that an SMA possesses or seeks to develop that enable them to meet its mission and achieve its desired outcomes. • Support – Identifies capabilities that an SMA possesses or seeks to develop that are not specific to its mission but are critical for the core and strategic capabilities.\n\nPurpose\n\n\n\n\n\n\nNoteNote\n\n\n\nMITA 4.0 does not endeavor to specify all of the capabilities SMA’s may need to administer Medicaid programs; instead, this version of MITA focuses on the capabilities that are most closely oriented towards achieving the CMS-required outcomes.\n\n\nUnderstanding the how the MITA Capability Model works is important to obtaining the most value out of many of the other tools and artifacts in the MITA framework, such as the MITA Maturity Model (MMM) and the Business Process Model (BPM). The MITA Capability Model provides a structured way for SMAs to identify, conceptually model, and improve the capabilities needed for efficient Medicaid operations.\nIt is important to note that MITA 4.0 does not endeavor to specify all of the capabilities SMA’s may need to administer Medicaid programs; instead, this version of MITA focuses on the capabilities that are most closely oriented towards achieving the CMS-required outcomes. In this way MITA 4.0 provides a reference model for SMAs to model other capabilities that may be needed to achieve their other goals such as state specific outcomes, or other state priorities while providing more guidance within the MITA Framework to support modular.\n\n\nUpdate to MITA 3.0\nMITA 3.0 defined a capability as the level of maturity of a set of business processes within a business category. By focusing on “how” MES operate MITA 3.0 helped SMA’s identify ways to improve and mature their business processes, but it did not link those processes with the outcomes they are intended to achieve or ensure better alignment of the information and technical architectures to business outcomes. The addition of the MITA capability model to the MITA 4.0 business architecture addresses that by providing the conceptual linkages needed to elevate the strategic vantage point of the MITA Framework. To guide this change, we present within this chapter a definition, description, and approach to modeling business capabilities, based on the widely used capability models contextualized for Medicaid Enterprises.\nThe business processes that operationalize MITA capabilities remain foundational to characterizing the business architecture, and are by definition a constituent part of any MITA capability. They provide essential information on how capabilities are operationalize and should continue to be a routinely utilized reference model for SMA business process mapping. They are found with in the Business Process Model chapter of this version of MITA.\n\n\nRelationship of MITA Capabilities to Outcomes\nIn the context of the Medicaid Information Technology Architecture (MITA), outcomes are intrinsically linked to capabilities, as they represent the tangible results achieved through the effective integration and execution of various elements that constitute a capability. In this sense, outcomes and capabilities define each other.\n\n\n\nMITA Capability and Outcome Relationship Diagram\n\n\n\nOutcomes\nMITA defines outcomes broadly to encompass CMS-required outcomes, state-specific outcomes, and other outcomes not mandated as part of the Advance Planning Document (APD) process. The sole criterion for an outcome to meet this definition is that it must be a goal of a State Medicaid Agency (SMA) and be achieved through a Medicaid Enterprise System (MES) capability.\n\n\n\n\n\n\nNoteKey Definition\n\n\n\nA MITA outcome is a goal of a State Medicaid Agency (SMA) that is achieved by a Medicaid Enterprise System (MES) capability.\n\n\n\n\nMeasure\nMeasure is a quantifiable metric used to assess the effectiveness and efficiency of capabilities within a Medicaid Enterprise System (MES). Measures provide quantifiable and qualitative values that help State Medicaid Agencies (SMAs) track progress toward achieving specific outcomes, such as CMS-required or state-specific goals. These indicators might include metrics like processing times, error rates, or compliance levels.\nMeasures are a measurement threshold by establishing a specific value or level that must be met or exceeded to demonstrate successful performance. For instance, a KPI might set a threshold for the maximum allowable processing time for claims, ensuring that they are handled within a specified timeframe to maintain compliance and eligibility for enhanced federal funding. By monitoring these thresholds, organizations can ensure they are meeting regulatory requirements and delivering high-quality services to beneficiaries, while also identifying areas for improvement.\n\n\nMeasure Threshold\nA specific value or level of a measure that must be met or exceeded to demonstrate the effective achievement of a capability’s intended outcome. This threshold serves as a benchmark for assessing whether the processes, roles, and resources integrated within a Medicaid Enterprise System (MES) are functioning optimally to meet the goals of a State Medicaid Agency (SMA). For example, a measurement threshold might be set for processing times, where claims must be processed within a certain number of days to ensure compliance with CMS-required outcomes and maintain eligibility for enhanced federal funding. By establishing and monitoring these thresholds, organizations can ensure they are meeting regulatory requirements and delivering high-quality services to beneficiaries.\n\n\nMeasurement\nThese outcomes and metrics are also used to ensure that healthcare systems or modules comply with applicable federal regulations, forming the baseline for system or module functionality. Achieving these outcomes is essential for continuing to receive enhanced federal funding for operations. Regular measurement and analysis of KPIs help organizations demonstrate compliance and effectiveness, ensuring that they meet regulatory requirements and continue to deliver high-quality services to beneficiaries.\nIn this way we can clearly interrelate all of the MITA architecture models and their individual components with the KPIs, thresholds, and measurements that indicate whether our capability achieves our desired outcome.\nWhile models that help conceptualize the capabilities that achieve CMS-required outcomes are the ones modeled for this version of MITA, SMAs are encouraged to use these models as a reference to model capabilities.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Why Capabilities?</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityOverview.html#capability-mapping",
+    "href": "capabilityOverview.html#capability-mapping",
+    "title": "MITA Capability Model",
+    "section": "Capability Mapping",
+    "text": "Capability Mapping\nCapability mapping is a strategic tool that enables organizations, such as State Medicaid Agencies (SMAs), to systematically identify, organize, and visualize the key capabilities necessary to achieve their objectives. Within the MITA framework, capability mapping provides SMAs with a method of developing comprehensive views of the functions and processes required to deliver Medicaid services effectively. To begin the capability mapping process, SMAs should first identify the core capabilities that align with their strategic objectives, focusing on what the organization needs to achieve rather than how those goals are accomplished. This involves listing all necessary capabilities and understanding the desired outcomes they support. Next, these capabilities should be organized into domains and areas that reflect their strategic importance and interrelationships. Visualizing these capabilities through diagrams or maps provides all stakeholders a common view to understand the roles, processes, technology resources, and information/data involved in executing each capability, as well as the outcome each capability is designed to achieve. This structured approach not only highlights areas for improvement or investment but also ensures that organizational efforts are strategically aligned with desired outcomes.\nThe benefits of capability mapping are multifaceted, offering SMAs a clear pathway to strategic alignment and gap analysis. By visualizing capabilities, organizations can identify operational gaps and determine what new or enhanced capabilities are needed to close those gaps. This visualization also improves communication among stakeholders by providing a clear and concise representation of the organization’s functions. To refine capabilities, SMAs should analyze current operations, assess the efficiency of underlying processes, and optimize them to enhance capability effectiveness. Additionally, capability mapping serves as a foundation for heat mapping, which assesses the MITA Framework will utilize to visualize the maturity of each capability evaluated in the State Self-Assessment. SMAs can overlay heat maps over their capability maps to visualize many things other than maturity levels, using color coding to indicate areas of strength and weakness. Regular updates to these maps allow SMAs to monitor progress and ensure resources are allocated effectively to achieve strategic goals. The MITA framework includes examples of capability maps based on CMS-required outcomes, serving as a reference model for SMAs to develop their own capability maps tailored to state-specific goals and priorities. By leveraging the reference models provided by MITA, SMAs can ensure their capability mapping efforts are aligned with both federal requirements and state-specific priorities.\n\nOrganizing Capabilities\nTo enhance the resolution and detail of a capability and provide a unified view of all its components, a block diagram can be employed to provide a common view of any MES. This diagram effectively links the capability to business processes, roles, technical resources, and information resources through functional decomposition. By breaking down the capability into its constituent parts, the block diagram offers a visual representation that highlights the interrelationships and dependencies among these elements. This approach provides a clearer understanding of how each component contributes to the overall capability, facilitating more effective analysis, optimization, and alignment with organizational objectives.\n\nWe use this same method to present an this top level view of the capabilities required to achieve CMS-required outcomes. From this view increasingly detailed models can be constructed.\n\n\n\nMITA Capability Models\nThe MITA framework represents capabilities visually through a layered model that represent a capability of being composed of sub-capabilities and the processes, roles, information and technology resources (PRIT) that support the business in sustaining the capability. Each layer up depicts increasingly strategic capabilities and each layer down depicts the constituent elements that compose a capability in increasing operational detail. It is not the intention of this version of MITA to provide a full operational or tactical view of a capability, though SMAs may consider using this approach to improve their organizational awareness of their operations by developing further layers of their capabilities through functional decomposition.\n\n\nCapability Domains: The first layer of this model aims to group capabilities to organize the strategic view of an SMA’s capabilities. In this view one or many capabilities can be grouped within a domain to indicate the pursuit of common outcomes. Each domain is denoted with a single number to help annotate each capability.\nCapability Areas: The second layer of this model aims to provide a view of the groups of capabilities that compose a domain. They are organized to show capabilities that serve a specific group of similar outcomes and essential\nCapabilities: The third layer of this model provides a more detailed view view of\n\n\n\n\nRelationship of MITA Capabilities to Maturity\n\n\n\n\n\n\nWarning\n\n\n\nUnder development.\n\n\n\nLevels of Maturity\n\nDescription of the five levels of maturity in the MITA framework\nHow capabilities evolve and mature over time\n\n\n\n\n\nUsing Capability Maps for Heat Mapping Strategic Priorities and Identifying Gaps with the MITA Maturity Model\nCapability maps are powerful tools that not only provide a visual representation of an SMA’s key capabilities but also serve as a foundation for strategic analysis and planning. There are many approaches to heat mapping capabilities, each offering unique insights into organizational priorities and gaps. Here, we describe two approaches: assessing maturity levels using the MITA Maturity Model and prioritizing strategic outcomes.\n\nIdentifying Gaps with the MITA Maturity Model\nThe MITA Maturity Model provides a framework for assessing the maturity of an organization’s capabilities across various dimensions, such as business processes, information, and technology. By integrating the maturity model with capability maps, SMAs can identify gaps between their current state and desired maturity levels.\n\nExample 1: Identifying Gaps in Data Management Maturity Using the PRIT Model\nAn SMA is conducting an assessment of its data management capabilities using the MITA Maturity Model, with a focus on the PRIT (Processes, Roles, Information, and Technology) framework. The capability map includes various data-related capabilities, such as “Data Integration,” “Data Quality Management,” and “Data Analytics.” Each of these capabilities is evaluated across the PRIT dimensions to determine their maturity levels using the revised scale:\nProcesses: Level 1: Ad-Hoc Roles: Level 2: Compliant Information: Level 2: Compliant Technology: Level 2: Compliant The capability map is updated to reflect the maturity assessment, with each dimension marked with a color code: red for Level 1: Ad-Hoc, yellow for Level 2: Compliant, green for Level 3: Efficient, blue for Level 4: Optimized, and purple for Level 5: Pioneering. This visualization helps the SMA prioritize strategic actions to enhance the “Data Integration” capability, such as standardizing processes, refining roles, improving data quality, and upgrading technology.\n\n\n\nHeat Mapping Strategic Priorities\nHeat mapping involves applying a color-coded overlay to a capability map to visually represent the status or priority level of each capability. This technique can be used to highlight areas of strength, weakness, or strategic importance. For example, capabilities that are critical to achieving CMS-required outcomes might be marked in one color, while those needing immediate attention or improvement could be marked in another. This visual representation helps stakeholders quickly grasp the strategic landscape and make informed decisions about where to allocate resources and focus efforts.\n\nExample 2: Prioritizing Capabilities for CMS-Required Outcomes\nAn SMA is focused on achieving specific CMS-required outcomes related to improving patient care and reducing administrative costs. The agency creates a capability map that outlines all the capabilities necessary to meet these outcomes. By applying a heat map, the SMA highlights capabilities that are directly linked to these outcomes in green, indicating they are of high strategic priority. Capabilities that are indirectly related or less critical are marked in yellow, while those that are currently underperforming or not aligned with strategic goals are marked in red.\nThis visual representation allows the SMA to quickly identify which capabilities require immediate attention and resources to ensure compliance with CMS requirements. For instance, if the capability related to “Claims Processing Efficiency” is marked in red, the agency can prioritize initiatives to enhance this capability, such as investing in new technology or streamlining processes.\n\n\n\nOther Uses for Capability Heat Mapping\nBeyond assessing maturity levels and prioritizing strategic initiatives, capability heat mapping can be applied in various other contexts to enhance organizational effectiveness and alignment.\n\nExample 3: Aligning Capabilities with State-Specific Initiatives\nAn SMA is working on a state-specific initiative to enhance telehealth services for rural populations. The capability map includes capabilities related to telehealth, such as “Telehealth Infrastructure,” “Provider Engagement,” and “Patient Access.” The SMA uses a heat map to highlight these capabilities in blue, indicating their alignment with the state-specific initiative.\nBy analyzing the capability map, the SMA identifies that “Provider Engagement” is a critical capability that requires further development to support the telehealth initiative. The agency decides to invest in training programs and outreach efforts to engage providers in rural areas, ensuring that the telehealth services are effectively delivered to the target population.\nThese examples demonstrate how capability maps, combined with heat mapping and the MITA Maturity Model, can provide valuable insights for strategic planning and gap analysis. By visualizing priorities and maturity levels, SMAs can make informed decisions about where to focus resources and efforts, ultimately enhancing their Medicaid Enterprise Systems and achieving strategic objectives.\n\nCapability Mapping\n\nIntroduction to capability mapping and its significance\nHow capabilities are organized and detailed at various levels of abstraction",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Why Capabilities?</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityOverview.html#guidance-on-reuse-of-the-mita-capability-model",
+    "href": "capabilityOverview.html#guidance-on-reuse-of-the-mita-capability-model",
+    "title": "MITA Capability Model",
+    "section": "Guidance on reuse of the MITA Capability Model",
+    "text": "Guidance on reuse of the MITA Capability Model\n\nPractical Application\n\nHow to integrate the capability model into daily operations and strategic planning\nTips for maximizing the benefits of the model\n\nContinuous Improvement\n\nEncouragement for ongoing assessment and refinement of capabilities\nLeveraging feedback and performance data for model enhancement\n\nImplementation Guidance\n\nSteps for adopting the capability model\nResources and support available for SMAs\n\nPerformance Monitoring and Reporting\n\nRole of the capability model in tracking and enhancing performance\nUse of metrics and standards to measure capability effectiveness",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Why Capabilities?</span>"
+    ]
+  },
+  {
+    "objectID": "orbit.html",
+    "href": "orbit.html",
+    "title": "ORBIT Overview",
+    "section": "",
+    "text": "Placeholder content for ORBIT overview.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>What is ORBIT?</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityModelIntro.html",
+    "href": "capabilityModelIntro.html",
+    "title": "IA Capability Model",
+    "section": "",
+    "text": "Introduction to Business Capability Models\nA capability model is a conceptual framework that outlines the key capabilities an organization needs to achieve its strategic objectives. It provides a comprehensive view of what an organization can do and helps identify areas for improvement or investment. In the context of an orchestra, a capability model might help the orchestra identify the set of skills and resources, or other types of capabilities it needs to perform a symphony. Just like an orchestra needs well practiced musicians, sheet music, instruments, a conductor, and an audience to produce a great symphony, a State Medicaid Agency (SMA) needs its Medicaid Enterprise System (MES) to employ or develop specific capabilities to deliver its services effectively, efficiently, and economically to its enrollees and providers.\nThe concept of a business capability is extensively used within enterprise architecture modeling and has been broadly used within Business Capability Models as a tool to better align the business strategy and information technology of both private sector and governmental organizations since they emerged in the mid-2000s. One example comes from the TOGAF Standard, a well-known standard in enterprise architecture. Like most architecture frameworks TOGAF defines a capability as something a business can do to meet its goals. This focuses a strategic lens of an organization on “what” it needs to achieve its goals, rather than “how” those goals are achieved. This perspective allows for business planning from different viewpoints, facilitating strategic alignment and operational efficiency.\nSMA business architects, technologists, systems analysts, executives, managers, and program staff can use this same modeling approach to represent the functional components of their Medicaid Enterprise System (MES) in ways that can help reveal gaps in their systems and provide insights on what new or enhanced capabilities might be needed to close those gaps.\nBy focusing on capabilities, SMAs can better align their information and technology resources and processes with their strategic business goals, ultimately improving their insight into how to improve the outcomes their Medicaid Enterprise Architecture produces.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Intro to Capability Models</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityModelIntro.html#introduction-to-business-capability-models",
+    "href": "capabilityModelIntro.html#introduction-to-business-capability-models",
+    "title": "IA Capability Model",
+    "section": "",
+    "text": "Purpose\n\n\n\n\n\n\nNoteNote\n\n\n\nMITA 4.0 does not endeavor to specify all of the capabilities SMA’s may need to administer Medicaid programs; instead, this version of MITA focuses on the capabilities that are most closely oriented towards achieving the CMS-required outcomes.\n\n\nUnderstanding the how the MITA Capability Model works is important to obtaining the most value out of many of the other tools and artifacts in the MITA framework, such as the MITA Maturity Model (MMM) and the Business Process Model (BPM). The MITA Capability Model provides a structured way for SMAs to identify, conceptually model, and improve the capabilities needed for efficient Medicaid operations.\nIt is important to note that MITA 4.0 does not endeavor to specify all of the capabilities SMA’s may need to administer Medicaid programs; instead, this version of MITA focuses on the capabilities that are most closely oriented towards achieving the CMS-required outcomes. In this way MITA 4.0 provides a reference model for SMAs to model other capabilities that may be needed to achieve their other goals such as state specific outcomes, or other state priorities while providing more guidance within the MITA Framework to support modular.\n\n\nUpdate to MITA 3.0\nMITA 3.0 defined a capability as the level of maturity of a set of business processes within a business category. By focusing on “how” MES operate MITA 3.0 helped SMA’s identify ways to improve and mature their business processes, but it did not link those processes with the outcomes they are intended to achieve or ensure better alignment of the information and technical architectures to business outcomes. The addition of the MITA capability model to the MITA 4.0 business architecture addresses that by providing the conceptual linkages needed to elevate the strategic vantage point of the MITA Framework. To guide this change, we present within this chapter a definition, description, and approach to modeling business capabilities, based on the widely used capability models contextualized for Medicaid Enterprises.\nThe business processes that operationalize MITA capabilities remain foundational to characterizing the business architecture, and are by definition a constituent part of any MITA capability. They provide essential information on how capabilities are operationalize and should continue to be a routinely utilized reference model for SMA business process mapping. They are found with in the Business Process Model chapter of this version of MITA.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Intro to Capability Models</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityModelIntro.html#the-mita-definition-of-capability",
+    "href": "capabilityModelIntro.html#the-mita-definition-of-capability",
+    "title": "IA Capability Model",
+    "section": "The MITA Definition of Capability",
+    "text": "The MITA Definition of Capability\nWithin the context of MITA, a capability can be defined as the ability or capacity of a State Medicaid Agency to achieve a desired outcome in compliance with the Standards and Conditions within 42 CFR 433.112. A capability may currently exist in an operational state or be envisioned for future development. Through careful planning, capabilities defined in this way can be matured and refined over time to become more effective and efficient. They can be organized and detailed at various levels of abstraction, providing precise descriptions for operational purposes or more generalized views for strategic planning.\n\n\n\n\n\n\nNoteKey Definition\n\n\n\n…a capability is defined as the ability or capacity of a SMA to achieve a desired outcome…\n\n\nTo fully define a business capability, it is essential to understand how it is realized through the integration of people, processes, information, and technology resources of an SMA. While these elements of the capability can change regularly, the capability itself is should endure over longer planning horizons, supporting the long-term alignment of business and IT and the achievement of increasingly beneficial business outcomes.\n\nStructure of the MITA Capability Model\nAs depicted in the model below, the MITA Capability Model orients the people, process, technology, and information resources to define a MITA Capability. This means that to model a capability the appropriate components of the information architecture and the technical architecture must be brought together with the business architecture to fully formulate any MITA Capability.\n\n\n\nMITA Capability Relationship Diagram\n\n\n\nBusiness Roles\nBusiness roles represent individual actors, stakeholders, or partners involved in delivering a business capability. A single organizational group or team may be wholly responsible for delivering the capability, or multiple business entities may share the delivery of a particular business capability. Business Roles perform Business Processes using Technology Resources. They require skills and knowledge resources to achieve outcomes, and should be actively engaged as partners in the development or enhancement of any capability they help deliver.\n\n\nBusiness Processes\nIndividual business capabilities may be enabled or delivered through a range of business processes that detail the activities (the how) associated with delivering the capability. Identifying and analyzing the efficiency of the underlying processes helps to optimize the business capability’s effectiveness. Identifying the processes within a business capability provides a focus for maturing the capability in concert with the other capability components. Business Processes operationalize Business Capabilities.\n\n\nInformation/Data\nInformation/data represents the business data, knowledge, and insight consumed or produced by the business capability (as distinct from IT-related data entities). This may also include information that the capability exchanges with other capabilities to support the execution of value streams. Examples include information about customers and prospects, products and services, business policies and rules, sales reports, and performance metrics. Information/data inform the Business Capability, answering questions and supporting business rules.\n\n\nTechnology Resources\nBusiness capabilities rely on a range of tools, applications, systems, and services for successful execution. Technology Resources use Information/data to facilitate Business Processes. Such resources may include:\n\nModular software applications\nCloud or on-premise infrastructure\nMicroservices\nAnalytics\nCustomer portal\n\nIn this way we can clearly interrelate all of the MITA architecture models and their individual components which allows us to reveal gaps not only in the individual components of the architecture, but also understand their impact on the integration of the architecture components at the capability level.\n\n\n\nRelationship of MITA Capabilities to Outcomes\nIn the context of the Medicaid Information Technology Architecture (MITA), outcomes are intrinsically linked to capabilities, as they represent the tangible results achieved through the effective integration and execution of various elements that constitute a capability. In this sense, outcomes and capabilities define each other.\n\n\n\nMITA Capability and Outcome Relationship Diagram\n\n\n\nOutcomes\nMITA defines outcomes broadly to encompass CMS-required outcomes, state-specific outcomes, and other outcomes not mandated as part of the Advance Planning Document (APD) process. The sole criterion for an outcome to meet this definition is that it must be a goal of a State Medicaid Agency (SMA) and be achieved through a Medicaid Enterprise System (MES) capability.\n\n\n\n\n\n\nNoteKey Definition\n\n\n\nA MITA outcome is a goal of a State Medicaid Agency (SMA) that is achieved by a Medicaid Enterprise System (MES) capability.\n\n\n\n\nMeasure\nMeasure is a quantifiable metric used to assess the effectiveness and efficiency of capabilities within a Medicaid Enterprise System (MES). Measures provide quantifiable and qualitative values that help State Medicaid Agencies (SMAs) track progress toward achieving specific outcomes, such as CMS-required or state-specific goals. These indicators might include metrics like processing times, error rates, or compliance levels.\nMeasures are a measurement threshold by establishing a specific value or level that must be met or exceeded to demonstrate successful performance. For instance, a KPI might set a threshold for the maximum allowable processing time for claims, ensuring that they are handled within a specified timeframe to maintain compliance and eligibility for enhanced federal funding. By monitoring these thresholds, organizations can ensure they are meeting regulatory requirements and delivering high-quality services to beneficiaries, while also identifying areas for improvement.\n\n\nMeasure Threshold\nA specific value or level of a measure that must be met or exceeded to demonstrate the effective achievement of a capability’s intended outcome. This threshold serves as a benchmark for assessing whether the processes, roles, and resources integrated within a Medicaid Enterprise System (MES) are functioning optimally to meet the goals of a State Medicaid Agency (SMA). For example, a measurement threshold might be set for processing times, where claims must be processed within a certain number of days to ensure compliance with CMS-required outcomes and maintain eligibility for enhanced federal funding. By establishing and monitoring these thresholds, organizations can ensure they are meeting regulatory requirements and delivering high-quality services to beneficiaries.\n\n\nMeasurement\nThese outcomes and metrics are also used to ensure that healthcare systems or modules comply with applicable federal regulations, forming the baseline for system or module functionality. Achieving these outcomes is essential for continuing to receive enhanced federal funding for operations. Regular measurement and analysis of KPIs help organizations demonstrate compliance and effectiveness, ensuring that they meet regulatory requirements and continue to deliver high-quality services to beneficiaries.\nIn this way we can clearly interrelate all of the MITA architecture models and their individual components with the KPIs, thresholds, and measurements that indicate whether our capability achieves our desired outcome.\nWhile models that help conceptualize the capabilities that achieve CMS-required outcomes are the ones modeled for this version of MITA, SMAs are encouraged to use these models as a reference to model capabilities.",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Intro to Capability Models</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityModelIntro.html#capability-mapping",
+    "href": "capabilityModelIntro.html#capability-mapping",
+    "title": "IA Capability Model",
+    "section": "Capability Mapping",
+    "text": "Capability Mapping\nCapability mapping is a strategic tool that enables organizations, such as State Medicaid Agencies (SMAs), to systematically identify, organize, and visualize the key capabilities necessary to achieve their objectives. Within the MITA framework, capability mapping provides SMAs with a method of developing comprehensive views of the functions and processes required to deliver Medicaid services effectively. To begin the capability mapping process, SMAs should first identify the core capabilities that align with their strategic objectives, focusing on what the organization needs to achieve rather than how those goals are accomplished. This involves listing all necessary capabilities and understanding the desired outcomes they support. Next, these capabilities should be organized into domains and areas that reflect their strategic importance and interrelationships. Visualizing these capabilities through diagrams or maps provides all stakeholders a common view to understand the roles, processes, technology resources, and information/data involved in executing each capability, as well as the outcome each capability is designed to achieve. This structured approach not only highlights areas for improvement or investment but also ensures that organizational efforts are strategically aligned with desired outcomes.\nThe benefits of capability mapping are multifaceted, offering SMAs a clear pathway to strategic alignment and gap analysis. By visualizing capabilities, organizations can identify operational gaps and determine what new or enhanced capabilities are needed to close those gaps. This visualization also improves communication among stakeholders by providing a clear and concise representation of the organization’s functions. To refine capabilities, SMAs should analyze current operations, assess the efficiency of underlying processes, and optimize them to enhance capability effectiveness. Additionally, capability mapping serves as a foundation for heat mapping, which assesses the MITA Framework will utilize to visualize the maturity of each capability evaluated in the State Self-Assessment. SMAs can overlay heat maps over their capability maps to visualize many things other than maturity levels, using color coding to indicate areas of strength and weakness. Regular updates to these maps allow SMAs to monitor progress and ensure resources are allocated effectively to achieve strategic goals. The MITA framework includes examples of capability maps based on CMS-required outcomes, serving as a reference model for SMAs to develop their own capability maps tailored to state-specific goals and priorities. By leveraging the reference models provided by MITA, SMAs can ensure their capability mapping efforts are aligned with both federal requirements and state-specific priorities.\n\nOrganizing Capabilities\nTo enhance the resolution and detail of a capability and provide a unified view of all its components, a block diagram can be employed to provide a common view of any MES. This diagram effectively links the capability to business processes, roles, technical resources, and information resources through functional decomposition. By breaking down the capability into its constituent parts, the block diagram offers a visual representation that highlights the interrelationships and dependencies among these elements. This approach provides a clearer understanding of how each component contributes to the overall capability, facilitating more effective analysis, optimization, and alignment with organizational objectives.\n\nWe use this same method to present an this top level view of the capabilities required to achieve CMS-required outcomes. From this view increasingly detailed models can be constructed.\n\n\n\nMITA Capability Models\nThe MITA framework represents capabilities visually through a layered model that represent a capability of being composed of sub-capabilities and the processes, roles, information and technology resources (PRIT) that support the business in sustaining the capability. Each layer up depicts increasingly strategic capabilities and each layer down depicts the constituent elements that compose a capability in increasing operational detail. It is not the intention of this version of MITA to provide a full operational or tactical view of a capability, though SMAs may consider using this approach to improve their organizational awareness of their operations by developing further layers of their capabilities through functional decomposition.\n\n\nCapability Domains: The first layer of this model aims to group capabilities to organize the strategic view of an SMA’s capabilities. In this view one or many capabilities can be grouped within a domain to indicate the pursuit of common outcomes. Each domain is denoted with a single number to help annotate each capability.\nCapability Areas: The second layer of this model aims to provide a view of the groups of capabilities that compose a domain. They are organized to show capabilities that serve a specific group of similar outcomes and essential\nCapabilities: The third layer of this model provides a more detailed view view of\n\n\n\n\nRelationship of MITA Capabilities to Maturity\n\n\n\n\n\n\nWarning\n\n\n\nUnder development.\n\n\n\nLevels of Maturity\n\nDescription of the five levels of maturity in the MITA framework\nHow capabilities evolve and mature over time\n\n\n\n\n\nUsing Capability Maps for Heat Mapping Strategic Priorities and Identifying Gaps with the MITA Maturity Model\nCapability maps are powerful tools that not only provide a visual representation of an SMA’s key capabilities but also serve as a foundation for strategic analysis and planning. There are many approaches to heat mapping capabilities, each offering unique insights into organizational priorities and gaps. Here, we describe two approaches: assessing maturity levels using the MITA Maturity Model and prioritizing strategic outcomes.\n\nIdentifying Gaps with the MITA Maturity Model\nThe MITA Maturity Model provides a framework for assessing the maturity of an organization’s capabilities across various dimensions, such as business processes, information, and technology. By integrating the maturity model with capability maps, SMAs can identify gaps between their current state and desired maturity levels.\n\nExample 1: Identifying Gaps in Data Management Maturity Using the PRIT Model\nAn SMA is conducting an assessment of its data management capabilities using the MITA Maturity Model, with a focus on the PRIT (Processes, Roles, Information, and Technology) framework. The capability map includes various data-related capabilities, such as “Data Integration,” “Data Quality Management,” and “Data Analytics.” Each of these capabilities is evaluated across the PRIT dimensions to determine their maturity levels using the revised scale:\nProcesses: Level 1: Ad-Hoc Roles: Level 2: Compliant Information: Level 2: Compliant Technology: Level 2: Compliant The capability map is updated to reflect the maturity assessment, with each dimension marked with a color code: red for Level 1: Ad-Hoc, yellow for Level 2: Compliant, green for Level 3: Efficient, blue for Level 4: Optimized, and purple for Level 5: Pioneering. This visualization helps the SMA prioritize strategic actions to enhance the “Data Integration” capability, such as standardizing processes, refining roles, improving data quality, and upgrading technology.\n\n\n\nHeat Mapping Strategic Priorities\nHeat mapping involves applying a color-coded overlay to a capability map to visually represent the status or priority level of each capability. This technique can be used to highlight areas of strength, weakness, or strategic importance. For example, capabilities that are critical to achieving CMS-required outcomes might be marked in one color, while those needing immediate attention or improvement could be marked in another. This visual representation helps stakeholders quickly grasp the strategic landscape and make informed decisions about where to allocate resources and focus efforts.\n\nExample 2: Prioritizing Capabilities for CMS-Required Outcomes\nAn SMA is focused on achieving specific CMS-required outcomes related to improving patient care and reducing administrative costs. The agency creates a capability map that outlines all the capabilities necessary to meet these outcomes. By applying a heat map, the SMA highlights capabilities that are directly linked to these outcomes in green, indicating they are of high strategic priority. Capabilities that are indirectly related or less critical are marked in yellow, while those that are currently underperforming or not aligned with strategic goals are marked in red.\nThis visual representation allows the SMA to quickly identify which capabilities require immediate attention and resources to ensure compliance with CMS requirements. For instance, if the capability related to “Claims Processing Efficiency” is marked in red, the agency can prioritize initiatives to enhance this capability, such as investing in new technology or streamlining processes.\n\n\n\nOther Uses for Capability Heat Mapping\nBeyond assessing maturity levels and prioritizing strategic initiatives, capability heat mapping can be applied in various other contexts to enhance organizational effectiveness and alignment.\n\nExample 3: Aligning Capabilities with State-Specific Initiatives\nAn SMA is working on a state-specific initiative to enhance telehealth services for rural populations. The capability map includes capabilities related to telehealth, such as “Telehealth Infrastructure,” “Provider Engagement,” and “Patient Access.” The SMA uses a heat map to highlight these capabilities in blue, indicating their alignment with the state-specific initiative.\nBy analyzing the capability map, the SMA identifies that “Provider Engagement” is a critical capability that requires further development to support the telehealth initiative. The agency decides to invest in training programs and outreach efforts to engage providers in rural areas, ensuring that the telehealth services are effectively delivered to the target population.\nThese examples demonstrate how capability maps, combined with heat mapping and the MITA Maturity Model, can provide valuable insights for strategic planning and gap analysis. By visualizing priorities and maturity levels, SMAs can make informed decisions about where to focus resources and efforts, ultimately enhancing their Medicaid Enterprise Systems and achieving strategic objectives.\n\nCapability Mapping\n\nIntroduction to capability mapping and its significance\nHow capabilities are organized and detailed at various levels of abstraction",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Intro to Capability Models</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityModelIntro.html#guidance-on-reuse-of-the-mita-capability-model",
+    "href": "capabilityModelIntro.html#guidance-on-reuse-of-the-mita-capability-model",
+    "title": "IA Capability Model",
+    "section": "Guidance on reuse of the MITA Capability Model",
+    "text": "Guidance on reuse of the MITA Capability Model\n\nPractical Application\n\nHow to integrate the capability model into daily operations and strategic planning\nTips for maximizing the benefits of the model\n\nContinuous Improvement\n\nEncouragement for ongoing assessment and refinement of capabilities\nLeveraging feedback and performance data for model enhancement\n\nImplementation Guidance\n\nSteps for adopting the capability model\nResources and support available for SMAs\n\nPerformance Monitoring and Reporting\n\nRole of the capability model in tracking and enhancing performance\nUse of metrics and standards to measure capability effectiveness",
+    "crumbs": [
+      "Introduction to MITA 4.0",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Intro to Capability Models</span>"
+    ]
+  },
+  {
+    "objectID": "EntStratPlan.html",
+    "href": "EntStratPlan.html",
+    "title": "Solution Planning Lifecycle",
+    "section": "",
+    "text": "MITA 4.0 Enterprise Strategic Planning\nPlaceholder content for Solution Planning overview.\nPlaceholder content for Enterprise Strategic Planning overview.",
+    "crumbs": [
+      "MITA 4.0 Process",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>MITA Enterprise Strategic Planning</span>"
+    ]
+  },
+  {
+    "objectID": "outcomesObjectives.html",
+    "href": "outcomesObjectives.html",
+    "title": "Output of Outcomes Based Planning",
+    "section": "",
+    "text": "TODO: OBP group to update and edit",
+    "crumbs": [
+      "MITA 4.0 Process",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Outcomes Based Planning</span>"
+    ]
+  },
+  {
+    "objectID": "IdentifyCapabilities.html",
+    "href": "IdentifyCapabilities.html",
+    "title": "Step 2: Identify Capabilities",
+    "section": "",
+    "text": "TODO: NextGen to update and edit",
+    "crumbs": [
+      "MITA 4.0 Process",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Identify Required Capabilities</span>"
+    ]
+  },
+  {
+    "objectID": "DefineCapArch.html",
+    "href": "DefineCapArch.html",
+    "title": "Step 3: Identify Roles, Process, Information, Technology",
+    "section": "",
+    "text": "Define Capability Architecture\n\n\n\nGuidance\nUse the MITA Companion Guide to define your Capability Architecture",
+    "crumbs": [
+      "MITA 4.0 Process",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Identify Business, Roles, Information and Technology</span>"
+    ]
+  },
+  {
+    "objectID": "assessMaturity.html",
+    "href": "assessMaturity.html",
+    "title": "Step 5: Assess Maturity",
+    "section": "",
+    "text": "TODO: SS-A group to update and edit\n\nAssess Maturity\n\n\n\nSource\nhttps://mitre.app.box.com/file/2001074303896?s=frg0y7grikal4opulpwgud7qv7z3vjm7",
+    "crumbs": [
+      "MITA 4.0 Process",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Assess Maturity and Performance (SS-A)</span>"
+    ]
+  },
+  {
+    "objectID": "1_Document_Overview.html",
+    "href": "1_Document_Overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Purpose\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
+    "objectID": "1_Document_Overview.html#references",
+    "href": "1_Document_Overview.html#references",
+    "title": "Overview",
+    "section": "Reference(s)",
+    "text": "Reference(s)\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
+    "objectID": "1_Document_Overview.html#audience",
+    "href": "1_Document_Overview.html#audience",
+    "title": "Overview",
+    "section": "Audience",
+    "text": "Audience\nThe primary audience for this document includes but is not limited to:\n\nMITA 4.0 NextGen Members\nMITA 4.0 SS-A Workgroup Members\nMITA Governance Board\nMESC MITA 4.0 Workshop Participants",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
+    "objectID": "2_Introduction.html",
+    "href": "2_Introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Enterprise Architecture Introduction",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "2_Introduction.html#enterprise-architecture-introduction",
+    "href": "2_Introduction.html#enterprise-architecture-introduction",
+    "title": "Introduction",
+    "section": "",
+    "text": "Business Architecture Introduction\nTBD\n\n\nInformation Architecture Introduction\nIA Purpose\nIA describes a logical architecture for the Medicaid Enterprise. The primary objectives of an IA are below:\n\nAlign information requirements with Medicaid Enterprise vision and direction.\nImprove system effectiveness.\nFacilitate growth and innovation.\nLower overall life cycle costs.\nEnable interoperability and data sharing.\n\nThis architecture provides a description of the information strategy, architecture, and data. These descriptions are necessary so that States can use them as guidelines to define the common data needs that will enable the future business processes of their State Medicaid Enterprises.\nIA Scope\nIt is imperative for the States to review the Business and Information Architectures together. The MITA IA is a set of information system requirements, derived from the BA and fulfilled by the IA, connecting and aligning these two architectures. They are different views of the integrated enterprise architecture.\nJust as the BA business model has sub‑groupings of business processes called business areas, the IA models have sub‑groupings of information called subject areas. The generic term that MITA uses to describe a business area or subject area is domain. These sub‑groupings allow a portion of the model to be viewable as a whole, or the entire model to be viewable at an overview level, thereby eliminating some complexity involved in understanding a large model. All business areas or domains will align across BA and IA (e.g., the Provider Management business area aligns with the Provider domain in the information model). Each domain supports the others and properly aligns at each major system deployment to minimize redundancy and overlap.\nRoles\nInformation architects are responsible for first understanding the BA and then creating and maintaining the IA in alignment with the BA. Solution architects, guided by the information and technical architectural methodologies, work with the business and information architects to maintain this alignment throughout the project. This cooperation continues through full deployment and ongoing operations.\nAs States evolve and begin aligning their technology with MITA, they will see a shift from traditional siloed methodologies to an enterprise approach that includes other health and human service‑related systems. This shift results in the engagement of interoperability concepts to replace outdated data warehouse and data distribution methods with data sharing and Cloud Computing concepts.\n\n\nTechnical Architecture Introduction\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "2_Introduction.html#goals",
+    "href": "2_Introduction.html#goals",
+    "title": "Introduction",
+    "section": "Goals",
+    "text": "Goals\nEstablish a simplified common enterprise architecture framework that SMA’s can use to support the following:\n\nEnsure that all SMA’s speak a common language\nAvoid lock‑in to proprietary solutions by standardizing on open methods for enterprise architecture\nSave time and money, and utilize resources more effectively\nAchieve demonstrable Return on Investments (ROI)\nProvide a holistic view of an organizational landscape\nAct as a modular scalable framework that enables organizational transformation\nEnable organizations of all sizes across all industries to work off the same standard for enterprise architecture",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "2_Introduction.html#outcome",
+    "href": "2_Introduction.html#outcome",
+    "title": "Introduction",
+    "section": "Outcome",
+    "text": "Outcome\nProvide guidance to SMA’s on how to identify the roles, business processes, information and technology needed to support SMA capabilities to meet desired outcomes.",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "2_Introduction.html#principles",
+    "href": "2_Introduction.html#principles",
+    "title": "Introduction",
+    "section": "Principles",
+    "text": "Principles\nTBD\n\nBusiness Architecture Principles\nTBD\n\n\nInformation Architecture Principles\nData is an Asset\nStatement: Data is an asset that has value to the enterprise and is managed accordingly.\nRationale: Data is a valuable corporate resource; it has real, measurable value. Accurate, timely data is critical to accurate, timely decisions.\nData is Shared and Fit for Use\nStatement: Users have access to the data necessary to perform their duties; therefore, data is shared across enterprise functions and organizations.\nData is Accessible\nStatement: Data is accessible for users to perform their functions.\n\n\nTechnical Architecture Principles\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "3_Develop_Capability_Architecture_Process.html",
+    "href": "3_Develop_Capability_Architecture_Process.html",
+    "title": "Develop Capability Architecture Process",
+    "section": "",
+    "text": "Define Architectural Approach",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Develop Capability Architecture Process</span>"
+    ]
+  },
+  {
+    "objectID": "3_Develop_Capability_Architecture_Process.html#define-architectural-approach",
+    "href": "3_Develop_Capability_Architecture_Process.html#define-architectural-approach",
+    "title": "Develop Capability Architecture Process",
+    "section": "",
+    "text": "Define Business Architecture Approach\nTBD\n\n\nDefine Information Architecture Approach\nPurpose\nThe Define Information Architecture Approach business process defines the activities undertaken by State Medicaid Agency (SMA) to define the information architecture reference models, viewpoints and tools that will be used to describe the information architecture for a specific capability.\nObjectives\n\nIdentify the Information Architecture Reference Models and Viewpoints to best meet the SMA’s desired outcomes\nSelect the tools that will be used to develop the information architecture views\n\nKey Inputs\n\nSMA Outcomes\nCapability Definition\nCapability Stakeholder Roles Identified\n\nKey Outputs\n\nInformation Architecture Reference Models\nInformation Architecture Viewpoints\nInformation Architecture Modeling Tool\n\nRoles & Responsibilities\n\n\n\nRole\nResponsibility\n\n\n\n\nData Owner\nAccountable\n\n\nData Steward\nConsulted\n\n\nData Architect\nResponsible\n\n\n\nSteps\n\nSelect required MITA and SMA specific viewpoints\n\nDetermine overall modeling process\n\nIdentify required catalogs of data building blocks\n\nIdentify required matrices\n\nIdentify required diagrams\n\nIdentify types of requirements to be collected\n\nSelect required MITA and SMA specific reference models\n\nSelect required information architecture modeling tools",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Develop Capability Architecture Process</span>"
+    ]
+  },
+  {
+    "objectID": "3_Develop_Capability_Architecture_Process.html#develop-baseline-capability-architecture",
+    "href": "3_Develop_Capability_Architecture_Process.html#develop-baseline-capability-architecture",
+    "title": "Develop Capability Architecture Process",
+    "section": "Develop Baseline Capability Architecture",
+    "text": "Develop Baseline Capability Architecture\n\nDevelop Baseline Capability Business Architecture\nTBD\n\n\nDevelop Baseline Capability Information Architecture\nTBD\n\n\nDevelop Baseline Capability Technical Architecture\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Develop Capability Architecture Process</span>"
+    ]
+  },
+  {
+    "objectID": "3_Develop_Capability_Architecture_Process.html#define-target-capability-architecture",
+    "href": "3_Develop_Capability_Architecture_Process.html#define-target-capability-architecture",
+    "title": "Develop Capability Architecture Process",
+    "section": "Define Target Capability Architecture",
+    "text": "Define Target Capability Architecture\n\nDevelop Target Capability Business Architecture\nTBD\n\n\nDevelop Target Capability Information Architecture\nTBD\n\n\nDevelop Target Capability Technical Architecture\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Develop Capability Architecture Process</span>"
+    ]
+  },
+  {
+    "objectID": "3_Develop_Capability_Architecture_Process.html#align-architecture-compile-concept-of-operations",
+    "href": "3_Develop_Capability_Architecture_Process.html#align-architecture-compile-concept-of-operations",
+    "title": "Develop Capability Architecture Process",
+    "section": "Align Architecture & Compile Concept of Operations",
+    "text": "Align Architecture & Compile Concept of Operations\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Develop Capability Architecture Process</span>"
+    ]
+  },
+  {
+    "objectID": "3_Develop_Capability_Architecture_Process.html#perform-gap-analysis",
+    "href": "3_Develop_Capability_Architecture_Process.html#perform-gap-analysis",
+    "title": "Develop Capability Architecture Process",
+    "section": "Perform Gap Analysis",
+    "text": "Perform Gap Analysis\n\nPerform Business Architecture Gap Analysis\nTBD\n\n\nPerform Information Architecture Gap Analysis\nPurpose\nThe Perform Information Architecture Gap Analysis process defines the activities undertaken by the SMA to identify the gaps between the baseline and target capability information architecture.\nObjectives\n\nDefine information architecture requirements and expectations for the SMA to achieve their desired outcomes\n\nKey Inputs\n\nBaseline Capability Information Architecture Views\nBaseline Capability Information Architecture Maturity Scores\nTarget Capability Information Architecture Views\nTarget Capability Information Architecture Maturity Scores\n\nKey Outputs\n\nGap Analysis Results\nInformation Architecture Requirements\n\nRoles & Responsibilities\n\n\n\nRole\nResponsibility\n\n\n\n\nData Architect\nResponsible\n\n\nData Steward\nConsulted\n\n\nData Owner\nAccountable\n\n\nData Governance Committee\nConsulted\n\n\n\nSteps\n\nCompare baseline data dictionary to target data elements and identify gaps and reuse opportunities.\n\nCompare baseline data governance roles to target data governance roles and identify gaps and reuse opportunities.\n\nCompare baseline reports and measures to target reports and measures and identify gaps.\n\nCompare baseline reference data to target reference data and identify gaps.\n\nCompare baseline data validation rules to target data validation rules and identify gaps.\n\nUse target data quality measures to assess the quality of the data and identify gaps.\n\nIdentify potential data sources and standards.\n\nCompare baseline to target information architecture maturity and identify gaps and opportunities.\n\nDevelop information architecture requirements to fill gaps.",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Develop Capability Architecture Process</span>"
+    ]
+  },
+  {
+    "objectID": "4_Using_the_Capability_Architecture.html",
+    "href": "4_Using_the_Capability_Architecture.html",
+    "title": "Using the Capability Architecture",
+    "section": "",
+    "text": "Using the Capability Business Architecture\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Using the Capability Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "4_Using_the_Capability_Architecture.html#using-the-capability-information-architecture",
+    "href": "4_Using_the_Capability_Architecture.html#using-the-capability-information-architecture",
+    "title": "Using the Capability Architecture",
+    "section": "Using the Capability Information Architecture",
+    "text": "Using the Capability Information Architecture\nThe IA provides a conceptual and logical view of all of the data commonly used throughout the Medicaid Enterprise. It describes the integrated information requirements of the Medicaid Enterprise using general data objects and relationships.\nKey points\n\nArchitecture is the primary tool for strategic planning, communicating information requirements, implementing integrated systems, and providing an integrated information strategy.\nThe Medicaid Enterprise data model layer connects reusable business concepts to application‑level views of enterprise data through generalized content.\nStates use the Logical Data Model (LDM) to build Logical Application Data Models, including state‑specific adaptations and extensions.\nArchitects build application data models at both logical and physical abstraction levels and reuse data objects defined at the enterprise level, ensuring common keys, attributes, and definitions.\nThe IA guides States in selecting a data management strategy that supports interoperability, data sharing, and cloud‑based solutions.",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Using the Capability Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "4_Using_the_Capability_Architecture.html#using-the-capability-technical-architecture",
+    "href": "4_Using_the_Capability_Architecture.html#using-the-capability-technical-architecture",
+    "title": "Using the Capability Architecture",
+    "section": "Using the Capability Technical Architecture",
+    "text": "Using the Capability Technical Architecture\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Using the Capability Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "5_MITA3_vs_4_Architecture_Development_Process.html",
+    "href": "5_MITA3_vs_4_Architecture_Development_Process.html",
+    "title": "MITA 3.0 vs. 4.0 Architecture Development Process",
+    "section": "",
+    "text": "Seven Standards and Conditions\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>MITA 3.0 vs. 4.0 Architecture Development Process</span>"
+    ]
+  },
+  {
+    "objectID": "5_MITA3_vs_4_Architecture_Development_Process.html#appendix-a",
+    "href": "5_MITA3_vs_4_Architecture_Development_Process.html#appendix-a",
+    "title": "MITA 3.0 vs. 4.0 Architecture Development Process",
+    "section": "Appendix A",
+    "text": "Appendix A\nTBD",
+    "crumbs": [
+      "MITA 4.0 Companion Guide",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>MITA 3.0 vs. 4.0 Architecture Development Process</span>"
+    ]
+  },
+  {
+    "objectID": "capabilityModel.html",
+    "href": "capabilityModel.html",
+    "title": "MITA Capability Model",
+    "section": "",
+    "text": "Placeholder content\n\nCore Capabilities\nPlaceholder content\n\n\nStrategic Capabilities\nPlaceholder content\n\n\nSupport Capabilities\nPlaceholder content",
+    "crumbs": [
+      "MITA Reference Models",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Capability Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "roleReference.html",
+    "href": "roleReference.html",
+    "title": "Role Reference Model",
+    "section": "",
+    "text": "Placeholder content",
+    "crumbs": [
+      "MITA Reference Models",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Role Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "businessReference.html",
+    "href": "businessReference.html",
+    "title": "Business Reference Model",
+    "section": "",
+    "text": "Placeholder content for Business Reference Model.\n\nBusiness Architecture Development and Management Guidelines",
+    "crumbs": [
+      "MITA Reference Models",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Business Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "IAcapabilityModel.html",
+    "href": "IAcapabilityModel.html",
+    "title": "IA Capability Model",
+    "section": "",
+    "text": "Information Architecture Development and Management Guidelines\n\n\nData Reference Model",
+    "crumbs": [
+      "MITA Reference Models",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Information Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "TAReferenceModel.html",
+    "href": "TAReferenceModel.html",
+    "title": "Technical Reference Archtecture",
+    "section": "",
+    "text": "MITA TA Capability Model\n\nPlaceholder content\n\n\nTA Domain Area Descriptions\n\n\n\n\n\n\n1\n\n\nInfrastructure\n\n\nThe core technology environment   that Medicaid systems run on - including cloud, servers, storage, and   connectivity.\n\n\n\n\n\n\n1.1\n\n\nCompute and Hosting\n\n\nProvides the   servers, containers, and cloud platforms where Medicaid systems and   applications run.\n\n\n\n\n1.2\n\n\nStorage\n\n\nManages where   Medicaid data lives, including files, backups, and archives, ensuring   information is secure, accessible, and retained according to state and   federal laws.\n\n\n\n\n1.3\n\n\nNetworking and Connectivity\n\n\nEnables secure   connections between internal systems, external partners, and cloud   enivronments, ensuring fast, reliable communication between components.\n\n\n\n\n1.4\n\n\nResilience and Scaling\n\n\nIt helps systems   stay online and responsive during outages or emergencies, including failover   mechanisms, load balancing, and disaster recovery capabilities. The ability to scale up and scale down   during peak demand, usage, and traffic spikes.\n\n\n\n\n2\n\n\nIntegration\n\n\nHow Medicaid   systems, modules, and external partners securely share data and coordinate   actions.\n\n\n\n\n2.1\n\n\nAPI and Interface Management\n\n\nManaged the   digital entry points that allow systems to exchange data using common formats   like FHIR, X12, or REST, supporting modular design and partner   interoperability.\n\n\n\n\n2.2\n\n\nSystem Messaging\n\n\nEnables   real-time or scheduled communication between systems, such as sending alerts,   in a consistent and traceable way.\n\n\n\n\n2.3\n\n\nExternal Partner Integration\n\n\nSupports secure,   governed connectivity with MCOs, Providers, CMS, and other state/federal   partners, critical for Medicaid coordination.\n\n\n\n\n3\n\n\nPlatform Services\n\n\nShared   technology services that support core Medicaid functions and are reused   across modules.\n\n\n\n\n3.1\n\n\nApplication Hosting\n\n\nProvides managed   environments for running Medicaid applications, such as platforms for APIs,   microservices, or background tasks, while reducing manual overhead.\n\n\n\n\n3.2\n\n\nBusiness Rules and Workflow\n\n\nLets business or   IT teams define rules (e.g., eligibility logic) and automate multi-step   processes (e.g., Provider Enrollment) without needing to hard-code logic.\n\n\n\n\n3.3\n\n\nCommon Platform Functions\n\n\nOffers reusable   tools, such as notification engines, address verification, or file upload   services, that multiple systems can use instead of rebuilding the same   features.\n\n\n\n\n4\n\n\nApplication Architecture\n\n\nThe structure of   Medicaid software and how people interact with it.\n\n\n\n\n4.1\n\n\nModular Architecture\n\n\nBreaks large   Medicaid systems into smaller, independent components that are easier to   scale and replace.\n\n\n\n\n4.2\n\n\nUser Interfaces\n\n\nDesigns the   screens, portals, and mobile views that users interact with, including   members and providers, while ensuring accessibility and consistency.\n\n\n\n\n4.3\n\n\nSession and State Management\n\n\nKeeps track of   what a user is doing during a session, so they can resume or complete actions   reliably and securely.\n\n\n\n\n5\n\n\nSecurity and Identity\n\n\nHow systems and   data are protected, and how users and systems are granted access.\n\n\n\n\n5.1\n\n\nIdentity and Access Services\n\n\nControls who can   log in, what they can do, and how their identity is verified.\n\n\n\n\n5.2\n\n\nConsent Management\n\n\nCapture, store,   and enforce member consents and data-sharing preferences.\n\n\n\n\n5.3\n\n\nSystem and Data Protection\n\n\nApplies   safeguards like encryption, firewalling, and secure system configurations to   prevent unauthorized access and protect sensitive Medicaid and healthcare   data.\n\n\n\n\n5.4\n\n\nSecurity Monitoring\n\n\nWatches for   unusual activity, logs what is happening, and supports audits. Helps State   Medicaid Agencies meet CMS and NIST security standards (e.g., MARS-E).\n\n\n\n\n6\n\n\nOperations and Monitoring\n\n\nHow Medicaid   systems are monitored, managed, and kept running smoothly.\n\n\n\n\n6.1\n\n\nSystem Monitoring\n\n\nTracks system   health, such as uptime, performance, and availability, through dashboards,   alerts, and automated checks to catch problems early.\n\n\n\n\n6.2\n\n\nSystem Operations\n\n\nProvides   centralized tools that staff use to manage systems, schedule jobs, deploy   updates, and monitor activity across environments.\n\n\n\n\n7\n\n\nDevelopment and Release\n\n\nHow software and   infrastructure are built, tested, released, and secure.\n\n\n\n\n7.1\n\n\nCode and Configuration Management\n\n\nAllows teams to   safely write, track, and manage software changes, and define infrastructure   settings as code to reduce errors and improve consistency.\n\n\n\n\n7.2\n\n\nTesting and Release\n\n\nRuns tests to   catch bugs, and moves code through environments (e.g., Development, Test,   Production) using pipelines that reduce manual steps.\n\n\n\n\n7.3\n\n\nSecurity Compliance\n\n\nBuilds in   security checks and compliance rules at every step of development, ensuring   that code is safe and standards are met before going live.\n\n\n\n\n\n\n\nTechnical Service Reference Model\nPlaceholder content\n\n\nTechnical Architecture Development and Management Guidelines\nTo be Developed\n\n\nApplication Reference Model\nTo be Developed\n\n\nService Reference Model\nTo be Developed\n\n\nInteroperability Reference Model\nTo be Developed",
+    "crumbs": [
+      "MITA Reference Models",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Technical Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "MITA_4.0_Maturity_Reference_Model.html",
+    "href": "MITA_4.0_Maturity_Reference_Model.html",
+    "title": "MITA 4.0 Maturity Reference Model Document",
+    "section": "",
+    "text": "Version History\nVersion 0.1 | August 8, 2025",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Maturity Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "MITA_4.0_Maturity_Reference_Model.html#version-history",
+    "href": "MITA_4.0_Maturity_Reference_Model.html#version-history",
+    "title": "MITA 4.0 Maturity Reference Model Document",
+    "section": "",
+    "text": "Version\nDate\nAuthor\nNotes\n\n\n\n\n0.1\n\nZ. Rioux, S. Lucas\nInitial Release",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Maturity Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "MITA_4.0_Maturity_Reference_Model.html#document-overview",
+    "href": "MITA_4.0_Maturity_Reference_Model.html#document-overview",
+    "title": "MITA 4.0 Maturity Reference Model Document",
+    "section": "Document Overview",
+    "text": "Document Overview\n\nDocument Purpose\nThe MITA 4.0 Maturity Model Reference document was developed to formalize the framework for the MITA 4.0 Maturity Model and to guide State Medicaid Agencies (SMAs) in assessing their Medicaid Enterprise Systems (MES) maturity.\nThis document will be used to communicate the framework and model and gather feedback from the following:\n\nMITA NextGen Workgroup\n\nSS‑A Workgroup\n\nMITA Governance Board\n\nCMS\n\nMITA 4.0 Pilot Participants\n\n\n\nAudience\nThe primary audience for this document includes but is not limited to:\n\nMITA 4.0 NextGen Members\n\nMITA 4.0 SS‑A Workgroup Members\n\nMITA Governance Board\n\nCMS\n\nMITA 4.0 Pilot Participants",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Maturity Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "MITA_4.0_Maturity_Reference_Model.html#model-overview",
+    "href": "MITA_4.0_Maturity_Reference_Model.html#model-overview",
+    "title": "MITA 4.0 Maturity Reference Model Document",
+    "section": "Model Overview",
+    "text": "Model Overview\n\nMaturity Model Purpose\nThe MITA Maturity Model (MMM) provides SMAs with a framework to systematically assess, benchmark, and improve processes, capabilities, architecture, and performance. It offers SMAs a clear path to assess maturity, target areas for improvement, and achieve greater efficiency and effectiveness.\n\n\nMaturity Model Goals\n\nAlign with Strategic Objectives: Help ensure capabilities directly support SMA goals.\n\nDrive Standardization, Efficiency, and Consistency: Standardize and streamline processes across a SMA.\n\nEnable Effective Transformation: Enable transformative and higher‑quality outcomes with greater effectiveness and performance.\n\nOptimize Resource Use and Integrate with MES Operations: Maximize impact while minimizing waste.\n\nStrengthen Risk Management: Increase the ability to identify and mitigate risks.\n\nEnable Measurable Progress: Provide measures to track improvement over time.\n\n\n\nMaturity Model Methodology and Guiding Principles\nTo create the MITA 4.0 Maturity Model, the MITA Governance Board initiated a MITA SS‑A Maturity work group tasked with the completion of the following deliverables:\n\nDevelop a MITA 4.0 Maturity Model.\n\nDraft a MITA 4.0 Maturity Model Reference Guide that provides an overview of the MITA 4.0 approach to develop the MMM.\n\nCollaborate with other work groups in development of Maturity Criteria for the MMM based on the MITA 4.0 approach to using the state self‑assessment (SS‑A) to assess the maturity of a capability and how well the SMA performs a capability.\n\nCollaborate with other work groups on the development of a high‑level overview of the MITA 4.0 process to aide in understanding how the MMM and the MITA 4.0 SS‑A will be conducted.\n\n\nPhases\n\nPhase 1 – Initiation (Oct‑Dec 2024): Team formation, purpose definition, and socialization of MITA maturity.\n\nPhase 2 – Fact‑finding and Visioning (Nov‑Jan 2025): Research of &gt;60 industry maturity models, visioning sessions, and draft of a MMM scale.\n\nPhase 3 – Finalize MITA 4.0 Maturity Model (Jun‑Oct 2025): Socialize draft scale, gather feedback, and build out levels and criteria.\n\nPhase 4 – Pilot MMM and Supporting Documentation (Nov 2025‑Mar 2026): Pilot with SMAs, gather feedback, and align with MITA 4.0 goals.\n\nThe MMM team selected The Open Group Architecture Framework (TOGAF) as the baseline model and extended it to meet SMA needs.\nKey retained features:\n\n5 maturity levels.\n\nDescriptive keywords for each level.\n\n“Non‑applicable” rating option.\n\nAssessment at the capability‑area level.\n\nAveraging of maturity scores across capabilities.\n\n\n\n\nMaturity Model Levels and Definitions\n\n\n\nLevel\nName\nDescription\n\n\n\n\n1\nInitial\nCommitment to perform.\n\n\n2\nDeveloping\nAbility to perform.\n\n\n3\nDefined\nThe activities performed.\n\n\n4\nManaged\nAbility to measure and analyze.\n\n\n5\nOptimized\nAbility to implement, improve, and innovate.\n\n\nN/A\nN/A\nNon‑applicable.\n\n\n\n\nLevel Details\n\nLevel 1 (Initial): Processes are unstructured, reactive, and inconsistent.\n\nLevel 2 (Developing): Basic processes exist, some standardization, metrics collected.\n\nLevel 3 (Defined): Processes fully implemented, documented, and aligned; metrics actively monitored.\n\nLevel 4 (Managed): Processes operational, consistent, and performance‑driven; organization acts as a thought‑leader.\n\nLevel 5 (Optimized): Data‑driven strategies, predictive decision‑making, continuous improvement, nationally recognized.",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Maturity Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "MITA_4.0_Maturity_Reference_Model.html#using-the-mita-maturity-model-in-the-mita-4.0-framework",
+    "href": "MITA_4.0_Maturity_Reference_Model.html#using-the-mita-maturity-model-in-the-mita-4.0-framework",
+    "title": "MITA 4.0 Maturity Reference Model Document",
+    "section": "Using the MITA Maturity Model in the MITA 4.0 Framework",
+    "text": "Using the MITA Maturity Model in the MITA 4.0 Framework\n\nBackground on MITA 4.0 Capabilities and the Capability Reference Model\nA capability is an ability that an SMA possesses or seeks to develop to achieve its goals. In MITA 4.0 each capability is composed of:\n\nOutcomes – Desired results.\n\nRoles – Responsible individuals.\n\nBusiness Processes – Activities performed.\n\nInformation – Data and information needed.\n\nTechnology – Tools that automate the capability.\n\nThe Capability Reference Model groups capabilities into:\n\nCapability Domain – High‑level grouping.\n\nCapability Area – Detailed sub‑capabilities.\n\n(Figure omitted – see original document for visual.)\n\n\n\nMITA 4.0 Capabilities and Maturity Assessment\nThe state self‑assessment (SS‑A) evaluates maturity of each capability area using the ORBIT framework (Outcomes, Roles, Business processes, Information, Technology).",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Maturity Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "MITA_4.0_Maturity_Reference_Model.html#maturity-criteria",
+    "href": "MITA_4.0_Maturity_Reference_Model.html#maturity-criteria",
+    "title": "MITA 4.0 Maturity Reference Model Document",
+    "section": "Maturity Criteria",
+    "text": "Maturity Criteria\n\nOutcomes (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nLevel\nCulture & Mindset\nCapability\nQuality & Consistency\nAlignment to Goals\nUse of Metrics\nReusability & Integration\n\n\n\n\n1 – Initial\nNo culture of outcomes\nNo internal capability\nAmbiguous, inconsistent\nNot aligned\nNo measurement\nNo reuse\n\n\n2 – Developing\nEmerging awareness\nBasic understanding, vendor‑led\nSome structure, not fully SMART\nEmerging alignment\nInterest but not aligned\nLimited reuse\n\n\n3 – Defined\nIntentional alignment\nSufficient experience, oversight\nDefined approach, variable quality\nIntentional alignment\nRegular reference\nSome reuse\n\n\n4 – Managed\nSystematic, consistent\nFully capable internally\nWell‑established, actionable\nSystematic alignment\nRegular evaluation\nConsistent reuse\n\n\n5 – Optimizing\nEmbedded, high‑quality\nDeep expertise, self‑sufficient\nHigh‑quality, standardized\nSeamless alignment\nEmbedded in continuous improvement\nSeamless reuse\n\n\n\n\n\nRoles (optional)\n(Similar table omitted for brevity – see original document for full details.)\n\n\nBusiness Architecture and Performance of Business Processes\n(Content omitted – see original document.)\n\n\nInformation and Data\n(Content omitted – see original document.)\n\n\nTechnology\n(Content omitted – see original document.)",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Maturity Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "MITA_4.0_Maturity_Reference_Model.html#using-personas-to-describe-maturity-levels",
+    "href": "MITA_4.0_Maturity_Reference_Model.html#using-personas-to-describe-maturity-levels",
+    "title": "MITA 4.0 Maturity Reference Model Document",
+    "section": "Using Personas to describe Maturity Levels",
+    "text": "Using Personas to describe Maturity Levels\nMITA 4.0 adds personas to make maturity levels relatable and actionable. Personas help:\n\nImprove Communication: Turn abstract concepts into stories.\n\nSupport Planning & Decision‑Making: Align organizations with a persona to plan steps toward the next level.\n\n(Figure omitted – see original document.)\n\nEnd of document.",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Maturity Reference Model</span>"
+    ]
+  },
+  {
+    "objectID": "roles.html",
+    "href": "roles.html",
+    "title": "Roles",
+    "section": "",
+    "text": "Placeholder content for Roles.",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Roles Maturities</span>"
+    ]
+  },
+  {
+    "objectID": "ba.html",
+    "href": "ba.html",
+    "title": "Business Architecture Maturities",
+    "section": "",
+    "text": "Placeholder content",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>BA Maturities</span>"
+    ]
+  },
+  {
+    "objectID": "InformationArchitectureCriteria.html",
+    "href": "InformationArchitectureCriteria.html",
+    "title": "Information Architecture Criteria",
+    "section": "",
+    "text": "Summary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCount of Crieria Name\nColumn Labels\nRow Labels\nLevel 1\nLevel 2\nLevel 3\nLevel 4\nLevel 5\n#N/A\nGrand Total\n\n\n\n\nBusiness Intelligence & Data Science\n2\n2\n1\n1\n1\n\n\n\n7\n\n\nData Architecture, Modeling & Design\n1\n1\n4\n1\n1\n\n\n\n8\n\n\nData Governance\n2\n1\n3\n2\n5\n\n\n\n13\n\n\nData Integration & Interoperability\n1\n1\n1\n1\n1\n\n\n\n5\n\n\nData Quality\n2\n1\n2\n2\n2\n\n\n\n9\n\n\nData Security & Privacy\n\n1\n1\n1\n1\n\n\n\n4\n\n\nData Storage & Warehousing\n\n\n2\n1\n1\n\n\n\n4\n\n\nDocument & Content\n1\n1\n2\n1\n1\n\n\n\n6\n\n\nMaster Data Management\n2\n\n1\n1\n1\n\n\n\n5\n\n\nMetadata Management\n1\n1\n\n1\n1\n\n\n\n4\n\n\nReference Data Management\n1\n1\n2\n1\n1\n\n\n\n6\n\n\n(blank)\n\n\n\n\n\n3\n3\n\n\n\n\nGrand Total\n13\n10\n19\n13\n16\n3\n74\n\n\n\n\n\n\n\nCriteria\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaturity Level\nCrieria Name\nCriteria\nQuestion\nRationale\nRelated Activity (ies)\nType\nCategory\nData Management Capability\nArchitecture\nSuggested Validation Method\nSuggested Evidence\n\n\n\n\nLevel 1\nData Asset Identification\nThe data assets that are used to support the capability have been identified.\nHas the SMA identified all of the data assets that are used to support the capability business processes?\nEnsures all data resources are accounted for and managed effectively.\n\nInitial\n\nMetadata Management\nInformation Architecture\n\n\n\n\nLevel 1\nData Exchange Identification\nThe data exchanges that support the capability have been defined and documented.\nHas the SMA identified and documented the data exchanges that currently support the capability business processes?\nEnables effective management and governance of data flows between systems.\n\nInitial\n\nData Integration & Interoperability\nInformation Architecture\n\n\n\n\nLevel 1\nData Issues & Anomaly Identification\nKnown data anomalies and issues that impact the data assets have been identified, documented and are tracked.\nHas the SMA identified and documented the data anomalies and issues that impact the identified data asset(s)?\nEnables proactive resolution and monitoring of data quality issues, ensuring reliability and accuracy.\n\nInitial\n\nData Quality\nInformation Architecture\n\n\n\n\nLevel 1\nData Management Need Identification\nAll associated data needs have been identified using data management capabilities.\nHas the SMA defined the data management needs for the capability business processes?\nAligns data management activities with organizational objectives and stakeholder requirements.\n\nInitial\nDefinition\nData Governance\nInformation Architecture\n\n\n\n\nLevel 1\nData Profiling\nThe data assets that are used to support the capability have been profiled.\nHas the SMA performed a data profile for the identified data assets?\nProvides insight into data quality, structure, and content to support informed data management decisions.\n\nInitial\n\nData Quality\nInformation Architecture\n\n\n\n\nLevel 1\nDocument Identification\nThe documents that are needed to support the capability have been identified.\nHas the SMA identified the documents that are needed to support the capability business processes?\nSupports complete documentation and knowledge\n\nInitial\nDocument & Content\nInformation Architecture\n\n\n\n\n\nLevel 1\nInformation Identification\nThe associated concepts that are needed to support the capability has been identified.\nHas the SMA identified the key data concepts that are needed to support the target capability business processes?\nEnsures that all necessary information is available to fulfill capability requirements.\n\nInitial\nData Architecture, Modeling & Design\nInformation Architecture\n\n\n\n\n\nLevel 1\nMaster Data Modeling\nMaster data approach (e.g. Master Data Rules) have been identified and implemented for the associated data.\nHas the SMA\nEnsures consistent definition, management, and use of master data entities.\n\nInitial\n\nMaster Data Management\nInformation Architecture\n\n\n\n\nLevel 1\nMaster Data Source Identification\nMaster data sources, producers and consumers have been identified for the associated data.\nHas the SMA identified the impacted data sources and producers for the Master Data needed to support the target capability business processes?\nSupports effective master data management and integration.\n\nInitial\n\nMaster Data Management\nInformation Architecture\n\n\n\n\nLevel 1\nMeasure Identification\nAll measures and metrics needed to support reporting on the capability have been identified.\nHas the SMA identified the measures and metrics that are needed to support reporting for the capability business processes?\nEnsures that all relevant metrics are tracked for effective performance management.\n\nInitial\n\nBusiness Intelligence & Data Science\nInformation Architecture\n\n\n\n\nLevel 1\nReference Data Identification\nThe reference data included in the data asset has been defined and documented.\nHas the SMA identified the reference data that are needed to support the capability business processes?\nSupports data consistency and effective use of reference data across systems.\n\nInitial\n\nReference Data Management\nInformation Architecture\n\n\n\n\nLevel 1\nReport Identification\nAll reports that are needed to support the capability have been identified.\nHas the SMA identified the reports that are needed to be produced to support the capability business processes?\nGuarantees reporting requirements are understood and supported by the data.\n\nInitial\n\nBusiness Intelligence & Data Science\nInformation Architecture\n\n\n\n\nLevel 1\nTerm & Acronym Identification\nThe associated business terms and acronyms have been defined.\nHas the SMA defined the key business terms and acronyms that are used to support the capability business processes?\nReduces ambiguity and ensures common understanding of key terms across the enterprise.\n\nInitial\nDefinition\nData Governance\nInformation Architecture\nArtifact Review\nBusiness Glossary\n\n\nLevel 2\nContent Taxonomy Identification\nA content taxonomy structure has been developed to organize the content needed to support the capability.\nHas the SMA developed a content taxonomy for organizing and storing content and document images to support the capability business processes?\nEnables consistent organization, discovery, and management of content across the enterprise.\n\nDeveloping\nDocument & Content\nInformation Architecture\n\n\n\n\n\nLevel 2\nData Definition Development\nAll data stored in the associated data assets (e.g. Data Files, Database) have been defined and documented.\nHas the SMA created detailed data dictionaries to support the capability business processes?\nEnsures clear understanding and consistent use of data across the organization.\nCatalog known data assets\nDeveloping\nDefinition\nMetadata Management\nInformation Architecture\nArtifact Review\nData Dictionary / Data Catalog\n\n\nLevel 2\nData Lineage Development\nThe lineage, including data transformations, of the associated data assets have been documented and tracked.\nHas the SMA documented the lineage of the data assets that are used to support the capability business processes?\nSupports traceability, impact analysis, and data governance efforts.\n\nDeveloping\nDefinition\nData Governance\nInformation Architecture\n\n\n\n\nLevel 2\nData Security Classifications\nData security and privacy classifications have been applied to all associated data\nHas the SMA identified and applied security and privacy classifications to the data assets that are used to support the capabuility business processes?\nProtects sensitive information and ensures compliance with privacy regulations.\n\nDeveloping\nDefinition\nData Security & Privacy\nInformation Architecture\n\n\n\n\nLevel 2\nData Validation Rule Definition\nData validation rules have been defined and implemented for the associated data.\nHas the SMA defined and implemented data validation rules for the data assets that are used to support the capability business processes?\nEnsures that the SMA is validating that data is fit for use as it is collected/created.\n\nDeveloping\nDefinition\nData Quality\nInformation Architecture\n\n\n\n\nLevel 2\nEnterprise Data Reference Model Identification\nEnterprise data reference models (MITA DRM, Conceptual, Logical) have been identified.\nHas the SMA identified and/or developed enterprise data reference models to support the capability business processes?\nEstablishes a foundation for consistent data definitions and interoperability.\n\nDeveloping\n\nData Architecture, Modeling & Design\nInformation Architecture\n\n\n\n\nLevel 2\nMeasure Definition\nAll measure specifications that are included in the reports have been defined, mapped to the corresponding data elements and are under formal control by the SMA.\nHas the SMA developed detailed measure specifications for all measures that are needed to support the reports used for the capability business processes?\nEnsures measures are consistent, reliable, and traceable to source data.\n\nDeveloping\n\nBusiness Intelligence & Data Science\nInformation Architecture\n\n\n\n\nLevel 2\nReport Definition\nAll reports that are needed to support the business have been defined, published and accessible to authorized stakeholders.\nHas the SMA defined and published the reports that are used for the capability business processes?\nEnsures reporting needs are met and information is readily available for decision-making.\n\nDeveloping\n\nBusiness Intelligence & Data Science\nInformation Architecture\n\n\n\n\nLevel 2\nStructure Data Standards Identification\nAll required structural data standards have been identified and aligned to associated data structures.\nHas the SMA defined and aligned the structural data standards that are needed to support the capability business processes?\nEnsures data structures are consistent and interoperable across systems and processes.\n\nDeveloping\n\nData Integration & Interoperability\nInformation Architecture\n\n\n\n\nLevel 2\nVocabulary Data Standard Identification\nAll required vocabulary/reference data standards have been identified and aligned to associated reference data.\nHas the SMA defined and aligned the vocabulary/reference data standards that are needed to support the capabilkity business processes?\nPromotes standardization and interoperability by using common terminology and code sets.\n\nDeveloping\n\nReference Data Management\nInformation Architecture\n\n\n\n\n… (additional rows omitted for brevity)\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel 5\nData Security & Privacy Maturity Improvement\nImprovement plans have been developed and implemented to address gaps in the SMA’s data security & privacy maturity and the impacted data is aligned to the enterprise vision for improving data security & privacy.\nDoes the SMA regularly identify and implement data security & privacy management improvement plans based on maturity/performance gaps that improve data security & privacy management for the impacted capability business processes?\nStrengthens protection of sensitive data and compliance with privacy regulations.\n\nOptimizing\nData Security & Privacy\nInformation Architecture\n\n\n\n\n\n\nNote: Only a subset of rows is shown; the full sheet can be added similarly.\n\n\nReference\n\n\n\n\n\n\n\n\n\n\n\nColumn\nDescription\nType\nDescription\nMaturity Level\nData Description\n\n\n\n\nMaturity Level\nIdentifies the lowest maturity level that the criteria applies to.\n\nInitial\nSMA is in a planning phase, readying the agency to support adoption of enterprise‑wide planning efforts to improve SMA program delivery, yet no structured documentation or standards exist to support planning activities.\n\n\n\nCrieria Name\nIdentifies a unique name for the criteria.\n\nDeveloping\nSMA meets or is working toward meeting required MES regulations (e.g. CFRs) and supporting guidance (i.e. SHO, SMD). SMA has formalized and begun adopting MES industry‑recognized planning (i.e. MITA, PMBOK) and architectural frameworks (i.e. MITA, TOGAF, CMMI).\n\n\n\nCriteria\nIdentifies the specific criteria that must be met in order to be assessed at the defined maturity level.\n\nDefinition\nSMA MES is compliant with required regulations (e.g. CFRs) and supporting guidance (i.e. SHO, SMD). SMA’s MES has adopted and is managing to industry‑recognized planning and architectural models allowing for transparency between their SS‑A, MES Roadmaps, MES Concepts of Operations (COOs), Advanced Planning Documents (APDs), architectural frameworks, and reference models.\n\n\n\nType\nIdentifies a category that groups similar types of criteria.\n\nManaged\nSMA MES maintains federal compliance, adheres to their planning and architectural models, and manages MES performance to achieve agency’s vision, goals, and objectives.\n\n\n\nRationale\nIdentifies the rationale for how the criteria supports the SMA and/or CMS.\n\nOptimizing\nSMA MES maintains federal compliance, adheres to their planning and architectural models, and manages MES performance. SMA teams use iterative methodologies (e.g., Agile) to manage and enhance their MES planning and architectural efforts to help achieve agency’s desired vision, goals, and objectives.\n\n\n\nRelated Activity\nIdentifies the activity that should be performed to meet this activity\n\n\n\n\n\n\nArchitecture\nidentifies the architecture that applies to the criteria.\n\n\n\n\n\n\nSuggested Validation Method\nIdentifies a method for validating that the criteria has been met.\n\n\n\n\n\n\nSuggested Evidence\nIdentifies the artifact or other items that can be used to validate that the criteria has been met.\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n\n\n\n\n\n\n\nData Exchange\nData Architecture Modeling\nMaster Data Management\nData Governance\n\n\n\n\nRichard\nRichard\nJeff\nDwayne\n\n\n\n\n\nData Role Reference Model\n\n\n\nRole\nDescription\n\n\n\n\nData Owner\n\n\n\nBusiness Data Steward\n\n\n\nTechnical Data Steward\n\n\n\nData Governance Steering Committee\n\n\n\nData Custodian\n\n\n\nData Modeler\n\n\n\nData Architect",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>IA Maturities</span>"
+    ]
+  },
+  {
+    "objectID": "ta.html",
+    "href": "ta.html",
+    "title": "Technical Architecture Maturities",
+    "section": "",
+    "text": "Placeholder content",
+    "crumbs": [
+      "MITA Maturity Model",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>TA Maturities</span>"
+    ]
+  },
+  {
+    "objectID": "conops.html",
+    "href": "conops.html",
+    "title": "CONOPS overview",
+    "section": "",
+    "text": "Placeholder content for CONOPS overview\n\nBA Viewpoints\n\n\nIA Viewpoints\n\n\nTA Viewpoints",
+    "crumbs": [
+      "MITA Artifacts & Templates",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>CONOPS</span>"
+    ]
+  },
+  {
+    "objectID": "roadmap.html",
+    "href": "roadmap.html",
+    "title": "Roadmap",
+    "section": "",
+    "text": "Placeholder content for Roadmap.",
+    "crumbs": [
+      "MITA Artifacts & Templates",
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "scorecard.html",
+    "href": "scorecard.html",
+    "title": "MITA Scorecard",
+    "section": "",
+    "text": "Placeholder content for MITA Scorecard.",
+    "crumbs": [
+      "MITA Artifacts & Templates",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>MITA Scorecard</span>"
+    ]
+  },
+  {
+    "objectID": "ssaOutput.html",
+    "href": "ssaOutput.html",
+    "title": "SS-A Output",
+    "section": "",
+    "text": "Guidance for generating and submitting MITA SS-A results (Scorecards) to CMS in the correct format",
+    "crumbs": [
+      "MITA Artifacts & Templates",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>SS-A Output Format</span>"
+    ]
+  },
+  {
+    "objectID": "ssaOutput.html#template-fill-in-all-placeholders-as-applicable",
+    "href": "ssaOutput.html#template-fill-in-all-placeholders-as-applicable",
+    "title": "SS-A Output",
+    "section": "Template (fill in all placeholders as applicable)",
+    "text": "Template (fill in all placeholders as applicable)\nMITA Assessment Results\nState: [State Name]\nSystem: [System Name]\n\nAssessment Information\nAssessment ID: [Assessment ID]\nCreated: [MMM DD, YYYY, HH:MM AM/PM]\nLast Updated: [MMM DD, YYYY, HH:MM AM/PM]\nStatus: [Status]\nCompletion: [Percent%]\nExported: [MMM DD, YYYY, HH:MM AM/PM]\nExport Version: [Version]\nLast Saved: [MMM DD, YYYY, HH:MM AM/PM]\n\nSummary Statistics\nOverall Average Score [Value] out of 5.0\nCapability Areas Assessed [X] of [Y]\nDomains Covered [Number]\nAssessment Completion [Percent%]\n\nCapability Assessment Summary\nDomain [Domain Name] Capability Area [Capability Area Name] Overall Score [Value] Base Level [Value] Bonus Outcome +[Value] Role [Value] Business Process [Value] Information [Value] Technology [Value]\nDomain [Domain Name] Capability Area [Capability Area Name] Overall Score [Value] Base Level [Value] Bonus Outcome +[Value] Role [Value] Business Process [Value] Information [Value] Technology [Value]\nDomain [Domain Name] Capability Area [Capability Area Name] Overall Score [Value] Base Level [Value] Bonus Outcome +[Value] Role [Value] Business Process [Value] Information [Value] Technology [Value]\n\nMITA Assessment Export - [State Name] Page 1 of [Total Pages] Generated: [MMM DD, YYYY, HH:MM AM/PM]\n\nDetailed Assessment Results\nDomain: [Domain Name]\n\n[Capability Area Name]\nOverall Score: [Value] out of 5.0\nBase Level: [Value], Bonus: +[Value]\nOutcomes:\nLevel [Level], Final Score: [Value] (Level [Level] + [Bonus Detail])\nCheckbox Completion: [Checked]/[Total] ([Percent%])\nRoles:\nLevel [Level], Final Score: [Value]\nBusiness Process:\nLevel [Level], Final Score: [Value]\nInformation:\nLevel [Level], Final Score: [Value]\nTechnology:\nLevel [Level], Final Score: [Value]\n\nMITA Assessment Export - [State Name] Page [2] of [Total Pages] Generated: [MMM DD, YYYY, HH:MM AM/PM]\n\n[Repeat the Detailed Assessment Results block above for each capability area under the domain.]\n\nMITA Assessment Export - [State Name] Page [3] of [Total Pages] Generated: [MMM DD, YYYY, HH:MM AM/PM]\n\nNotes\n\nUse the exact section titles and field labels shown above.\nInclude page footers with page numbers and the generated timestamp on each page.\nMaintain the “out of 5.0” notation where scores are reported.\nPopulate Role, Business Process, Information, and Technology fields for each capability area as shown.",
+    "crumbs": [
+      "MITA Artifacts & Templates",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>SS-A Output Format</span>"
+    ]
+  },
+  {
+    "objectID": "ssatool.html",
+    "href": "ssatool.html",
+    "title": "Open-Source SS-A Tool",
+    "section": "",
+    "text": "Placeholder content for Open-Source SS-A Tool.",
+    "crumbs": [
+      "MITA Artifacts & Templates",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Open-Source SS-A Tool</span>"
+    ]
+  },
+  {
+    "objectID": "MITA30.html",
+    "href": "MITA30.html",
+    "title": "Medicaid Information Technology Architecture Framework",
+    "section": "",
+    "text": "Medicaid Information Technology Architecture (MITA) 3.0 was the previous major release of MITA, a Center for Medicare and Medicaid Services (CMS) initiative that fosters an integrated business and information technology (IT) transformation across the Medicaid enterprise in an effort to improve the administration and operation of the Medicaid program. This version updates version 2.0 published in 2006 and takes into account the availability of new technologies, such as cloud computing service based architecture. MITA 3.0 also reflects new and recently updated legislation, including:\n\nHealth Information Technology for Economic and Clinical Health Act (HITECH)\nChildren’s Health Insurance Program Reauthorization Act (CHIPRA)\nAffordable Care Act (ACA)\nHealth Insurance Portability and Accountability Act (HIPAA)\n\nThe CMS final rule entitled Medicaid Program: Federal Funding for Medicaid Eligibility Determination and Enrollment Activities (Federal Register Vol. 76, No. 75), effective April 19, 2011, provides states with the authority to receive enhanced federal funding in order to achieve a higher degree of interaction and interoperability across the Medicaid enterprise and the Health Insurance Exchanges and CMS IT Guidance for Exchanges and Medicaid IT systems.\nMITA 3.0 also adds a new section to the framework to assist states in the preparation of the State Self Assessment and Advanced Planning Documents which are used by states to obtain federal financial participation for the costs of IT systems. Framework documentation is provided in the following zip files available for download:\n\nMITA 3.0 Front Matter\nMITA 3.0 Part 1\nMITA 3.0 Part 2\nMITA 3.0 Part 3\nState Self Assessment\nMITA 3.0 BPT Vault\nMITA 3.0 BCM Vault",
+    "crumbs": [
+      "References",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>MITA 3.0</span>"
+    ]
+  }
+]
