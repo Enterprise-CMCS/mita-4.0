@@ -1,0 +1,156 @@
+---
+title: "Outcomes-Based Planning"
+---
+
+## Outcomes-Based Planning in MITA 4.0
+
+Outcomes-based planning is a fundamental principle of MITA 4.0. It ensures that all technology investments and initiatives are directly tied to measurable business outcomes and strategic goals.
+
+### What is Outcomes-Based Planning?
+
+Outcomes-based planning starts with the end in mind. Rather than beginning with technology solutions, it focuses on:
+
+- **What** you want to achieve
+- **Why** it matters to your organization and stakeholders
+- **How** you'll measure success
+
+### The MITA 4.0 Outcomes Framework
+
+#### Define Strategic Outcomes
+Strategic outcomes represent the high-level goals your organization wants to achieve. Examples include:
+- Improved beneficiary experience
+- Reduced administrative burden
+- Enhanced program integrity
+- Better decision-making through data
+- Increased operational efficiency
+
+#### Identify Objectives
+Objectives are specific, measurable steps toward achieving outcomes. Each outcome should have one or more associated objectives that define:
+- Specific targets
+- Success metrics
+- Timeframes
+- Stakeholders
+
+#### Link to Capabilities
+Once outcomes and objectives are clear, identify the capabilities needed to achieve them. This creates a clear line of sight from strategic goals to required capabilities to technology solutions.
+
+### Key Principles
+
+#### 1. Business-Led, Technology-Enabled
+Outcomes should be defined by business stakeholders, not IT teams. Technology is the enabler, not the driver.
+
+#### 2. Measurable and Specific
+Each outcome must have clear, quantifiable success criteria. Avoid vague goals like "improve efficiency" without defining how you'll measure it.
+
+#### 3. Stakeholder-Centered
+Consider outcomes from multiple perspectives:
+- Beneficiaries
+- Program staff
+- Leadership
+- Federal partners
+- Service providers
+
+#### 4. Realistic and Achievable
+Set ambitious but achievable outcomes. Consider constraints such as:
+- Budget
+- Timeline
+- Resources
+- Organizational capacity
+
+### The Outcomes Planning Process
+
+#### Step 1: Gather Stakeholder Input
+Engage stakeholders across your organization to understand:
+- Current pain points
+- Strategic priorities
+- Desired improvements
+- Success criteria
+
+#### Step 2: Define Outcomes
+Based on stakeholder input, define 3-7 strategic outcomes that:
+- Address critical needs
+- Align with organizational strategy
+- Support CMS priorities
+- Are measurable
+
+#### Step 3: Establish Objectives
+For each outcome, define specific objectives that:
+- Break down the outcome into manageable pieces
+- Have clear success metrics
+- Include realistic timeframes
+- Identify accountable parties
+
+#### Step 4: Map to Capabilities
+Identify which capabilities are needed to achieve each objective. Use the MITA Capability Reference Model to:
+- Find relevant capabilities
+- Understand capability relationships
+- Ensure comprehensive coverage
+
+#### Step 5: Prioritize and Plan
+Based on the capabilities required, develop an implementation roadmap that:
+- Prioritizes high-value, high-impact capabilities
+- Considers dependencies
+- Balances quick wins with long-term goals
+- Aligns with available resources
+
+### Examples of Outcomes
+
+#### Example 1: Beneficiary Experience
+**Outcome**: Beneficiaries can easily access and understand their benefits information.
+
+**Objectives**:
+- 80% of beneficiaries can check eligibility online within 6 months
+- Average call center wait time reduced to under 5 minutes within 1 year
+- 90% beneficiary satisfaction rating within 18 months
+
+**Related Capabilities**:
+- Member Self-Service
+- Eligibility Determination
+- Communications Management
+
+#### Example 2: Program Integrity
+**Outcome**: Reduce improper payments through enhanced fraud detection and prevention.
+
+**Objectives**:
+- Implement predictive analytics for fraud detection within 9 months
+- Reduce improper payment rate by 15% within 2 years
+- Recover $X million in improper payments within 3 years
+
+**Related Capabilities**:
+- Fraud Detection and Investigation
+- Claims Processing
+- Analytics and Reporting
+
+### Tools and Templates
+
+MITA 4.0 provides several tools to support outcomes-based planning:
+
+- **ORBIT (Outcomes-Based Roadmap and Implementation Tracker)**: Plan and track your outcomes
+- **Outcomes Planning Template**: Document your outcomes, objectives, and measures
+- **Capability Mapping Worksheets**: Link outcomes to required capabilities
+
+See the [Tools and Resources](ORBIT.qmd) section for more information.
+
+### Benefits of Outcomes-Based Planning
+
+- **Clear Justification**: Easier to justify investments when tied to specific outcomes
+- **Better Alignment**: Ensures technology supports actual business needs
+- **Measurable Success**: Know whether you're achieving your goals
+- **Stakeholder Buy-in**: Stakeholders understand what's in it for them
+- **Federal Support**: CMS values outcomes-based approaches for APD reviews
+
+### Common Pitfalls to Avoid
+
+- Starting with technology instead of outcomes
+- Making outcomes too vague or unmeasurable
+- Not engaging stakeholders in defining outcomes
+- Defining too many outcomes (focus on the vital few)
+- Forgetting to track and report on progress
+
+### Next Steps
+
+1. Review the [Capabilities](capabilityOverview.qmd) section to understand how capabilities support outcomes
+2. Explore [Implementing MITA 4.0](IdentifyCapabilities.qmd) for step-by-step guidance
+3. Use the [ORBIT Tool](ORBIT.qmd) to document and track your outcomes
+
+For additional guidance, see the [FAQs](references.qmd) or [Contact Us](references.qmd).
