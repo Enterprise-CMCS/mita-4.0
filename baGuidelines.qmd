@@ -1,0 +1,7 @@
+# Business Architecture Development and Management Guidelines
+
+This page provides guidelines for developing and managing business architecture within the MITA framework.
+
+## Overview
+
+Content coming soon.

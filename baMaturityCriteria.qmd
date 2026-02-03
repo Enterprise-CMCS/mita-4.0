@@ -1,0 +1,7 @@
+# Business Architecture Maturity Criteria
+
+This page describes the maturity criteria for Business Architecture within the MITA framework.
+
+## Overview
+
+Content coming soon.

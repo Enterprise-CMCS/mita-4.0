@@ -1,0 +1,52 @@
+# Define your Architecture
+
+<img align="left" src="media/MCGarch.svg" alt="Define Your Architecture">
+
+
+## What? | Overview
+
+[Brief description of stage]
+
+## When? | Triggers
+
+[Bullets or description of when to start this stage]
+
+## Why? | Objectives
+
+By the end of this stage—
+
+- [Objective 1]
+- [Objective 2]
+- [Objective n]
+
+## Who? | Key Players
+
+- [Key player 1]
+- [Key player 2]
+- [Key player n]
+
+## How? | Key Steps & Actions
+
+### [Step 1]
+
+- [Action 1 for Step 1]
+- [Action 2 for Step 1]
+- [Action n for Step 1]
+
+### [Step n]
+
+- [Action 1 for Step n]
+- [Action 2 for Step n]
+- [Action n for Step n]
+
+## References & Tools
+
+### References
+
+- [Reference 1]
+- [Reference n]
+
+### Tools
+
+- [Tool 1]
+- [Tool n]

@@ -1,0 +1,120 @@
+project:
+  type: book
+  output-dir: public
+
+
+book:
+  title: "Medicaid Information Technology Architecture (MITA) 4.0"
+  description: "This website is a staging environment and is intended for testing and development purposes only. The content, functionality, and features on this site may be incomplete, inaccurate, or subject to change."
+  output-file: "MITADemo"
+  search: true
+  downloads: [docx, pdf]
+  sidebar:
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - part: "Introduction"
+      chapters:
+        - text: "What is MITA 4.0?"
+          file: index.qmd
+        - text: "New Features"
+          file: mitaDiffernt.qmd
+        - text: "Benefits of Adoption"
+          file: mitaAdopt.qmd
+        - text: "Understanding MITA 4.0"
+          file: understandingMITA.qmd
+        - text: "Bridging MITA and CMS Business Processes"
+          file: alignMITA.qmd
+        - text: "Outcomes Based Planning"
+          file: outcomesBasedPlanning.qmd
+    - part: "MITA 4.0 Companion Guide"
+      chapters:
+        - text: "Welcome to the MITA 4.0 Companion Guide"
+          file: welcome.qmd
+        - text: "Scope your assessment"
+          file: scopeAssessment.qmd
+        - text: "Choose your Capabilities"
+          file: chooseCapabilities.qmd
+        - text: "Define your Architecture"
+          file: defineArchitecture.qmd
+        - text: "Finalize your State Self-Assessment"
+          file: finalizeSSA.qmd
+    - part: "Business Architecture"
+      chapters:
+        - text: "BA Guidelines"
+          file: baGuidelines.qmd
+        - text: "Business Capability Reference Model"
+          file: baCapabilityModel.qmd
+        - text: "Business Process Model"
+          file: baProcessModel.qmd
+        - text: "Business Maturity Criteria"
+          file: iaMaturityCriteria.qmd
+    - part: "Information Architecture"
+      chapters:
+        - text: "IA Guidelines"
+          file: iaGuidelines.qmd
+        - text: "Data Management Capability Reference Model"
+          file: iaDataCapabilityModel.qmd
+        - text: "Data Reference Model"
+          file: iaDataModel.qmd
+        - text: "IA Maturity Criteria"
+          file: iaMaturityCriteria.qmd
+        - text: "IA Viewpoints"
+          file: iaViewpoints.qmd
+    - part: "Technical Architecture"
+      chapters:
+        - text: "TA Guidelines"
+          file: taGuidelines.qmd
+        - text: "Technical Capabilities Reference Model"
+          file: taCapabilityModel.qmd
+        - text: "Technical Service Reference Model"
+          file: taServiceModel.qmd
+        - text: "TA  Maturity Criteria"
+          file: taMaturityCriteria.qmd
+        - text: "TA Viewpoints"
+          file: taViewpoints.qmd
+    - part: "Tools and Resources"
+      chapters:
+        - text: "OBP Tool"
+          file: OBPtool.qmd
+        - text: "State Self-Assessment Tool"
+          file: ssatool.qmd
+        - text: "CONOPS Template"
+          file: conops.qmd
+        - text: "Roadmap Template"
+          file: roadmap.qmd
+        - text: "MITA Scorecard"
+          file: scorecard.qmd
+        - text: "SS-A Output Format"
+          file: ssaOutput.qmd
+        - text: "Quick Reference Guides"
+          file: mitaQuickRefGuide.qmd
+    - references.qmd
+
+  navbar:
+    background: "#015493"
+    right:
+      - text: "4.0"
+
+  page-footer: "© 2026 [The Centers for Medicare & Medicaid Services (CMS) (mailto:smahoney@mitre.org)"
+ 
+
+format:
+  html:
+    theme:
+      - cosmo      
+      - brand
+    css: styles.css
+    number-sections: false
+
+
+  docx:
+    toc: true
+    number-sections: false
+    highlight-style: github
+
+  pdf:
+    toc: true
+    number-sections: false
+    colorlinks: true
+

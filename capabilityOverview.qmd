@@ -1,0 +1,152 @@
+---
+title: "Capabilities"
+---
+
+## Understanding Capabilities in MITA 4.0
+
+Capabilities are the fundamental building blocks of MITA 4.0. They represent what your organization needs to be able to do to achieve its outcomes, independent of how you do it or what technology you use.
+
+### What is a Capability?
+
+A capability is a particular ability that an organization needs to achieve a specific outcome. Capabilities describe **what** needs to be done, not **how** it's done. This distinction is crucial because:
+
+- The **what** (capability) tends to remain stable over time
+- The **how** (technology, processes, organization) changes as technology evolves
+
+### Examples of Capabilities
+
+- **Member Management**: The ability to maintain accurate, current information about Medicaid beneficiaries
+- **Claims Processing**: The ability to adjudicate and pay provider claims accurately and timely
+- **Provider Enrollment**: The ability to enroll, credential, and maintain provider information
+- **Eligibility Determination**: The ability to determine if an applicant qualifies for Medicaid benefits
+
+### The MITA Capability Model
+
+The MITA 4.0 Capability Reference Model organizes capabilities into a hierarchical structure:
+
+#### Level 1: Capability Areas
+High-level groupings of related capabilities (e.g., Member Services, Provider Services, Operations)
+
+#### Level 2: Capability Domains
+Logical groupings within areas (e.g., within Member Services: Eligibility, Enrollment, Benefits)
+
+#### Level 3: Capabilities
+Specific abilities needed to achieve outcomes
+
+#### Level 4: Sub-Capabilities
+Detailed components of capabilities when needed for clarity
+
+### Why Capabilities Matter
+
+#### 1. Outcome Achievement
+Capabilities are the bridge between strategic outcomes and implementation. They help you identify what your organization needs to be able to do to achieve desired outcomes.
+
+#### 2. Common Language
+Capabilities provide a common vocabulary for business and IT stakeholders to discuss needs and solutions.
+
+#### 3. Reusability
+By focusing on capabilities rather than systems, you can identify opportunities to reuse existing capabilities across multiple initiatives.
+
+#### 4. Modular Design
+Capability-based planning supports modular system design, making implementations more flexible and maintainable.
+
+#### 5. Gap Analysis
+Comparing required capabilities to existing capabilities reveals gaps that need to be addressed.
+
+### Capability Characteristics
+
+Effective capability definitions are:
+
+- **Business-Focused**: Described in business terms, not technical jargon
+- **Stable**: Remain relevant despite technology changes
+- **Measurable**: Can assess maturity and performance
+- **Outcome-Linked**: Connected to specific business outcomes
+- **Technology-Agnostic**: Don't prescribe specific solutions
+
+### Capability Attributes
+
+Each capability in the MITA Reference Model includes:
+
+- **Name**: Clear, concise identifier
+- **Description**: What the capability enables
+- **Outcomes**: Which outcomes the capability supports
+- **Business Functions**: Related business processes
+- **Information**: Key data elements
+- **Technology**: Relevant technical patterns
+- **Maturity Levels**: Progression from basic to advanced
+
+### Using Capabilities in Planning
+
+#### Step 1: Identify Required Capabilities
+Based on your defined outcomes and objectives, identify which capabilities you need. Use the Capability Reference Model as a guide.
+
+#### Step 2: Assess Current State
+Evaluate your organization's current capability maturity using the State Self-Assessment process.
+
+#### Step 3: Define Target State
+Determine the desired maturity level for each capability based on your outcomes and objectives.
+
+#### Step 4: Identify Gaps
+Compare current state to target state to identify capability gaps.
+
+#### Step 5: Prioritize
+Prioritize which capabilities to develop or enhance based on:
+- Impact on outcomes
+- Dependencies between capabilities
+- Available resources
+- Risk
+
+#### Step 6: Plan Implementation
+Develop a roadmap for building or enhancing capabilities, including:
+- Business process changes
+- Organizational/role changes
+- Information/data requirements
+- Technology solutions
+
+### Capability vs. System
+
+A key distinction in MITA 4.0:
+
+| Capability | System |
+|-----------|--------|
+| What you need to do | How you do it |
+| Business-focused | Technology-focused |
+| Stable over time | Changes with technology |
+| Multiple systems can support one capability | One system may support multiple capabilities |
+
+### Example: Member Portal Capability
+
+**Capability**: Member Self-Service
+- What: Enable beneficiaries to access their information and perform transactions independently
+
+**Implementation Options**:
+- Web application
+- Mobile app
+- Interactive voice response (IVR)
+- Kiosk
+
+The capability (self-service) remains constant, but the implementation (technology) can vary or evolve.
+
+### Capability Relationships
+
+Capabilities don't exist in isolation. Understanding relationships helps with planning:
+
+- **Dependencies**: Some capabilities require others (e.g., Claims Payment depends on Claims Adjudication)
+- **Composition**: Larger capabilities composed of smaller ones
+- **Shared Data**: Capabilities that use common information
+- **Process Flow**: Capabilities that work together in business processes
+
+### Tools and Resources
+
+- **[Capability Reference Model](capabilityModel.qmd)**: Complete catalog of MITA capabilities
+- **[ORBIT Tool](ORBIT.qmd)**: Map outcomes to required capabilities
+- **Capability Assessment Worksheets**: Evaluate capability maturity
+
+### Next Steps
+
+1. Review the [Capability Reference Model](capabilityModel.qmd) for detailed capability definitions
+2. Learn about [Business Functions, Roles, Information, and Technology](DefineCapArch.qmd) that implement capabilities
+3. See [Implementing MITA 4.0](IdentifyCapabilities.qmd) for step-by-step guidance on identifying required capabilities
+4. Conduct a [State Self-Assessment](assessMaturity.qmd) to evaluate your current capability maturity
+
+For questions about capabilities, visit the [FAQs](references.qmd) or [Contact Us](references.qmd).

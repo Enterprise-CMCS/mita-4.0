@@ -1,0 +1,7 @@
+# Technical Architecture Maturity Criteria
+
+This page describes the maturity criteria for Technical Architecture within the MITA framework.
+
+## Overview
+
+Content coming soon.

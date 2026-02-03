@@ -1,0 +1,41 @@
+pages:
+  stage: deploy
+  script:
+    - QUARTO_PROFILE=everything quarto render --to html --to html --output-dir=public
+
+    # Work around https://github.com/quarto-dev/quarto-cli/issues/3892
+    # - cp modules/images/*.mp4 public/modules/images/
+  artifacts:
+    paths:
+      - public
+    expose_as: Website
+  rules:
+    # Only run for default branch
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+  tags:
+    - pages
+  environment: production
+
+ci:
+  stage: deploy
+  artifacts:
+    name: Quarto build
+    expose_as: Quarto build
+    paths:
+      - public/
+    expire_in: 6 months
+
+  environment:
+    name: ${CI_COMMIT_REF_NAME}
+    url: https://${CI_PROJECT_NAMESPACE}.pages.mitre.org/-/${CI_PROJECT_NAME}/-/jobs/$CI_JOB_ID/artifacts/public/index.html
+
+  script:
+    - QUARTO_PROFILE=everything quarto render --to html --to html --output-dir=public --site-url https://${CI_PROJECT_NAMESPACE}.pages.mitre.org/-/${CI_PROJECT_NAME}/-/jobs/$CI_JOB_ID/artifacts/public/
+
+  tags:
+    - pages
+  rules:
+    # Do not run for the default branch, which is published via the `pages` pipeline defined above
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: never
+    - if: '$CI_COMMIT_BRANCH' # Necessary to have a catch-all match to make the pipeline run

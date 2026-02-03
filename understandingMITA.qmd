@@ -1,0 +1,7 @@
+# Understanding MITA 4.0
+
+This page describes the concepts and areas within the MITA framework.
+
+## Overview
+
+Content coming soon.

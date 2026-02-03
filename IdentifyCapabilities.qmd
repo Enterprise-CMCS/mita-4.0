@@ -1,0 +1,261 @@
+---
+title: "Step 2: Capabilities - Identifying Required Capabilities"
+---
+
+## Identifying Required Capabilities
+
+Once you've defined your outcomes and objectives, the next step is to identify which capabilities your organization needs to achieve those outcomes.
+
+### Overview
+
+This step bridges the gap between strategic goals (outcomes) and implementation (architecture and technology). By identifying required capabilities, you create a clear understanding of what your organization needs to be able to do.
+
+### The Capability Identification Process
+
+#### Step 1: Review Your Outcomes
+Start with the outcomes and objectives defined in Step 1:
+- What are you trying to achieve?
+- What are your success criteria?
+- What stakeholder needs must be met?
+
+#### Step 2: Map Outcomes to Capabilities
+For each outcome, ask:
+- What do we need to be able to do to achieve this outcome?
+- What business capabilities are required?
+- Which capabilities are most critical?
+
+Use the [MITA Capability Reference Model](capabilityModel.qmd) as a guide to:
+- Find relevant capabilities
+- Use consistent naming
+- Understand capability definitions
+
+#### Step 3: Identify Current Capabilities
+Document what capabilities you already have:
+- Which required capabilities currently exist?
+- At what maturity level?
+- Are they sufficient for your outcomes?
+
+#### Step 4: Identify Capability Gaps
+Compare required capabilities to current capabilities:
+- Which required capabilities are missing?
+- Which existing capabilities need enhancement?
+- What's the gap in maturity levels?
+
+#### Step 5: Prioritize Capabilities
+Not all capabilities can be addressed at once. Prioritize based on:
+- **Impact on Outcomes**: Which capabilities most directly support your outcomes?
+- **Dependencies**: Which capabilities do other capabilities depend on?
+- **Risk**: Which gaps present the highest risk?
+- **Resources**: What can you realistically address?
+- **Quick Wins**: Which provide early value?
+
+#### Step 6: Validate with Stakeholders
+Review identified capabilities with stakeholders:
+- Do these capabilities address our needs?
+- Are we missing anything?
+- Are priorities appropriate?
+- Is scope realistic?
+
+### Example: Outcome to Capability Mapping
+
+**Outcome**: Improve beneficiary experience through self-service options
+
+**Required Capabilities**:
+1. **Member Self-Service** (Primary)
+   - Enables beneficiaries to access information online
+   - Check eligibility status
+   - View benefits information
+   - Update personal information
+
+2. **Member Portal** (Supporting)
+   - Provides secure access to member information
+   - Single sign-on capability
+   - Mobile-responsive design
+
+3. **Identity Management** (Foundational)
+   - Authenticates user identity
+   - Manages access controls
+   - Protects privacy and security
+
+4. **Communications Management** (Supporting)
+   - Sends notifications and alerts
+   - Provides multi-channel communication
+   - Tracks communication history
+
+5. **Document Management** (Supporting)
+   - Stores and retrieves documents
+   - Enables electronic document submission
+   - Maintains document version control
+
+### Using the Capability Reference Model
+
+The MITA Capability Reference Model provides:
+
+#### Standard Capability Definitions
+- Consistent names and descriptions
+- Clear scope for each capability
+- Relationships between capabilities
+
+#### Capability Hierarchy
+- **Areas**: High-level groupings (e.g., Member Services, Provider Services)
+- **Domains**: Logical groupings within areas (e.g., Eligibility, Enrollment)
+- **Capabilities**: Specific abilities needed
+
+#### Capability Attributes
+- Description and scope
+- Related business processes
+- Information requirements
+- Technology considerations
+- Maturity progression
+
+### Capability Selection Criteria
+
+When identifying capabilities, ensure they are:
+
+#### Outcome-Linked
+Each capability should clearly support one or more outcomes. If you can't link a capability to an outcome, question whether it's needed.
+
+#### Well-Defined
+Use capabilities from the reference model or define new ones clearly. Avoid vague or overlapping capability definitions.
+
+#### Appropriately Scoped
+Capabilities should be:
+- Not too broad (e.g., "Manage Everything")
+- Not too narrow (e.g., "Print Report #42")
+- Focused on business needs, not technology
+
+#### Assessable
+You should be able to assess the capability's maturity and performance. Include measurable aspects.
+
+### Common Capability Patterns
+
+#### Core Business Capabilities
+Essential for Medicaid operations:
+- Eligibility Determination
+- Enrollment Management
+- Claims Processing
+- Provider Management
+- Care Management
+
+#### Supporting Capabilities
+Enable core capabilities:
+- Document Management
+- Communications Management
+- Reporting and Analytics
+- Security and Privacy
+- Identity Management
+
+#### Foundational Capabilities
+Underpin the entire enterprise:
+- Data Management
+- Integration Services
+- Infrastructure Management
+- Application Services
+- Enterprise Architecture
+
+### Dependency Management
+
+Some capabilities depend on others:
+
+#### Sequential Dependencies
+- Capability B cannot function without Capability A
+- Example: Claims Payment depends on Claims Adjudication
+
+#### Shared Dependencies
+- Multiple capabilities depend on a common capability
+- Example: Multiple capabilities depend on Identity Management
+
+#### Data Dependencies
+- Capabilities that share common data entities
+- Example: Eligibility and Claims both use Member data
+
+Map dependencies to inform:
+- Implementation sequencing
+- Integration requirements
+- Risk management
+
+### Documentation
+
+Document identified capabilities using:
+
+#### Capability Inventory
+List all required capabilities with:
+- Capability name
+- Description
+- Linked outcomes
+- Current maturity
+- Target maturity
+- Priority
+- Dependencies
+
+#### Capability Map
+Visual representation showing:
+- Capability hierarchy
+- Relationships and dependencies
+- Alignment to outcomes
+
+#### Gap Analysis
+For each capability:
+- Current state assessment
+- Target state definition
+- Gap description
+- Improvement approach
+
+### Tools and Templates
+
+Use MITA tools to support capability identification:
+
+- **ORBIT Tool**: Map outcomes to capabilities, track gaps
+- **Capability Assessment Worksheets**: Document current and target states
+- **Capability Mapping Templates**: Visualize capability relationships
+
+See [Tools and Resources](ORBIT.qmd) for details.
+
+### Integration with Other Steps
+
+Capability identification connects to:
+
+- **Step 1 (Outcomes)**: Capabilities support outcomes
+- **Step 3 (Architecture)**: Capabilities are implemented through architecture
+- **Step 4 (Assessment)**: Capability maturity is assessed
+
+This creates a complete line of sight from strategy to implementation.
+
+### Common Mistakes to Avoid
+
+#### Starting with Technology
+Don't start by listing systems. Start with what you need to be able to do (capabilities), then determine how to do it.
+
+#### Too Many Capabilities
+Focus on capabilities that truly matter for your outcomes. A prioritized list of 10-20 capabilities is more useful than 100.
+
+#### Skipping Current State
+Understanding what you already have is as important as identifying what you need.
+
+#### Ignoring Dependencies
+Failing to identify dependencies leads to implementation problems later.
+
+#### Missing Stakeholder Input
+Business stakeholders must be involved in identifying capabilities.
+
+### Success Factors
+
+Effective capability identification requires:
+
+- Clear, well-defined outcomes (from Step 1)
+- Stakeholder engagement throughout
+- Use of the Capability Reference Model
+- Honest current state assessment
+- Realistic prioritization
+- Clear documentation
+
+### Next Steps
+
+After identifying required capabilities:
+
+1. Move to [Step 3: Define Architecture](DefineCapArch.qmd) to determine how to implement capabilities
+2. Conduct [Step 4: State Self-Assessment](assessMaturity.qmd) to assess capability maturity
+3. Use the [ORBIT Tool](ORBIT.qmd) to plan and track implementation
+4. Review the complete [Capability Reference Model](capabilityModel.qmd) for detailed capability definitions
+
+For questions about capability identification, see [FAQs](references.qmd) or [Contact Us](references.qmd).

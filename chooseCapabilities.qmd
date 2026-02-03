@@ -1,0 +1,44 @@
+# Choose your Capabilities
+
+<img align="left" src="media/MCGcapabilities.png" alt="Choose Your Capabilities">
+
+
+## What? | Overview
+
+By identifying the required capabilities needed to achieve an outcome, SMAs can better align their information and technology resources and processes with their strategic business goals, which should enhance their insight for improving their CMS-required and state-specific outcomes.
+
+## When? | Triggers
+
+Once outcomes and metrics have been developed, they should be mapped to the MITA architecture and SS-A processes to ensure a complete capture of an SMA's maturity. This mapping will be helpful when assessing the maturity of each capability's outcomes.
+
+## Why? | Objectives
+
+Aligning information and technology resources and processes to goals should improve insight into how to address needed changes and improvements to achieve success. The capability maturity assessment scores may help to define the projects needed to achieve outcomes. The assessment may also help shape the initial identified outcomes and add more information.
+
+## Who? | Key Players
+
+- Program Subject Matter Experts
+- MITA Project Team
+
+## How? | Key Steps & Actions
+
+1. **Map outcomes to MITA capability areas.**
+   - Use the MITA 4.0 Capability Model to determine the capabilities that impact the achievement of the goal.
+   - If already defined, map state specific capabilities to each MITA 4.0 Capability Area.
+   - If capabilities are not defined, map outcomes from previous step to MITA 4.0 Capability Area, potentially mapping multiple outcomes to one capability areas.
+
+2. **If applicable, revisit the prior maturity assessment for those capabilities mapped to outcomes.**
+   - Document the as is maturity for each capability area mapped to an outcome.
+   - Document the target maturity for each capability area mapped to an outcome.
+
+3. **Update capability mapping as state specific capabilities are defined and as maturity assessments are conducted.**
+
+## References & Tools
+
+### References
+
+- MITA 4.0 Capability Map
+
+### Tools
+
+- Outcomes-based Planning template tool

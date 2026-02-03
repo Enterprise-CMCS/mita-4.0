@@ -1,0 +1,7 @@
+# Information Architecture Development and Management Guidelines
+
+This page provides guidelines for developing and managing information architecture within the MITA framework.
+
+## Overview
+
+Content coming soon.

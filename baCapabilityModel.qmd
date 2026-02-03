@@ -1,0 +1,7 @@
+# Business Capability Reference Model
+
+This page describes the Business Capability Reference Model within the MITA framework.
+
+## Overview
+
+Content coming soon.

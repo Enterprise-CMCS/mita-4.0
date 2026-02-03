@@ -1,0 +1,77 @@
+# Scope your assessment
+
+<img align="left" src="media/MCGscope.svg" alt="Scope your SS-A">
+
+## What? | Overview
+
+[Outcomes-based planning (OBP)](outcomesBasedPlanning.html) is the first step in a strategic planning process that places system improvements at the center of MES investments. It helps states define their needs, the value their system and business investments are expected to deliver, track progress through measurable indicators, and demonstrate return on investment—specifically when seeking enhanced federal financial participation (FFP).
+
+OBP is the process of:
+
+- Identifying business challenges faced by a Medicaid program
+- Defining the desired outcomes that address those challenges
+- Establishing clear metrics and milestones to measure progress
+
+Rather than focusing solely on technology deliverables, the OBP approach ensures that each system initiative is purpose-built to drive measurable, meaningful benefits to the Medicaid program.
+
+## When? | Triggers
+
+- Initiating a new system modernization or module implementation
+- Transitioning from legacy systems or vendors
+- MITA State Self-Assessment Results
+- Modernization of cross-module business processes
+- Shifts in Medicaid policy or strategic direction
+- Operational reviews or performance audits
+- Response to ad hoc incidents and corrective actions
+
+## Why? | Objectives
+
+Outcomes-based planning seeks to—
+
+- Demonstrate the value of system investments 
+- Improve program performance through strategic alignment 
+- Strengthen organizational readiness and capability
+- Create a culture of measurement and accountability
+- Enable consistency and reusability across state projects
+
+## Who? | Key Players
+
+- Program Subject Matter Experts
+- State Medicaid Executives 
+- Senior Managers
+- MITA Project Team
+
+## How? | Key Steps & Actions
+
+The SMA starts by identifying the business challenge. This could be a new initiative or a problem the SMA is trying to solve (e.g., the trigger for initiating OBP) and describes the "as-is" state if needed to tease out the business challenge and determine appropriate outcomes and metrics.
+
+1. **Define the Business Challenge and Identify goals.**
+   - Identify the main concern that explains why you are not already at your goal (e.g., something blocking you, something you need to fix, something you haven't done).
+   - Identify the things that cause the concern or make it worse.
+   - Identify specific pain points that are tangible, real world and observable that you can change.
+   - Summarize the concern and drivers in a business challenge statement.
+
+2. **Develop desired outcomes that identify what changes, improvements, or benefits will address the challenges and describe the "to-be" state.**
+   - Reverse-engineer the concern and drivers, stating what they would look like when corrected. This is the first step in identifying the "to-be" state. An example would be, "Organizations are able to share information electronically."
+   - Identify the audience that would benefit from the outcome and the desired result from their perspective.
+   - Identify what new or improved capability is needed to correct the concerns or facilitate the drivers, and the actor to implement the capability.
+   - Summarize the capability and benefits in an Outcome Statement.
+
+3. **Determine how to measure achievement or success.** Determine how to measure, monitor, and report on progress to ensure improvements or benefits are reached.
+   - Identify the success factors that provide the strongest indication of success and why.
+   - For each success factor, corrected driver, and benefit, identify how to measure their status and improvement (either a metric or milestone).
+
+4. **Define what success looks like and how it can be validated.**
+   - Determine the desired time frame for accomplishing a goal.
+   - Based on the metrics associated with the critical success factors, identify target measurements that will indicate success.
+   - Summarize the time frame and metrics into a definition of success. The definition should be framed as a specific, measurable, achievable, relevant, and time-bound (SMART) objective.
+
+## References & Tools
+
+### References
+
+[Outcomes-based Planning topic page](outcomesBasedPlanning.html)
+
+### Tools
+
+- Outcomes based planning template tool

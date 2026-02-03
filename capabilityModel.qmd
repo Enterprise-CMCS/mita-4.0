@@ -1,0 +1,367 @@
+---
+title: "Capability, Business, Information, and Technical Models"
+---
+
+## MITA Reference Models Overview
+
+The MITA 4.0 Reference Models provide comprehensive guidance across all architecture domains. These models work together to support capability-based planning and implementation.
+
+### The Four Reference Models
+
+MITA 4.0 includes four interconnected reference models:
+
+1. **Capability Reference Model**: Defines what organizations need to be able to do
+2. **Business Reference Model**: Defines how work gets done
+3. **Information Reference Model**: Defines what information is needed and how it flows
+4. **Technical Reference Model**: Defines technology patterns and standards
+
+## Capability Reference Model
+
+The Capability Reference Model is the foundation of MITA 4.0.
+
+### Purpose
+Provides a comprehensive catalog of capabilities needed by state Medicaid agencies to operate their programs effectively.
+
+### Structure
+
+#### Capability Areas (Level 1)
+High-level groupings of related capabilities:
+- **Member Services**: Capabilities supporting beneficiaries
+- **Provider Services**: Capabilities supporting providers
+- **Program Operations**: Core operational capabilities
+- **Program Integrity**: Fraud, waste, and abuse prevention
+- **Financial Management**: Financial and payment capabilities
+- **Business Intelligence**: Analytics and reporting capabilities
+- **Enterprise Services**: Shared, foundational capabilities
+
+#### Capability Domains (Level 2)
+Logical groupings within areas. For example, within Member Services:
+- Eligibility Management
+- Enrollment Management
+- Benefits Management
+- Member Communications
+- Member Self-Service
+
+#### Capabilities (Level 3)
+Specific abilities needed. For example, within Eligibility Management:
+- Eligibility Determination
+- Eligibility Verification
+- Eligibility Renewal
+- Eligibility Appeals
+- Eligibility Reporting
+
+### Using the Capability Model
+
+#### For Planning
+- Identify which capabilities you need
+- Map capabilities to outcomes
+- Identify capability gaps
+- Prioritize investments
+
+#### For Assessment
+- Assess current capability maturity
+- Define target maturity levels
+- Track improvement over time
+
+#### For Communication
+- Provide common vocabulary
+- Facilitate stakeholder discussions
+- Support federal reporting
+
+### Key Capabilities by Area
+
+#### Member Services
+- Eligibility Determination
+- Enrollment Management
+- Benefits Administration
+- Member Self-Service
+- Care Coordination
+- Member Communications
+
+#### Provider Services
+- Provider Enrollment
+- Provider Credentialing
+- Provider Portal
+- Provider Communications
+- Network Management
+
+#### Program Operations
+- Claims Processing
+- Claims Adjudication
+- Payment Processing
+- Prior Authorization
+- Utilization Management
+- Case Management
+
+#### Program Integrity
+- Fraud Detection
+- Program Auditing
+- Recovery Audit
+- Provider Compliance Monitoring
+
+#### Financial Management
+- Budget Management
+- Financial Reporting
+- Cost Allocation
+- Financial Forecasting
+- Payment Reconciliation
+
+#### Business Intelligence
+- Data Analytics
+- Performance Reporting
+- Dashboard and Visualization
+- Predictive Analytics
+- Data Warehouse Management
+
+#### Enterprise Services
+- Document Management
+- Identity Management
+- Security Management
+- Integration Services
+- Master Data Management
+- Enterprise Architecture Management
+
+## Business Reference Model
+
+Defines the business processes that implement capabilities.
+
+### Purpose
+Provides standard definitions of Medicaid business processes, supporting consistent process design and facilitating benchmarking.
+
+### Components
+
+#### Business Processes
+Step-by-step workflows that deliver capabilities. Each process includes:
+- Process description
+- Process flow diagram
+- Inputs and outputs
+- Business rules
+- Related capabilities
+- Integration points
+
+#### Process Patterns
+Common patterns that appear across processes:
+- Application and intake
+- Verification and validation
+- Decision and determination
+- Notification and communication
+- Appeal and dispute resolution
+
+### Example Business Processes
+
+#### Eligibility Determination Process
+1. Receive application
+2. Verify identity
+3. Collect required information
+4. Verify income and assets
+5. Apply eligibility rules
+6. Make determination
+7. Notify applicant
+8. Activate benefits (if eligible)
+
+#### Claims Processing
+1. Receive claim
+2. Validate claim format
+3. Verify member eligibility
+4. Verify provider enrollment
+5. Apply pricing rules
+6. Adjudicate claim
+7. Generate payment or denial
+8. Notify provider
+
+### Using the Business Model
+- Design or redesign business processes
+- Identify process improvement opportunities
+- Support business process modeling
+- Define requirements for systems
+
+See [Business Reference Model](businessReference.qmd) for detailed process definitions.
+
+## Information Reference Model
+
+Defines information requirements and data standards.
+
+### Purpose
+Provides a common information framework, supporting data consistency, quality, and interoperability.
+
+### Components
+
+#### Data Entities
+Key information objects:
+- **Member**: Beneficiary information
+- **Provider**: Provider demographics and credentials
+- **Claim**: Claims data
+- **Service**: Service descriptions
+- **Authorization**: Prior authorization information
+- **Enrollment**: Enrollment data
+- **Payment**: Payment information
+
+#### Data Attributes
+Key data elements for each entity, including:
+- Attribute definition
+- Data type and format
+- Validation rules
+- Source systems
+- Usage
+
+#### Information Flows
+How information moves between processes and systems:
+- Data exchange patterns
+- Integration requirements
+- Timing and frequency
+- Standards applied
+
+#### Data Standards
+Applicable standards:
+- **HIPAA**: Transaction and code sets
+- **FHIR**: Health data exchange
+- **X12**: Electronic data interchange
+- **HL7**: Health Level 7 standards
+- **State-specific**: State data standards
+
+### Data Quality Dimensions
+- **Accuracy**: Data correctly represents reality
+- **Completeness**: All required data is present
+- **Consistency**: Data is uniform across systems
+- **Timeliness**: Data is current and available when needed
+- **Validity**: Data conforms to defined formats and rules
+
+### Using the Information Model
+- Define data requirements
+- Ensure data consistency
+- Plan data integration
+- Support data governance
+
+See [Information Reference Model](IAcapabilityModel.qmd) for detailed data definitions.
+
+## Technical Reference Model
+
+Defines technology patterns, standards, and approaches.
+
+### Purpose
+Provides technical guidance for implementing capabilities, supporting modern, standards-based, interoperable solutions.
+
+### Components
+
+#### Architecture Patterns
+Recommended approaches:
+- **Microservices**: Modular, independently deployable services
+- **API-First**: Services exposed through standard APIs
+- **Event-Driven**: Asynchronous, event-based integration
+- **Cloud-Native**: Designed for cloud platforms
+- **Mobile-First**: Optimized for mobile devices
+
+#### Technical Standards
+Applicable standards:
+- **APIs**: RESTful APIs, GraphQL
+- **Security**: OAuth 2.0, OpenID Connect, SAML
+- **Integration**: FHIR, X12, HL7
+- **Data**: JSON, XML, CSV
+- **Accessibility**: Section 508, WCAG 2.1
+
+#### Technology Domains
+Guidance across technology areas:
+
+**Application Services**
+- Web applications
+- Mobile applications
+- APIs and microservices
+- Batch processing
+
+**Data Management**
+- Databases and data stores
+- Data warehouses
+- Master data management
+- Data lakes
+
+**Integration**
+- Service bus/ESB
+- API gateway
+- Data exchange
+- Real-time integration
+
+**Infrastructure**
+- Cloud platforms (AWS, Azure, GCP)
+- Containers and orchestration
+- Serverless computing
+- Infrastructure as code
+
+**Security**
+- Identity and access management
+- Encryption and key management
+- Security monitoring
+- Compliance controls
+
+### Using the Technical Model
+- Make technology decisions
+- Ensure standards compliance
+- Plan technical architecture
+- Support procurement
+
+See [Technical Reference Model](TAReferenceModel.qmd) for detailed technical guidance.
+
+## How the Models Work Together
+
+The reference models are interconnected:
+
+1. **Capabilities** define what you need to do
+2. **Business Processes** define how to do it
+3. **Information** defines what data is needed
+4. **Technology** defines how to enable it
+
+### Example: Claims Processing
+
+| Model | Component |
+|-------|-----------|
+| **Capability** | Claims Processing - ability to adjudicate and pay claims |
+| **Business** | Claims processing workflow, adjudication rules, payment process |
+| **Information** | Claim data, member data, provider data, service codes, payment information |
+| **Technology** | Claims management system, rules engine, payment system, EDI integration |
+
+## Maturity Reference Model
+
+In addition to the four main reference models, MITA 4.0 includes a Maturity Reference Model that defines maturity progression for each capability.
+
+See [Maturity Reference Model](MITA_4.0_Maturity_Reference_Model.qmd) for details.
+
+## Using the Reference Models
+
+### For Planning
+- Identify required capabilities, processes, data, and technology
+- Use standard definitions for consistency
+- Leverage proven patterns
+
+### For Implementation
+- Design solutions aligned with reference models
+- Apply recommended standards
+- Avoid reinventing solutions
+
+### For Assessment
+- Evaluate alignment with reference models
+- Identify gaps and improvement opportunities
+- Track maturity progress
+
+### For Communication
+- Use common vocabulary
+- Support stakeholder discussions
+- Facilitate collaboration
+
+## Next Steps
+
+1. Review individual reference models:
+   - [Business Reference Model](businessReference.qmd)
+   - [Role Reference Model](roleReference.qmd)
+   - [Information Reference Model](IAcapabilityModel.qmd)
+   - [Technical Reference Model](TAReferenceModel.qmd)
+   - [Maturity Reference Model](MITA_4.0_Maturity_Reference_Model.qmd)
+
+2. Apply reference models to your work:
+   - [Identify Capabilities](IdentifyCapabilities.qmd)
+   - [Define Architecture](DefineCapArch.qmd)
+   - [Conduct Assessment](assessMaturity.qmd)
+
+3. Use tools and templates:
+   - [ORBIT Tool](ORBIT.qmd)
+   - [CONOPS Template](conops.qmd)
+
+For questions about the reference models, see [FAQs](references.qmd) or [Contact Us](references.qmd).

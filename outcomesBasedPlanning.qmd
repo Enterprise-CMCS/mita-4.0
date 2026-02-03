@@ -1,0 +1,161 @@
+
+---
+title: Outcomes-Based Planning
+date: last-modified
+toc: true
+format: 
+  html: default
+  ipynb: default
+---
+
+
+# What is it?
+
+Outcomes-based planning (OBP) is the first step in a strategic planning process that places system improvements at the center of MES investments. It helps states define their needs, the value their system and business investments are expected to deliver, track progress through measurable indicators, and demonstrate return on investment—specifically when seeking enhanced federal financial participation (FFP).
+
+OBP is the process of:
+
+- Identifying business challenges faced by a Medicaid program
+- Defining the desired outcomes that address those challenges
+- Establishing clear metrics and milestones to measure progress
+
+Rather than focusing solely on technology deliverables, the OBP approach ensures that each system initiative is purpose-built to drive measurable, meaningful benefits to the Medicaid program.
+
+# Why It Matters
+
+CMS-required outcomes are based on statutory or regulatory requirements and provide a baseline for what is required of a Medicaid Enterprise System (MES). CMS-required outcomes provide a baseline of requirements for an MES, yet to fully address programmatic needs, states should develop state-specific outcomes. The OBP process can help states develop state-specific outcomes.
+
+States can request enhanced Federal Financial Participation (FFP) to fulfill state-specific needs. States requesting FFP should propose state-specific outcomes that demonstrate the successful achievement of the MES project, confirm the system functionality, and show benefit to the Medicaid program. State-specific outcomes should target achieving improvements to distinct business, operational, or policy challenges that produce direct benefits to the Medicaid program. These outcomes should respond to the unique needs of a state's Medicaid program and represent operational improvements not specifically addressed by the CMS-required outcomes. State-specific outcomes should be measurable, achievable, and reflect the short-term goals of the MES project.
+
+Metrics must provide measurable evidence that the state is achieving outcomes on an ongoing basis. States are required to report on the system's performance to CMS as a condition for receiving enhanced funding.
+
+CMS defines a good state-specific outcome as one that helps a state monitor the desired functionality and efficiency of its Medicaid program and operations.
+
+**A good outcome should have the following characteristics:**
+
+1. **Change** – What are we changing?
+2. **Affected Stakeholders** – Who and what will it impact?
+3. **Benefits** – What are the benefits of the change?
+4. **Capability** – What new or improved capabilities are required to make this change happen? Capabilities can be related, for example, to systems, manual processes, and staff capabilities.
+
+### Outcome Statement Example
+
+*Improve provider satisfaction ratings by 15 percent within the next six months.*
+
+**Characteristics of the example Outcome statement:**
+
+- **Change:** Improve satisfaction with the Provider Enrollment approval timeline by providing streamlined and automated workflows to resolve issues within the Provider Enrollment application. (What is the goal?)
+- **Affected Stakeholders:** Providers, Provider Organization, State users, etc. (Whose need does it address?)
+- **Benefits:** Leads to quicker onboarding of providers, improves provider retention, and decreases state staff workload. (Why is it important?)
+- **Capability:** Enhance the provider enrollment process to incorporate real-time workflow updates and add interactive channels for immediate issue resolution. (How do you achieve it?)
+
+# How It Works
+
+The OBP process provides the following benefits:
+
+- **Consistent and repeatable process:** A structured process ensures that outcomes are identified consistently across the organization, making it easier to replicate, scale and identify trends.
+- **Sustainable:** A well-designed process is sustainable and can be applied irrespective of the team or individuals involved, thus reducing reliance on specific people.
+- **Transparency:** A clear process ensures transparency in outcome identification, making it easier to communicate, gain consensus, align with stakeholders, and build trust.
+- **Traceability:** A structured process ensures that states can trace outcomes to the original challenge or opportunity, which maintains focus and context.
+- **Continuous Improvement:** Increasing transparency promotes continuous improvement through regular review and refinement of outcomes.
+
+**Other benefits include:**
+
+- **Efficient resource allocation:** A well-designed process helps to allocate resources to initiatives that drive meaningful change and align with strategic goals.
+- **Improved accountability:** A clear process promotes accountability among team members by ensuring everyone understands what needs to be achieved.
+- **Enhanced collaboration:** A structured process facilitates collaboration among stakeholders, ensuring that everyone is working toward common goals.
+
+SMAs can utilize the OBP process to achieve key objectives such as…
+
+### Demonstrate the value of system investments
+
+A central objective of OBP is to clearly articulate the value that system investments bring to achieving state Medicaid program goals, improving day-to-day operations, and delivering measurable benefits to enrollees. Rather than focusing solely on the technical delivery of information technology (IT) components, OBP encourages states to frame investments in terms of policy alignment, operational efficiency, access to care, and service quality.
+
+For example, although the technical gain of implementing a new provider enrollment module might be its successful deployment and functionality, the outcome for the state could be a 30 percent reduction in provider enrollment processing time. Such a reduction could lead to greater provider satisfaction with the enrollment experience, and improved retention and engagement. An additional benefit is that newly credentialed providers increase the number of providers participating in the Medicaid network and could serve patients more quickly by reduced time for beneficiaries to schedule and attend their first appointment.
+
+### Improve program performance through strategic alignment
+
+OBP helps states align system investments with Medicaid priorities and operational needs by grounding modernization efforts in clear program goals, such as improving access, streamlining operations, or delivering measurable benefits. This approach avoids the common pitfall of investing in technically compliant solutions that fail to address core challenges. When outcomes are clearly articulated from the start, state teams are better positioned to ensure that vendor activities, solution architecture, and project milestones support broader Medicaid goals (such as reducing delays in beneficiary eligibility processing, enhancing provider participation, or improving claims accuracy).
+
+For example, a state facing eligibility delays might set a goal of real-time verification for 90% of cases, guiding system design, procurement, and vendor accountability. Similarly, in addressing manual claims reprocessing, a state could define an outcome that reduces the claims rework rate by 40 percent within 12 months of go-live, thus aligning operational pain points directly with technology goals.
+
+By fostering collaboration among program, policy, and IT teams, OBP prioritizes resources, secures leadership support, and strengthens the case for APD and certification approvals. Anchoring projects in outcome-driven goals ensures Medicaid modernization delivers meaningful and measurable improvements.
+
+### Strengthen organizational readiness and capability
+
+OBP ensures system improvements are supported by the organizational changes needed for success, such as updates to business processes, staffing, training, and workflows. States must consider internal readiness, capacity, and change adoption to maximize the long-term impact of MES investments.
+
+This involves integrating change management and workforce development into planning, ensuring staff, operations, and agency culture evolve with new functionality. Rather than treating these efforts as peripheral to technology implementation, OBP helps states define and measure how staff, operations, and agency culture will evolve alongside new functionality. For instance, launching a centralized eligibility center might aim to reduce eligibility determination time by 25% within six months or improve policy consistency through standardized workflows. Tracking such outcomes ensures system investments lead to better performance. OBP also enhances accountability, supports smooth transitions, and prepares states to manage future updates effectively.
+
+### Create a culture of measurement and accountability
+
+OBP helps states build a culture of results-oriented management, where success is measured by tangible improvements in Medicaid performance and beneficiary outcomes, not just system deployment. It shifts the focus from isolated IT milestones to using technology as a tool for continuous program improvement.
+
+States embed measurement and accountability into MES investments by:
+
+- Identifying core business problems (e.g., service delays, provider friction, beneficiary churn)
+- Defining actionable outcomes that link system functionality to Medicaid goals
+- Selecting metrics that reflect operational and beneficiary impacts (e.g., time savings, cost avoidance, service accessibility)
+- Tracking performance to enable evidence-based management and system iteration
+
+For example, modernizing a pharmacy benefits module might include tracking reductions in prescription errors, improved compliance with drug utilization protocols, or fewer adverse drug events. KPIs established early serve as tools for learning and course correction.
+
+This approach embeds accountability into system design and operations, enabling strategic discussions about effectiveness, beneficiary impact, and return on investment. It strengthens executive buy-in, fosters cross-functional collaboration, and positions states for agile, data-driven program delivery while meeting CMS expectations.
+
+### Enable consistency and reusability across state projects
+
+OBP helps states define Medicaid system goals using structured templates, common outcomes, and reusable language, ensuring consistency, reducing duplication, and streamlining APDs and certifications. This fosters alignment among teams, supports onboarding, and institutionalizes lessons learned.
+
+OBP also helps states identify cost-effective alternatives to large procurements, such as reusing existing modules, refining workflows (e.g., digital form intake for credentialing delays), or adopting shared tools like APIs. For example, delays in provider credentialing might be resolved with workflow refinements like digital form intake or better data integration with licensing boards. Similarly, data-sharing challenges could be addressed by adopting an existing API framework instead of building a new data warehouse.
+
+Outcomes addressing common Medicaid challenges (e.g., improving access, increasing automation, reducing delays) can be reused across agencies and states, enhancing CMS communication and supporting collaboration. Embedding reusability maximizes past investments, reduces future costs, and ensures every investment drives measurable Medicaid improvements.
+
+# When to Use It
+
+OBP is not a one-size-fits-all requirement—it is a targeted strategy that delivers its greatest value when aligned with meaningful moments of system, program, or policy change. The following common triggers may initiate OBP efforts within MES modernization or operations. Recognizing these triggers helps states proactively define measurable value from the outset of MITA strategic planning, conducting the SS-A, APD development, and certification efforts.
+
+### 1. Initiating a new system modernization or module implementation
+
+Implementing a new MES module is a key moment to initiate OBP. Rather than viewing these implementations as technical upgrades, states can define success by using measurable Medicaid program improvements and business value.
+
+States should use OBP to clarify what success looks like (e.g., "a 25 percent reduction in beneficiary wait times to receive eligibility determinations"), and to ensure that project investments produce real program value. This early focus on outcomes helps guide procurement language, vendor selection, and project milestones consistent with expectations that go beyond technical delivery.
+
+### 2. Transitioning from legacy systems or vendors
+
+When states decide to shift from legacy technology or change vendors, they have a natural reset point for strategic thinking. States should use this transition to reassess what the system needs to achieve, beyond replicating old functionality in a new platform.
+
+OBP helps states define transformational goals (such as enabling self-service portals to reduce call center volume), which lays a foundation for new investments that deliver policy and operational impact.
+
+### 3. MITA State Self-Assessment Results
+
+One of the most strategic triggers for OBP is the completion (or planned completion) of a MITA State Self-Assessment (SS-A). The SS-A offers a structured view into the current and target maturity of Medicaid business capabilities and highlights gaps and areas for improvement.
+
+States can use SS-A findings to prioritize outcome areas based on lower maturity. For example, if a state identifies low maturity in its technology and business processes for claims processing, this can trigger an OBP process that focuses on increasing electronic claims submission rates or reducing claims rework due because of data quality issues. The SS-A helps turn abstract maturity aspirations into concrete improvement goals with measurable impacts, thus linking system improvement needs with actionable, trackable outcomes that can feed directly into an APD or modular procurement strategy. For example, when reviewing the SS-A results, States have an opportunity to prioritize areas for improvement by reviewing maturity levels. Once areas are prioritized States can then choose to utilize OBP to reach a higher maturity level.
+
+### 4. Modernization of cross-module business processes
+
+States often identify operational pain points that cut across multiple systems, such as provider management, claims adjudication, or program integrity. When these issues arise, OBP can help define cross-cutting outcome statements that transcend single modules.
+
+For instance, if a state is addressing inefficiencies in provider onboarding across its Provider Enrollment module, it can develop outcomes that focus on improving onboarding timelines, enhancing provider data quality, or increasing provider retention rates. This strategic alignment helps unify disparate IT projects under a common business goal and facilitates modular but coordinated improvements.
+
+### 5. Shifts in Medicaid policy or strategic direction
+
+Changes in Medicaid policy (such as new regulatory or statutory requirements, public health emergencies, or shifts in policy) may create new system demands. When policy drives new use cases, OBP ensures that system updates support these priorities effectively.
+
+States can respond to Medicaid policy changes by defining outcomes that reflect their evolving program goals. For example, implementing a new care coordination policy might prompt development of outcomes focused on closing care gaps or improving beneficiary engagement through system-supported interventions.
+
+### 6. Operational reviews or performance audits
+
+Performance audits, legislative oversight, or internal quality reviews often highlight systemic issues that may not require full module replacement but do call for focused improvement. These reviews may trigger an OBP that defines smaller-scale or business process-focused changes with measurable goals.
+
+For instance, if a review notes inefficiencies in processing pharmacy prior authorizations, a state might implement new workflows or automated tools supported by outcomes like faster turnaround times or reduced denial rates for incomplete documentation.
+
+### 7. Response to ad hoc incidents and corrective actions
+
+Unexpected events, such as data breaches, legal settlements, or formal corrective actions from CMS or other oversight bodies, often demand swift response. Yet these moments can also catalyze strategic reflection and planning for long-term improvement. OBP offers a way for states to shift from reactive fixes to proactive solutions by identifying root causes, defining specific outcome goals (e.g., "Reduce unauthorized access to beneficiary data by 95 percent within six months"), and tracking progress through metrics tied to strengthened policies, technical safeguards, and staff training.
+
+For example, after a provider credential data breach, a state may implement multifactor authentication and measure outcomes such as reductions in credential misuse or improved audit trail completeness. In the case of a legal review identifying inconsistent eligibility determinations, the state might launch corrective training or refine business rules, anchored by outcomes like increased accuracy rates or a decline in appeals. By applying OBP, states demonstrate to CMS and legislative stakeholders both their commitment to compliance as well as their investment in long-term program integrity, transparency, and continuous improvement.
+
+# Download OBP Tool
+
+[Outcomes-based Planning Tool](OBPtool.html)

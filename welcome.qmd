@@ -1,0 +1,16 @@
+# Welcome to the MITA 4.0 Companion Guide {.unnumbered}
+
+The Centers for Medicare & Medicaid Services (CMS) Medicaid Information Technology Architecture (MITA) 4.0 helps your State Medicaid Agency (SMA) achieve your enterprise goals and enhance your Medicaid program by aligning business and information technology (IT) strategies.
+
+MITA 4.0 guides you through Enterprise Strategic Planning to describe the way your SMA works now and plan for the way you want to work in the future. MITA 4.0 also helps you align your Medicaid Enterprise System (MES) with:
+
+- CMS and State prioritized outcomes
+- MITA's capabilities, comprised of outcomes, roles, business processes, information, and technology (ORBIT)
+- Federal requirements for enhanced funding
+
+This guide will lead you through the stages of MITA 4.0—defining or updating outcomes, identifying required capabilities, defining your capability architecture, and documenting your State Self-Assessment (Figure 1). The MITA 4.0 Companion Guide offers a flexible approach to Enterprise Strategic Planning—your SMA's path may look different depending on your state's needs.
+
+![Figure 1. Enterprise Strategic Planning with MITA 4.0](media/MITA40process.png)
+
+
+## New in MITA 4.0

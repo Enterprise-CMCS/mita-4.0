@@ -1,0 +1,390 @@
+# MITA 4.0 Implementation Process
+
+This page provides a detailed walkthrough of the MITA 4.0 implementation process, from outcomes-based planning through architecture definition to state self-assessment.
+
+## Process Overview
+
+The MITA 4.0 Process consists of four main steps:
+
+1. **Perform Outcomes-Based Planning (OBP)**
+2. **Identify Capabilities**
+3. **Define Architecture**
+4. **Document State Self-Assessment (SS-A)**
+
+---
+
+## Step 1: Perform Outcomes-Based Planning (OBP) {.tabset}
+
+::: {.callout-note collapse="true"}
+### a. Identify the Business Challenge
+
+The SMA starts by identifying the business challenge. This could be a new initiative or a problem the SMA is trying to solve (e.g., the trigger for initiating OBP) and describes the "as-is" state.
+:::
+
+::: {.callout-note collapse="true"}
+### b. Identify Goals
+
+Identify the main concern that explains why you are not already at your goal (e.g., something blocking you, something you need to fix, something you haven't done).
+:::
+
+::: {.callout-note collapse="true"}
+### c. Identify Causes of Concern
+
+Identify the things that cause the concern or make it worse.
+
+- Identify specific pain points that are tangible, real world and observable that you can change.
+:::
+
+::: {.callout-note collapse="true"}
+### d. Summarize Business Challenge
+
+Summarize the concern and drivers in a business challenge statement.
+:::
+
+::: {.callout-note collapse="true"}
+### e. Develop Desired Outcomes
+
+Develop desired outcomes that identify what changes, improvements, or benefits will address the challenges and describe the "to-be" state.
+
+**Sub-activities:**
+
+i. **Reverse-engineer concerns and drivers**
+   - State what they would look like when corrected. This is the first step in identifying the "to-be" state. 
+   - Example: "Organizations are able to share information electronically."
+
+ii. **Identify the audience**
+   - Identify the audience that would benefit from the outcome and the desired result from their perspective.
+
+iii. **Identify needed capabilities**
+   - Identify what new or improved capability is needed to correct the concerns or facilitate the drivers
+   - Identify the actor to implement the capability
+
+iv. **Summarize in Outcome Statement**
+   - Summarize the capability and benefits in an Outcome Statement
+:::
+
+::: {.callout-note collapse="true"}
+### f. Determine Measurement Approach
+
+Determine how to measure achievement or success. Determine how to measure, monitor, and report on progress to ensure improvements or benefits are reached.
+
+i. **Identify success factors**
+   - Identify the success factors that provide the strongest indication of success and why
+
+ii. **Define metrics**
+   - For each success factor, corrected driver, and benefit, identify how to measure their status and improvement (either a metric or milestone)
+:::
+
+::: {.callout-note collapse="true"}
+### g. Define Success Criteria
+
+Define what success looks like and how it can be validated.
+
+i. **Determine time frame**
+   - Determine the desired time frame for accomplishing a goal
+
+ii. **Identify target measurements**
+   - Based on the metrics associated with the critical success factors, identify target measurements that will indicate success
+:::
+
+::: {.callout-note collapse="true"}
+### h. Create SMART Objective
+
+Summarize the time frame and metrics into a definition of success. The definition should be framed as a specific, measurable, achievable, relevant, and time-bound (SMART) objective.
+:::
+
+---
+
+## Step 2: Identify Capabilities
+
+::: {.callout-tip collapse="true"}
+### a. Map State-Specific Capabilities
+
+If already defined, map state specific capabilities to each MITA 4.0 Capability Area. If capabilities are not defined, move to activity 2.
+:::
+
+::: {.callout-tip collapse="true"}
+### b. Map Outcomes to MITA 4.0 Capability Areas
+
+Map outcomes from previous step to MITA 4.0 Capability Area, potentially mapping multiple outcomes to one capability areas.
+:::
+
+::: {.callout-tip collapse="true"}
+### c. Document Current Maturity Assessment
+
+If applicable, document the latest maturity assessment for those capability areas mapped to outcomes. The capability maturity assessment scores may help to define the projects needed to achieve outcomes. The assessment may also help shape the initial identified outcomes and add more information.
+:::
+
+::: {.callout-tip collapse="true"}
+### d. Document Target Maturity
+
+Document the target maturity for each capability area mapped to an outcome.
+:::
+
+::: {.callout-tip collapse="true"}
+### e. Update Capability Mapping
+
+Update capability mapping as state specific capabilities are defined and as maturity assessments are conducted.
+:::
+
+---
+
+## Step 3: Define Architecture
+
+### 3.1 Define Architectural Approach
+
+::: {.callout-important collapse="true"}
+#### Define Business Architecture (BA) Approach
+
+**1. Select required viewpoints**
+   - Determine overall modeling process
+   - Identify required catalogs
+   - Identify required matrices
+   - Identify required diagrams
+
+**2. Identify types of requirements to be collected**
+
+**3. Select required reference models**
+   - Business capability and business process reference models
+
+**4. Select required tools**
+:::
+
+::: {.callout-important collapse="true"}
+#### Define Information Architecture (IA) Approach
+
+**1. Select required viewpoints**
+   - Determine overall modeling process
+   - Identify required catalogs of data building blocks
+   - Identify required matrices
+   - Identify required diagrams
+
+**2. Identify types of requirements to be collected**
+
+**3. Select required reference models**
+   - Data reference models
+
+**4. Select required tools**
+:::
+
+::: {.callout-important collapse="true"}
+#### Define Technical Architecture (TA) Approach
+
+**1. Identify TA viewpoints**
+
+**2. Identify types of requirements**
+   - Functional
+   - Non-functional
+   - Regulatory/compliance
+   - Integration
+   - Technology constraints
+
+**3. Select required reference model**
+
+**4. Select required tools**
+:::
+
+### 3.2 Define Baseline Capability Architecture
+
+::: {.callout-warning collapse="true"}
+#### Define BA Baseline Architecture
+
+- Identify how the process(es) are performed, including any measures, metrics and reports produced for the impacted capability(ies)
+- Identify the activities that are currently performed to support the process(es) for the impacted capability(ies)
+- Identify the business process roles and stakeholders for each process
+- Identify standards and regulations (state and federal) required for each process
+- Gather all supporting documentation (e.g. SOP's, desk manuals) for the identified process(es)
+- Assess the current (if available) performance metrics for each process
+- Use the information gathered to develop baseline business architecture artifacts
+- Assess the baseline business architecture maturity
+:::
+
+::: {.callout-warning collapse="true"}
+#### Define IA Baseline Architecture
+
+- Identify how the data is currently used, including any measures, metrics and reports produced for the impacted processes
+- Identify the data assets that are currently used to support the identified data usage for the impacted processes
+- Identify the data governance role stakeholders for each data asset
+- Identify adopted data standards for each data asset
+- Gather all supporting documentation (e.g. Data dictionary) for the identified data assets
+- Assess the current quality of the data
+- Use the information gathered to develop baseline information architecture artifacts
+- Assess the baseline information architecture maturity
+:::
+
+::: {.callout-warning collapse="true"}
+#### Define TA Baseline Architecture
+
+- Create an inventory of all existing applications used by impacted capability(ies)
+- Catalog technical components used for non-SaaS delivery, including on-premise, hybrid, and cloud environments
+- Identify the technical roles involved in the planning and delivery of applications and technical components
+- Map each component to its associated business process
+- Align components with corresponding business and technical capabilities
+- Link components to relevant data assets
+- Identify all non-functional requirements and regulatory/compliance mandates that apply to impacted capability(ies)
+- Identify Service Level Objectives and Agreements and measures
+- Identify existing technical standards (e.g., Single sign-on and Multi-factor authentication)
+- Identify existing gaps, risks, and technical debt
+- Assess the baseline technical architecture maturity
+:::
+
+### 3.3 Define Target Capability Architecture
+
+::: {.callout-success collapse="true"}
+#### Define BA Target Architecture
+
+- Assess the Target Business Capability Maturity
+- Identify the target process(es) required to perform, including any measures, metrics and reports produced for the impacted capability(ies)
+- Identify the target activities required to support the process(es) for the impacted capability(ies)
+- Identify the target business process roles and stakeholders for each process
+- Identify standards and regulations (state and federal) required for each target process
+- Develop Target business architecture artifacts
+:::
+
+::: {.callout-success collapse="true"}
+#### Define IA Target Architecture
+
+- Assess the target Information Architecture Maturity
+- Identify the target data usage for each business process, including desired reports, dashboards and other business intelligence products
+- Identify the type and source of data that is needed to support the targeted data usage (Conceptual Data Model)
+- Identify the key relationships across the data that is needed to support the targeted data usage
+- Identify the data governance roles for the targeted data
+- Identify data standards needed for all targeted data
+- Define the key data elements needed for all targeted data (Logical Data Model)
+- Define the targeted data quality rules and metrics
+- Use the information gathered to develop target information architecture views
+:::
+
+::: {.callout-success collapse="true"}
+#### Define TA Target Architecture
+
+- Define target Technology Architecture Maturity Level
+- Define the technology strategy and standards (module integration, security compliance, shared services)
+- Rationalize Application portfolio (retain, retire, replace, or consolidate)
+- Specify future technology components and hosting model (cloud, hybrid, SaaS, on-prem)
+- Incorporate regulatory mandates and security and compliance principles
+- Create the target-state application and technology views and diagrams
+- Establish target non-functional requirements (performance, availability, scalability, business continuity, security) and service level objectives (uptime, monitoring, alerting)
+- Plan technical debt remediation and modernization
+:::
+
+### 3.4 Align Architectures and CONOPS
+
+::: {.callout-info collapse="true"}
+#### Architecture Alignment Activities
+
+- Align information architecture to business processes and policies
+- Align information architecture to applications
+- Map the technology components to technical capabilities
+- Map the applications to Business capabilities and business processes
+- Map the target data lineage to applications
+- Define target integration architecture (API first, messaging)
+- Define the architectural requirements for the capability to achieve the target maturity
+- Develop Concept of Operations (CONOPS)
+:::
+
+### 3.5 Perform Gap Analysis
+
+::: {.callout-info collapse="true"}
+#### Gap Analysis Activities
+
+- Compare baseline process activities to target process activities and identify gaps and reuse opportunities
+- Compare baseline business process roles to target business process roles and identify gaps and reuse opportunities
+- Compare baseline business process metrics and measures to target business process metrics and measures and identify gaps
+- Compare baseline standards and regulations compliance to target standards and regulations compliance and identify gaps
+- Compare baseline to target business architecture maturity and identify gaps and opportunities
+- Develop requirements to fill gaps
+:::
+
+---
+
+## Step 4: Document State Self-Assessment (SS-A)
+
+::: {.callout-caution collapse="true"}
+### a. Document Maturity Assessment Results
+
+**i. Capture maturity assessments**
+   - Use the method of your choice to capture all maturity assessments performed in Step 3, Define/Enhance Capability Architecture, of the MITA 4.0 Process
+   - CMS offers an optional proof-of-concept SS-A Tool for SMA use in capturing maturity assessments
+
+**ii. Generate Maturity Profile**
+   - Use SS-A Tool function to generate a .csv file of the assessment results in the CMS required format, the Maturity Profile
+   - If not using optional SS-A tool, compile maturity assessment results using CMS spreadsheet template and save as a .csv file
+
+**iii. Import into MESH**
+   - Import Maturity Profile.csv file of maturity assessment results into MESH and notify State Officer that file is ready for review
+:::
+
+::: {.callout-caution collapse="true"}
+### b. Create SS-A Executive Summary
+
+Utilize the SS-A Executive Summary template and Roadmap visual to document the following:
+
+i. Goals of the initiative of project
+ii. Prioritized features and functionalities
+iii. Potential risks identified
+iv. Mitigation strategies to address identified risks
+v. A visual timeline (e.g., a Gantt chart or other roadmap format) of the SMA's planned initiatives and projects
+vi. Resources and/or support needed for the planned initiative or project
+:::
+
+::: {.callout-caution collapse="true"}
+### c. Review SS-A with Leadership
+
+**i. Submit for review**
+   - Submit the SS-A Executive Summary that includes Maturity Profile and draft Roadmap to leadership and request to brief leadership on SS-A findings
+
+**ii. Review Maturity Profile**
+   - Review the Maturity Profile with SMA leadership and discuss the results of maturity assessments across Capability Domains
+
+**iii. Determine priorities**
+   - Based on maturity scores or SMA specific needs, determine leadership's priorities on what to address first
+
+**iv. Review Roadmap**
+   - Review leadership priorities with the initial draft of the Roadmap's presentation of initiatives or projects to improve maturity
+
+**v. Finalize Roadmap**
+   - If leadership priorities differ, update and finalize Roadmap to align with leadership's direction
+:::
+
+::: {.callout-caution collapse="true"}
+### d. Update/Define Outcomes
+
+Update/Define Outcomes using Outcomes-Based process for initial priorities:
+
+**i. Work with SMEs**
+   - Work with Subject Matter Experts (SMEs) to define desired outcomes or update previously developed outcomes and develop associated metrics
+
+**ii. Assess progress**
+   - Use outcomes and related metrics to assess progress toward success
+   
+   1. **If goal is successfully achieved:** Restart the OBP process to define new goals for next identified priority and work toward continued growth
+   
+   2. **If goal not achieved:** Continue tracking progress and reassess outcomes for initial priority
+   
+   3. **Routinely reassess:** Determine if goals have changed
+      - If goals have changed, restart the process with new priorities
+      - If goals have not changed, restart the process for continued growth
+:::
+
+::: {.callout-caution collapse="true"}
+### e. Execute Projects
+
+Execute projects to achieve desired outcomes:
+
+- Initiate project and periodically assess progress using metrics
+:::
+
+---
+
+## Summary
+
+The MITA 4.0 Process is an iterative cycle that helps State Medicaid Agencies:
+
+1. Define clear, measurable outcomes
+2. Identify and assess relevant capabilities
+3. Define current and target architecture states
+4. Document progress through State Self-Assessments
+5. Continuously improve through measured execution
+
+This cyclical approach ensures continuous alignment between business goals, technical capabilities, and measurable outcomes.
