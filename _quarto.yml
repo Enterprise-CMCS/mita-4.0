@@ -4,7 +4,7 @@ project:
 
 
 book:
-  title: "Medicaid Information Technology Architecture (MITA) 4.0"
+  title: "Medicaid Information Technology Architecture (MITA) 4.0 - TEST SITE"
   description: "This website is a staging environment and is intended for testing and development purposes only. The content, functionality, and features on this site may be incomplete, inaccurate, or subject to change."
   output-file: "MITADemo"
   search: true
