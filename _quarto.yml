@@ -25,8 +25,6 @@ book:
           file: understandingMITA.qmd
         - text: "Bridging MITA and CMS Business Processes"
           file: alignMITA.qmd
-        - text: "Outcomes Based Planning"
-          file: outcomesBasedPlanning.qmd
     - part: "MITA 4.0 Companion Guide"
       chapters:
         - text: "Welcome to the MITA 4.0 Companion Guide"
@@ -41,6 +39,7 @@ book:
           file: defineArchitecture.qmd
         - text: "Finalize your State Self-Assessment"
           file: finalizeSSA.qmd
+    - outcomesBasedPlanning.qmd
     - part: "Business Architecture"
       chapters:
         - text: "BA Guidelines"
@@ -108,7 +107,7 @@ format:
       - brand
     css: styles.css
     number-sections: false
-
+    toc-title: "Jump to:"
 
   docx:
     toc: true

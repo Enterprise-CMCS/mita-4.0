@@ -3,4 +3,11 @@ title: "OBP Tool"
 format: html
 ---
 
-*coming soon
+
+
+
+To download the Outcomes-Based Planning Tool click here: <a href="/downloads/OBP_Template_Tool.xlsx" target="_blank">Download OBP Template Tool</a>
+<br><br>
+
+To learn more about Outcomes-Based Planning, check out the <a href="../outcomesBasedPlanning.html" target="_blank">Outcomes-Based Planning Page</a>.
+

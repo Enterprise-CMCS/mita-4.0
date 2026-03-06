@@ -1,3 +1,26 @@
+---
+title: "SS-A Tool"
+reader-mode: true
+---
+
 # State Self-Assessment Tool
 
-Content coming soon...
+A free, open-source tool for State Medicaid Agencies to evaluate capabilities across 75 areas and 5 ORBIT dimensions. Your data stays private—stored only in your browser.
+
+## How It Works
+### 1. Select a Capability
+
+Browse the Dashboard to see all 75 capability areas organized by domain. Click any area to start its assessment.
+
+### 2. Rate Each Dimension
+
+Evaluate your maturity across the five ORBIT dimensions using the guided questions. Add notes and attach evidence as you go.
+
+### 3. Export Your Results
+
+Finalize assessments and export reports. Use tags to organize your work and create backups to protect your data.
+
+
+## Link to Tool
+[Launch the State Self-Assessment Tool](https://enterprise-cmcs.github.io/mita-ssa-tool/)
+
