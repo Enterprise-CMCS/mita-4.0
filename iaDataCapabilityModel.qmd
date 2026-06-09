@@ -1,7 +1,0 @@
-# Data Management Capability Reference Model
-
-This page describes the Data Management Capability Reference Model within the MITA framework.
-
-## Overview
-
-Content coming soon.

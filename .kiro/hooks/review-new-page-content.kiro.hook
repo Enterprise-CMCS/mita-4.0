@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Review New Page for Repetitive Content",
+  "description": "When a new HTML page is created, review its content to ensure it is not repetitive or unnecessarily long-winded, and suggest improvements if needed",
+  "version": "1",
+  "when": {
+    "type": "fileCreated",
+    "patterns": [
+      "*.html"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A new HTML page was just created. Review its content carefully and check for: (1) repetitive phrases or ideas that appear more than once, (2) long-winded or overly verbose sections that could be tightened, (3) redundant introductions or conclusions that restate what was already said. If any issues are found, revise the content to be concise and non-repetitive while preserving all meaningful information. Keep language direct and purposeful."
+  }
+}

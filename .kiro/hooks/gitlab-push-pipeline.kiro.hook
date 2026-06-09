@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "name": "Push to GitLab & Run Pipeline",
+  "description": "Automatically commits and pushes changes to GitLab on every file edit, triggering the CI/CD pipeline to generate new pages",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.html",
+      "*.css",
+      "*.js"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "git add -A && git diff --cached --quiet || git commit -m \"Auto-update: $(date '+%Y-%m-%d %H:%M:%S')\" && git push origin main",
+    "timeout": 60
+  },
+  "workspaceFolderName": "MITA_kiro",
+  "shortName": "gitlab-push-pipeline"
+}

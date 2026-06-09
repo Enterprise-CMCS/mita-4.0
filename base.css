@@ -1,0 +1,232 @@
+/* base.css — MITA 4.0 Design Tokens + Reset */
+
+:root {
+  /* Type Scale (fluid clamp) */
+  --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
+  --text-sm:   clamp(0.875rem, 0.8rem  + 0.35vw, 1rem);
+  --text-base: clamp(1rem,     0.95rem + 0.25vw, 1.125rem);
+  --text-lg:   clamp(1.125rem, 1rem    + 0.75vw, 1.5rem);
+  --text-xl:   clamp(1.5rem,   1.2rem  + 1.25vw, 2.25rem);
+  --text-2xl:  clamp(2rem,     1.2rem  + 2.5vw,  3.5rem);
+  --text-3xl:  clamp(2.5rem,   1rem    + 4vw,    5rem);
+
+  /* 4px Spacing System */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-interactive: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Content widths */
+  --content-narrow: 640px;
+  --content-default: 960px;
+  --content-wide: 1200px;
+  --content-full: 100%;
+}
+
+/* MITA 4.0 — CMS core theme color mapping */
+:root, [data-theme="light"] {
+  /* Surfaces */
+  --color-bg:             #ffffff;
+  --color-surface:        #ffffff;
+  --color-surface-2:      #f2f2f2;
+  --color-surface-offset: #f2f2f2;
+  --color-surface-offset-2: #d9d9d9;
+  --color-surface-dynamic: #a6a6a6;
+  --color-divider:        #d9d9d9;
+  --color-border:         #d9d9d9;
+
+  /* Text */
+  --color-text:           #262626;
+  --color-text-muted:     #5a5a5a;
+  --color-text-faint:     #808080;
+  --color-text-inverse:   #ffffff;
+
+  /* CMS core brand colors */
+  --color-primary:        #0071bc;
+  --color-primary-hover:  #004f84;
+  --color-primary-active: #00395e;
+  --color-primary-highlight: #e6f1f8;
+
+  --color-secondary:      #12890e;
+  --color-secondary-hover:#0d600a;
+  --color-secondary-active:#094507;
+
+  --color-accent:         #dd3603;
+  --color-accent-hover:   #9b2602;
+
+  /* Status */
+  --color-success:        #12890e;
+  --color-warning:        #f8c41f;
+  --color-error:          #e31c3d;
+
+  /* Footer / inverse surfaces */
+  --color-background-inverse: #00395e;
+  --color-info:           #02bfe7;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px oklch(0.2 0 0 / 0.07);
+  --shadow-md: 0 4px 14px oklch(0.2 0 0 / 0.1);
+  --shadow-lg: 0 12px 36px oklch(0.2 0 0 / 0.14);
+
+  /* Font families */
+  --font-display: 'Cabinet Grotesk', 'Inter', sans-serif;
+  --font-body: 'Satoshi', 'Inter', sans-serif;
+}
+
+/* DARK MODE */
+[data-theme="dark"] {
+  --color-bg:             #262626;
+  --color-surface:        #404040;
+  --color-surface-2:      #5a5a5a;
+  --color-surface-offset: #404040;
+  --color-surface-offset-2: #5a5a5a;
+  --color-surface-dynamic: #808080;
+  --color-divider:        #5a5a5a;
+  --color-border:         #808080;
+  --color-text:           #ffffff;
+  --color-text-muted:     #d9d9d9;
+  --color-text-faint:     #a6a6a6;
+  --color-text-inverse:   #262626;
+
+  --color-primary:        #4d9cd0;
+  --color-primary-hover:  #80b8de;
+  --color-primary-active: #b3d4eb;
+  --color-primary-highlight: #00395e;
+
+  --color-secondary:      #59ac56;
+  --color-secondary-hover:#89c487;
+  --color-secondary-active:#b8dcb7;
+
+  --color-accent:         #e7724f;
+  --color-accent-hover:   #f5c3b3;
+
+  --color-success:        #59ac56;
+  --color-warning:        #fad662;
+  --color-error:          #eb6077;
+
+  --color-background-inverse: #00395e;
+  --color-info:           #4ed2ee;
+
+  --shadow-sm: 0 1px 3px oklch(0 0 0 / 0.22);
+  --shadow-md: 0 4px 14px oklch(0 0 0 / 0.32);
+  --shadow-lg: 0 12px 36px oklch(0 0 0 / 0.42);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --color-bg:             #262626;
+    --color-surface:        #404040;
+    --color-surface-2:      #5a5a5a;
+    --color-surface-offset: #404040;
+    --color-surface-offset-2: #5a5a5a;
+    --color-surface-dynamic: #808080;
+    --color-divider:        #5a5a5a;
+    --color-border:         #808080;
+    --color-text:           #ffffff;
+    --color-text-muted:     #d9d9d9;
+    --color-text-faint:     #a6a6a6;
+    --color-text-inverse:   #262626;
+    --color-primary:        #4d9cd0;
+    --color-primary-hover:  #80b8de;
+    --color-primary-active: #b3d4eb;
+    --color-primary-highlight: #00395e;
+    --color-secondary:      #59ac56;
+    --color-secondary-hover:#89c487;
+    --color-secondary-active:#b8dcb7;
+    --color-accent:         #e7724f;
+    --color-accent-hover:   #f5c3b3;
+    --color-success:        #59ac56;
+    --color-warning:        #fad662;
+    --color-error:          #eb6077;
+    --color-background-inverse: #00395e;
+    --color-info:           #4ed2ee;
+    --shadow-sm: 0 1px 3px oklch(0 0 0 / 0.22);
+    --shadow-md: 0 4px 14px oklch(0 0 0 / 0.32);
+    --shadow-lg: 0 12px 36px oklch(0 0 0 / 0.42);
+  }
+}
+
+/* === BASE RESET === */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  hanging-punctuation: first last;
+  scroll-padding-top: var(--space-16);
+}
+
+body {
+  min-height: 100dvh;
+  line-height: 1.6;
+  font-family: var(--font-body, sans-serif);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+img, picture, video, canvas, svg { display: block; max-width: 100%; height: auto; }
+ul[role="list"], ol[role="list"] { list-style: none; }
+input, button, textarea, select { font: inherit; color: inherit; }
+
+h1, h2, h3, h4, h5, h6 { text-wrap: balance; line-height: 1.15; }
+p, li, figcaption { text-wrap: pretty; max-width: 72ch; }
+
+::selection {
+  background: oklch(from var(--color-primary) l c h / 0.25);
+  color: var(--color-text);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+button { cursor: pointer; background: none; border: none; }
+table { border-collapse: collapse; width: 100%; }
+
+a, button, [role="button"], [role="link"], input, textarea, select {
+  transition: color var(--transition-interactive),
+              background var(--transition-interactive),
+              border-color var(--transition-interactive),
+              box-shadow var(--transition-interactive);
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0;
+}

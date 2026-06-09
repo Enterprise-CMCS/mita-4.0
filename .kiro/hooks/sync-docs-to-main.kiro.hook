@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Sync Docs to Main Branch",
+  "description": "When any file in the docs/ folder changes, commits the docs folder on master and cherry-picks it onto main so the GitLab-rendered documentation stays up to date",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "docs/**/*.md",
+      "docs/README.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A file in the docs/ folder was just edited. Perform the following git steps to sync the docs folder to the main branch so it shows on GitLab:\n\n1. Stage and commit any changes to the docs/ folder on the current branch (master): `git add docs/ && git diff --cached --quiet || git commit -m \"docs: sync spec documentation\"`\n2. Push master: `git push origin master`\n3. Get the commit hash of the docs commit: `git rev-parse HEAD`\n4. Switch to main, pull latest, cherry-pick the docs commit, push, then switch back to master:\n   - `git checkout main`\n   - `git pull origin main`\n   - `git cherry-pick <commit-hash>`\n   - `git push origin main`\n   - `git checkout master`\n\nIf there are merge conflicts on the cherry-pick, resolve them by keeping the incoming docs/ changes. Report the result when done."
+  }
+}

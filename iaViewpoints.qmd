@@ -1,7 +1,0 @@
-# Information Architecture Viewpoints
-
-This page describes the viewpoints for Information Architecture within the MITA framework.
-
-## Overview
-
-Content coming soon.

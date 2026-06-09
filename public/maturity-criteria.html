@@ -1,0 +1,2627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MITA 4.0 — Maturity Criteria</title>
+<meta name="description" content="Browse the MITA 4.0 maturity criteria across Business, Information, and Technical architectures — five maturity levels from Initial to Optimizing.">
+<meta property="og:title" content="MITA 4.0 — Maturity Criteria">
+<meta property="og:description" content="Browse the MITA 4.0 maturity criteria across Business, Information, and Technical architectures — five maturity levels from Initial to Optimizing.">
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./ia-page.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Navigation menu">
+  <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </button>
+  <div class="mobile-nav-group">
+    <a href="./index.html" class="mobile-nav-parent">Welcome</a>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./introduction.html" class="mobile-nav-parent">Introduction</a>
+    <div class="mobile-nav-children">
+      <a href="./introduction.html#new-features" class="mobile-nav-child">New Features</a>
+      <a href="./introduction.html#benefits" class="mobile-nav-child">Benefits of Adoption</a>
+      <a href="./introduction.html#effective-use" class="mobile-nav-child">Effective Use</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./companion-guide.html" class="mobile-nav-parent">Companion Guide</a>
+    <div class="mobile-nav-children">
+      <a href="./companion-guide.html#scope" class="mobile-nav-child">Scope Your Assessment</a>
+      <a href="./companion-guide.html#capabilities" class="mobile-nav-child">Choose Your Capabilities</a>
+      <a href="./companion-guide.html#architecture" class="mobile-nav-child">Define Your Architecture</a>
+      <a href="./companion-guide.html#document-ssa" class="mobile-nav-child">State Self-Assessment</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./outcomes-based-planning.html" class="mobile-nav-parent">Outcomes-based Planning</a>
+    <div class="mobile-nav-children">
+      <a href="./outcomes-based-planning.html#what-is-obp" class="mobile-nav-child">What is OBP?</a>
+      <a href="./outcomes-based-planning.html#why-it-matters" class="mobile-nav-child">Why It Matters</a>
+      <a href="./outcomes-based-planning.html#key-objectives" class="mobile-nav-child">Key Objectives</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./architectures.html" class="mobile-nav-parent">Architectures</a>
+    <div class="mobile-nav-children">
+      <a href="./architectures.html#capability-ref" class="mobile-nav-child">Capability Reference Model</a>
+      <a href="./architectures.html#viewpoints-ref" class="mobile-nav-child">Viewpoints Reference Model</a>
+      <a href="./architectures.html#business-ref" class="mobile-nav-child">Business Architecture</a>
+      <a href="./information-architecture.html" class="mobile-nav-child">Information Architecture</a>
+      <a href="./ia-data-crosswalks.html" class="mobile-nav-child">IA Data Crosswalks</a>
+      <a href="./ia-maturity-criteria.html" class="mobile-nav-child">IA Maturity Criteria</a>
+      <a href="./architectures.html#technical-ref" class="mobile-nav-child">Technical Architecture</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group active">
+    <a href="./maturity-criteria.html" class="mobile-nav-parent active">Maturity Criteria</a>
+    <div class="mobile-nav-children">
+      <a href="./maturity-criteria.html" class="mobile-nav-child active">Maturity Criteria</a>
+      <a href="./ssa-tool.html" class="mobile-nav-child">SS-A Tool</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./tools-resources.html" class="mobile-nav-parent">Tools &amp; Resources</a>
+    <div class="mobile-nav-children">
+      <a href="./tools-resources.html#obp-tool" class="mobile-nav-child">Outcomes-based Planning Tool</a>
+      <a href="./tools-resources.html#ssa-tool-resource" class="mobile-nav-child">State Self-Assessment Tool</a>
+      <a href="./tools-resources.html#conops-template" class="mobile-nav-child">Concept of Operations Template</a>
+      <a href="./tools-resources.html#quick-guides" class="mobile-nav-child">Quick Reference Guides</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./references.html" class="mobile-nav-parent">References</a>
+    <div class="mobile-nav-children">
+      <a href="./site-map.html" class="mobile-nav-child">Visual Sitemap</a>
+      <a href="./implementation-process.html" class="mobile-nav-child">Implementation Walkthrough</a>
+      <a href="./references.html#faq" class="mobile-nav-child">FAQs</a>
+      <a href="./references.html#glossary" class="mobile-nav-child">Glossary</a>
+      <a href="./references.html#support" class="mobile-nav-child">Support Channels</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="./index.html" class="logo-group" aria-label="MITA 4.0 Home">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="1" y="1" width="34" height="34" rx="8" fill="var(--color-primary)" fill-opacity="0.1" stroke="var(--color-primary)" stroke-opacity="0.2" stroke-width="1"/>
+        <rect x="8" y="22" width="4" height="6" rx="1" fill="var(--color-primary)" fill-opacity="0.4"/>
+        <rect x="14" y="18" width="4" height="10" rx="1" fill="var(--color-primary)" fill-opacity="0.6"/>
+        <rect x="20" y="14" width="4" height="14" rx="1" fill="var(--color-primary)" fill-opacity="0.8"/>
+        <rect x="26" y="9" width="4" height="19" rx="1" fill="var(--color-primary)"/>
+        <path d="M10 11l8-3 10 0" stroke="var(--color-primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+      </svg>
+      <div class="logo-text">MITA <span>4.0</span></div>
+    </a>
+    <nav class="nav-main" aria-label="Primary navigation">
+      <div class="nav-item-group">
+        <a href="./index.html" class="nav-parent">Welcome</a>
+      </div>
+      <div class="nav-item-group">
+        <a href="./introduction.html" class="nav-parent">Introduction</a>
+        <div class="nav-dropdown">
+          <a href="./introduction.html#new-features">New Features</a>
+          <a href="./introduction.html#benefits">Benefits of Adoption</a>
+          <a href="./introduction.html#effective-use">Effective Use</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./companion-guide.html" class="nav-parent">Companion Guide</a>
+        <div class="nav-dropdown">
+          <a href="./companion-guide.html#scope">Scope Your Assessment</a>
+          <a href="./companion-guide.html#capabilities">Choose Your Capabilities</a>
+          <a href="./companion-guide.html#architecture">Define Your Architecture</a>
+          <a href="./companion-guide.html#document-ssa">State Self-Assessment</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./outcomes-based-planning.html" class="nav-parent">Outcomes-based Planning</a>
+        <div class="nav-dropdown">
+          <a href="./outcomes-based-planning.html#what-is-obp">What is OBP?</a>
+          <a href="./outcomes-based-planning.html#why-it-matters">Why It Matters</a>
+          <a href="./outcomes-based-planning.html#key-objectives">Key Objectives</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./architectures.html" class="nav-parent">Architectures</a>
+        <div class="nav-dropdown">
+          <a href="./architectures.html#capability-ref">Capability Reference Model</a>
+          <a href="./architectures.html#viewpoints-ref">Viewpoints Reference Model</a>
+          <a href="./architectures.html#business-ref">Business Architecture</a>
+          <a href="./information-architecture.html">Information Architecture</a>
+          <a href="./ia-data-crosswalks.html">IA Data Crosswalks</a>
+          <a href="./ia-maturity-criteria.html">IA Maturity Criteria</a>
+          <a href="./architectures.html#technical-ref">Technical Architecture</a>
+        </div>
+      </div>
+      <div class="nav-item-group active">
+        <a href="./maturity-criteria.html" class="nav-parent active">Maturity Criteria</a>
+        <div class="nav-dropdown">
+          <a href="./maturity-criteria.html" class="active">Maturity Criteria</a>
+          <a href="./ssa-tool.html">SS-A Tool</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./tools-resources.html" class="nav-parent">Tools &amp; Resources</a>
+        <div class="nav-dropdown">
+          <a href="./tools-resources.html#obp-tool">Outcomes-based Planning Tool</a>
+          <a href="./tools-resources.html#ssa-tool-resource">State Self-Assessment Tool</a>
+          <a href="./tools-resources.html#conops-template">Concept of Operations Template</a>
+          <a href="./tools-resources.html#quick-guides">Quick Reference Guides</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./references.html" class="nav-parent">References</a>
+        <div class="nav-dropdown">
+          <a href="./site-map.html">Visual Sitemap</a>
+          <a href="./implementation-process.html">Implementation Walkthrough</a>
+          <a href="./references.html#faq">FAQs</a>
+          <a href="./references.html#glossary">Glossary</a>
+          <a href="./references.html#support">Support Channels</a>
+        </div>
+      </div>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open navigation menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero hero-ia">
+    <div class="container hero-content">
+      <div class="hero-badge">MITA 4.0 Maturity Criteria</div>
+      <h1>Browse MITA Maturity Criteria</h1>
+      <p class="hero-sub">MITA maturity criteria define what "good" looks like across Business, Information, and Technical architecture — at each of five progressive levels from Initial to Optimizing. Whether you're a Medicaid program leader planning your next capability investment, a CIO mapping your data management maturity, or a CTO charting a path for technical capability growth, these criteria are the foundation of your State Self-Assessment.</p>
+      <div class="hero-actions">
+        <a href="#browser" class="btn btn-primary">Browse Criteria</a>
+        <a href="./companion-guide.html#document-ssa" class="btn btn-ghost">Companion Guide Step 4</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Companion Guide callout banner -->
+  <section class="section" aria-label="Companion Guide connection">
+    <div class="container page-shell">
+      <div class="cta-panel-soft reveal">
+        <p class="section-eyebrow">Used in Step 4 of the Companion Guide</p>
+        <h3>Maturity criteria are the backbone of your State Self-Assessment</h3>
+        <p>In Step 4 of the MITA Companion Guide — <strong>Document Your State Self-Assessment</strong> — your agency scores each capability against these criteria to establish a current-state maturity profile. That profile is what drives everything downstream: it identifies which capability investments to prioritize, positions your agency for enhanced federal funding eligibility, and creates the evidence base CMS expects when reviewing alignment with priority outcomes.</p>
+        <p class="cta-panel-soft-note">For Medicaid Directors, this means the SS-A translates directly into a defensible, outcome-linked case for targeted IT investment — backed by a nationally recognized framework.</p>
+        <div class="cta-actions">
+          <a href="./companion-guide.html#document-ssa" class="btn btn-primary">Open Companion Guide Step 4</a>
+          <a href="#browser" class="btn btn-outline">Browse the criteria</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overview section -->
+  <section class="section section-alt" id="overview">
+    <div class="container page-shell">
+
+      <div class="reveal">
+        <p class="section-eyebrow">What the criteria cover</p>
+        <h2 class="section-title">Three architectures. One enterprise model.</h2>
+        <p class="section-desc page-lead">MITA 4.0 maturity criteria span Business, Information, and Technical architecture — three integrated domains that together define a coherent Medicaid enterprise. No domain operates in isolation: business capabilities depend on quality information assets, and both depend on a capable technical foundation. The criteria below give every role — from Medicaid Director to CIO to CTO — a common language for assessing current state and planning a path forward.</p>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <p class="eyebrow-mini">Maturity Levels</p>
+        <div class="stat-stack" aria-label="Maturity Levels">
+          <div class="stat-tile">
+            <strong>Level 1</strong>
+            <span>Initial</span>
+          </div>
+          <div class="stat-tile">
+            <strong>Level 2</strong>
+            <span>Developing</span>
+          </div>
+          <div class="stat-tile">
+            <strong>Level 3</strong>
+            <span>Defined</span>
+          </div>
+          <div class="stat-tile">
+            <strong>Level 4</strong>
+            <span>Managed</span>
+          </div>
+          <div class="stat-tile">
+            <strong>Level 5</strong>
+            <span>Optimizing</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <p class="eyebrow-mini">Business Architecture — Capability Areas</p>
+        <div class="chip-list" aria-label="Business Architecture capability areas">
+          <span class="chip">Member Management</span>
+          <span class="chip">Provider Management</span>
+          <span class="chip">Contractor Management</span>
+          <span class="chip">Operations Management</span>
+          <span class="chip">Care Management</span>
+          <span class="chip">Decision Support &amp; Reporting</span>
+          <span class="chip">Program Integrity</span>
+          <span class="chip">Financial Management</span>
+          <span class="chip">Plan Management</span>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-3">
+        <p class="eyebrow-mini">Information Architecture — Capability Areas</p>
+        <div class="chip-list" aria-label="Information Architecture capability areas">
+          <span class="chip">Information Quality</span>
+          <span class="chip">Information Classification</span>
+          <span class="chip">Information Analysis</span>
+          <span class="chip">Information Exchange</span>
+          <span class="chip">Information Reporting</span>
+          <span class="chip">Information Content</span>
+          <span class="chip">Information Metadata</span>
+          <span class="chip">Information Governance</span>
+          <span class="chip">Information Design</span>
+          <span class="chip">Reference Information</span>
+          <span class="chip">Master Information</span>
+          <span class="chip">Information Storage</span>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-4">
+        <p class="eyebrow-mini">Technical Architecture — Capability Areas</p>
+        <div class="chip-list" aria-label="Technical Architecture capability areas">
+          <span class="chip">Application Architecture</span>
+          <span class="chip">Integration Architecture</span>
+          <span class="chip">Infrastructure Architecture</span>
+          <span class="chip">Security Architecture</span>
+          <span class="chip">Data Architecture</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Browser section -->
+  <section class="section" id="browser" aria-label="Browse maturity criteria">
+    <div class="container page-shell">
+      <div class="reveal">
+        <p class="section-eyebrow">Interactive Browser</p>
+        <h2 class="section-title">Browse Maturity Criteria</h2>
+        <p class="section-desc">Select an architecture tab to explore the maturity criteria for that domain. Use the filters to focus on a specific capability area or maturity level.</p>
+      </div>
+
+      <!-- Architecture tab bar (Task 6.1) -->
+      <div class="arch-tabs" role="tablist" aria-label="Architecture type">
+        <button class="arch-tab active" role="tab" id="tab-business" aria-selected="true" aria-controls="panel-business">
+          Business Architecture
+        </button>
+        <button class="arch-tab" role="tab" id="tab-information" aria-selected="false" aria-controls="panel-information">
+          Information Architecture
+        </button>
+        <button class="arch-tab" role="tab" id="tab-technical" aria-selected="false" aria-controls="panel-technical">
+          Technical Architecture
+        </button>
+      </div>
+
+      <!-- Business Architecture panel (Task 6.2) -->
+      <div class="arch-panel active" id="panel-business" role="tabpanel" aria-labelledby="tab-business">
+        <!-- Cross-link (Task 6.4) -->
+        <div class="cta-panel-soft reveal">
+          <p class="eyebrow-mini">Business Architecture</p>
+          <p>Explore the Business Architecture reference model — the processes, roles, and capability domains that define Medicaid business operations.</p>
+          <a href="./architectures.html#business-ref" class="btn btn-outline">Open Business Architecture</a>
+        </div>
+        <!-- Filters (Task 6.3) -->
+        <div class="criteria-filters">
+          <div class="filter-group">
+            <label for="filter-area-business">Capability Area</label>
+            <select id="filter-area-business" name="filter-area-business">
+              <option value="">All Capability Areas</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-level-business">Maturity Level</label>
+            <select id="filter-level-business" name="filter-level-business">
+              <option value="">All Levels</option>
+              <option value="1">Level 1 — Initial</option>
+              <option value="2">Level 2 — Developing</option>
+              <option value="3">Level 3 — Defined</option>
+              <option value="4">Level 4 — Managed</option>
+              <option value="5">Level 5 — Optimizing</option>
+            </select>
+          </div>
+        </div>
+        <p id="status-business" aria-live="polite" class="sr-only"></p>
+        <div id="results-business" class="criteria-results-grid" role="list" aria-label="Business Architecture maturity criteria"></div>
+      </div>
+
+      <!-- Information Architecture panel (Task 6.2) -->
+      <div class="arch-panel" id="panel-information" role="tabpanel" aria-labelledby="tab-information">
+        <!-- Cross-link (Task 6.4) -->
+        <div class="cta-panel-soft reveal">
+          <p class="eyebrow-mini">Information Architecture</p>
+          <p>Explore the Information Architecture reference model — the data governance, quality, and exchange standards that define Medicaid information management.</p>
+          <a href="./architectures.html#information-ref" class="btn btn-outline">Open Information Architecture</a>
+        </div>
+        <!-- Filters (Task 6.3) -->
+        <div class="criteria-filters">
+          <div class="filter-group">
+            <label for="filter-area-information">Capability Area</label>
+            <select id="filter-area-information" name="filter-area-information">
+              <option value="">All Capability Areas</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-level-information">Maturity Level</label>
+            <select id="filter-level-information" name="filter-level-information">
+              <option value="">All Levels</option>
+              <option value="1">Level 1 — Initial</option>
+              <option value="2">Level 2 — Developing</option>
+              <option value="3">Level 3 — Defined</option>
+              <option value="4">Level 4 — Managed</option>
+              <option value="5">Level 5 — Optimizing</option>
+            </select>
+          </div>
+        </div>
+        <p id="status-information" aria-live="polite" class="sr-only"></p>
+        <div id="results-information" class="criteria-results-grid" role="list" aria-label="Information Architecture maturity criteria"></div>
+      </div>
+
+      <!-- Technical Architecture panel (Task 6.2) -->
+      <div class="arch-panel" id="panel-technical" role="tabpanel" aria-labelledby="tab-technical">
+        <!-- Cross-link (Task 6.4) -->
+        <div class="cta-panel-soft reveal">
+          <p class="eyebrow-mini">Technical Architecture</p>
+          <p>Explore the Technical Architecture reference model — the application, integration, infrastructure, security, and data architecture standards for Medicaid systems.</p>
+          <a href="./architectures.html#technical-ref" class="btn btn-outline">Open Technical Architecture</a>
+        </div>
+        <!-- Filters (Task 6.3) -->
+        <div class="criteria-filters">
+          <div class="filter-group">
+            <label for="filter-area-technical">Capability Area</label>
+            <select id="filter-area-technical" name="filter-area-technical">
+              <option value="">All Capability Areas</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-level-technical">Maturity Level</label>
+            <select id="filter-level-technical" name="filter-level-technical">
+              <option value="">All Levels</option>
+              <option value="1">Level 1 — Initial</option>
+              <option value="2">Level 2 — Developing</option>
+              <option value="3">Level 3 — Defined</option>
+              <option value="4">Level 4 — Managed</option>
+              <option value="5">Level 5 — Optimizing</option>
+            </select>
+          </div>
+        </div>
+        <p id="status-technical" aria-live="polite" class="sr-only"></p>
+        <div id="results-technical" class="criteria-results-grid" role="list" aria-label="Technical Architecture maturity criteria"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Download panel (Task 12.1) -->
+  <section class="section section-alt" aria-label="Download working document">
+    <div class="container page-shell">
+      <div class="reveal">
+        <p class="section-eyebrow">Working Document</p>
+        <h2 class="section-title">Download the Maturity Criteria</h2>
+      </div>
+      <div class="download-panel reveal reveal-delay-1">
+        <div class="download-panel-header">
+          <h3>MITA Maturity Criteria Working Document</h3>
+          <p>The full working document contains the complete maturity criteria across all three architectures, including detailed capability area descriptions, evidence guidance, and guiding questions for each maturity level.</p>
+        </div>
+        <div class="download-list">
+          <div class="download-item">
+            <div>
+              <span class="download-meta">DOCX</span>
+              <h4>MITA Maturity Criteria Working Document</h4>
+              <p>Complete criteria across Business, Information, and Technical architectures — all five maturity levels.</p>
+            </div>
+            <button class="download-link" type="button"
+              data-download="./assets/downloads/MITA Maturity Criteria_working document.docx"
+              data-filename="MITA Maturity Criteria_working document.docx">
+              Download Working Document
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related pages (Task 12.2) -->
+  <section class="section" aria-label="Related pages">
+    <div class="container page-shell">
+      <div class="reveal">
+        <p class="section-eyebrow">Continue your work</p>
+        <h2 class="section-title">Related Pages</h2>
+      </div>
+      <div class="next-grid reveal reveal-delay-1">
+        <article class="next-card">
+          <p class="eyebrow-mini">Companion Guide</p>
+          <h3>Document Your State Self-Assessment</h3>
+          <p>Step 4 of the Companion Guide walks you through scoring your agency against these maturity criteria to create your SS-A profile.</p>
+          <a href="./companion-guide.html#document-ssa" class="btn btn-outline">Open Step 4</a>
+        </article>
+        <article class="next-card reveal-delay-2">
+          <p class="eyebrow-mini">Architecture Reference Models</p>
+          <h3>Business, Information &amp; Technical Architectures</h3>
+          <p>Explore the full reference models that underpin these criteria — business processes, information standards, and technical architecture patterns.</p>
+          <a href="./architectures.html" class="btn btn-outline">Open Architectures</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-info">
+        <a href="./index.html" class="logo-group" aria-label="MITA 4.0 Home">
+          <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="1" y="1" width="34" height="34" rx="8" fill="#5ec6d0" fill-opacity="0.12" stroke="#5ec6d0" stroke-opacity="0.25" stroke-width="1"/>
+            <rect x="8" y="22" width="4" height="6" rx="1" fill="#5ec6d0" fill-opacity="0.4"/>
+            <rect x="14" y="18" width="4" height="10" rx="1" fill="#5ec6d0" fill-opacity="0.6"/>
+            <rect x="20" y="14" width="4" height="14" rx="1" fill="#5ec6d0" fill-opacity="0.8"/>
+            <rect x="26" y="9" width="4" height="19" rx="1" fill="#5ec6d0"/>
+            <path d="M10 11l8-3 10 0" stroke="#5ec6d0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+          </svg>
+          <div class="logo-text">MITA <span>4.0</span></div>
+        </a>
+        <p>Browse the MITA 4.0 maturity criteria across Business, Information, and Technical architectures — from Initial to Optimizing.</p>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">Overview</a>
+        <a href="./companion-guide.html#document-ssa">Companion Guide Step 4</a>
+        <a href="./architectures.html">Architectures</a>
+        <a href="./ssa-tool.html">SS-A Tool</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MITA 4.0 Maturity Criteria.</p>
+      <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+    </div>
+  </div>
+</footer>
+
+<script src="./app.js" defer></script>
+<script>
+  /* ─── Data ────────────────────────────────────────────────────────── */
+  var MITA_CRITERIA = {
+    business: [
+
+  // ─── Member Management ──────────────────────────────────────────────────────
+
+  {
+    id: 'BA-MM-1',
+    architecture: 'business',
+    capabilityArea: 'Member Management',
+    level: 1,
+    description: 'Member enrollment and eligibility processes are ad-hoc and largely manual. There is no standardized approach to capturing, validating, or maintaining member demographic and eligibility data. Processes vary across programs and staff, and data quality is inconsistent.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, maintaining, and verifying Medicaid member eligibility and demographic information?'
+  },
+  {
+    id: 'BA-MM-2',
+    architecture: 'business',
+    capabilityArea: 'Member Management',
+    level: 2,
+    description: 'Core member enrollment and eligibility processes have been identified and documented. Standard data elements for member demographics and eligibility are defined, and staff follow documented procedures, though application is inconsistent across programs and regions.',
+    checklist: [
+      'Member enrollment and eligibility processes are documented in written procedures',
+      'Standard member demographic and eligibility data elements are defined',
+      'Staff are trained on documented enrollment procedures'
+    ],
+    evidence: 'Written enrollment procedures; data element dictionary; training records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, maintaining, and verifying Medicaid member eligibility and demographic information?'
+  },
+  {
+    id: 'BA-MM-3',
+    architecture: 'business',
+    capabilityArea: 'Member Management',
+    level: 3,
+    description: 'Member management processes are standardized and consistently implemented across all programs. Automated eligibility verification is in place, and member data is validated against authoritative sources (e.g., SSA, HHS Hub) at enrollment and renewal. A single longitudinal member record is maintained across programs.',
+    checklist: [
+      'Automated eligibility verification is implemented and used for all new enrollments',
+      'Member data is validated against federal data sources (SSA, HHS Hub) at enrollment and renewal',
+      'A single longitudinal member record is maintained across Medicaid programs',
+      'Standardized processes are applied consistently across all eligibility categories and programs'
+    ],
+    evidence: 'System documentation for automated eligibility verification; data validation reports; member record architecture documentation',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, maintaining, and verifying Medicaid member eligibility and demographic information?'
+  },
+  {
+    id: 'BA-MM-4',
+    architecture: 'business',
+    capabilityArea: 'Member Management',
+    level: 4,
+    description: 'Member management performance is actively measured and managed. Key metrics such as enrollment processing time, eligibility accuracy rates, and renewal completion rates are tracked centrally and used to drive process improvements. Member data quality is monitored against defined thresholds.',
+    checklist: [
+      'Key member management performance metrics are defined, collected, and reported on a regular cadence',
+      'Eligibility accuracy rates are measured and compared against established targets',
+      'Enrollment processing time is tracked and benchmarked',
+      'Member data quality scores are monitored centrally and deviations trigger corrective action',
+      'Performance data informs resource allocation and process improvement priorities'
+    ],
+    evidence: 'Member management performance dashboard; eligibility accuracy reports; data quality monitoring reports; corrective action records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, maintaining, and verifying Medicaid member eligibility and demographic information?'
+  },
+  {
+    id: 'BA-MM-5',
+    architecture: 'business',
+    capabilityArea: 'Member Management',
+    level: 5,
+    description: 'Member management processes are continuously optimized using enterprise standards, real-time data, and member-centered design principles. The state proactively identifies and resolves eligibility gaps, leverages predictive analytics to anticipate renewal needs, and shares best practices with peer states and CMS.',
+    checklist: [
+      'Continuous improvement cycles are embedded in member management operations with measurable outcome targets',
+      'Predictive analytics are used to identify members at risk of losing eligibility and trigger proactive outreach',
+      'Member management standards are reviewed and updated on a defined cycle using operational data',
+      'Best practices and lessons learned are shared with peer states and CMS',
+      'Member experience feedback is systematically collected and used to improve processes'
+    ],
+    evidence: 'Continuous improvement program documentation; predictive analytics model documentation; cross-state collaboration records; member satisfaction survey results',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, maintaining, and verifying Medicaid member eligibility and demographic information?'
+  },
+
+  // ─── Provider Management ─────────────────────────────────────────────────────
+
+  {
+    id: 'BA-PM-1',
+    architecture: 'business',
+    capabilityArea: 'Provider Management',
+    level: 1,
+    description: 'Provider enrollment and credentialing processes are ad-hoc and paper-based. There is no standardized approach to verifying provider qualifications, maintaining provider records, or tracking enrollment status. Provider data is siloed across programs and systems.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, credentialing, and maintaining Medicaid provider information?'
+  },
+  {
+    id: 'BA-PM-2',
+    architecture: 'business',
+    capabilityArea: 'Provider Management',
+    level: 2,
+    description: 'Core provider enrollment and credentialing processes have been identified and documented. Standard data elements for provider demographics, licensure, and enrollment status are defined. Staff follow documented procedures, though application is inconsistent and manual verification steps remain prevalent.',
+    checklist: [
+      'Provider enrollment and credentialing processes are documented in written procedures',
+      'Standard provider data elements (NPI, licensure, specialty, address) are defined',
+      'Staff are trained on documented provider enrollment procedures'
+    ],
+    evidence: 'Written provider enrollment procedures; provider data element dictionary; training records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, credentialing, and maintaining Medicaid provider information?'
+  },
+  {
+    id: 'BA-PM-3',
+    architecture: 'business',
+    capabilityArea: 'Provider Management',
+    level: 3,
+    description: 'Provider management processes are standardized and consistently implemented. Automated credentialing verification is in place using primary source verification (e.g., NPPES, OIG exclusion lists, state licensing boards). A single provider record is maintained and shared across programs, reducing duplicate enrollment.',
+    checklist: [
+      'Automated primary source verification is implemented for all provider enrollments',
+      'OIG exclusion list checks are performed at enrollment and on a regular ongoing basis',
+      'A single provider record is maintained and shared across Medicaid programs',
+      'Provider revalidation processes are standardized and automated where possible'
+    ],
+    evidence: 'Primary source verification system documentation; OIG check process documentation; provider record architecture documentation; revalidation process documentation',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, credentialing, and maintaining Medicaid provider information?'
+  },
+  {
+    id: 'BA-PM-4',
+    architecture: 'business',
+    capabilityArea: 'Provider Management',
+    level: 4,
+    description: 'Provider management performance is actively measured and managed. Metrics such as enrollment processing time, credentialing accuracy, revalidation completion rates, and provider data quality scores are tracked centrally. Performance data drives process improvements and informs risk-based screening decisions.',
+    checklist: [
+      'Provider enrollment processing time is tracked and benchmarked against targets',
+      'Credentialing accuracy and revalidation completion rates are measured and reported',
+      'Provider data quality scores are monitored centrally and deviations trigger corrective action',
+      'Risk-based screening decisions are informed by provider performance and claims data',
+      'Performance metrics are reported to leadership on a regular cadence'
+    ],
+    evidence: 'Provider management performance dashboard; credentialing accuracy reports; data quality monitoring reports; risk-based screening policy documentation',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, credentialing, and maintaining Medicaid provider information?'
+  },
+  {
+    id: 'BA-PM-5',
+    architecture: 'business',
+    capabilityArea: 'Provider Management',
+    level: 5,
+    description: 'Provider management processes are continuously optimized using enterprise standards, real-time data feeds, and advanced analytics. The state participates in national provider data sharing initiatives, leverages FHIR-based provider directories, and proactively identifies and resolves provider data quality issues before they impact claims processing.',
+    checklist: [
+      'FHIR-based provider directory is implemented and kept current through automated data feeds',
+      'National provider data sharing initiatives (e.g., CAQH, DirectTrust) are leveraged to reduce enrollment burden',
+      'Predictive analytics identify providers at elevated risk for fraud or quality issues',
+      'Provider management standards are reviewed and updated on a defined cycle',
+      'Best practices are shared with peer states and CMS'
+    ],
+    evidence: 'FHIR provider directory documentation; national data sharing agreements; predictive analytics model documentation; cross-state collaboration records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its processes for enrolling, credentialing, and maintaining Medicaid provider information?'
+  },
+
+  // ─── Contractor Management ───────────────────────────────────────────────────
+
+  {
+    id: 'BA-CM-1',
+    architecture: 'business',
+    capabilityArea: 'Contractor Management',
+    level: 1,
+    description: 'Contractor oversight and performance management are ad-hoc and reactive. Contract requirements are not consistently documented, and there is no standardized process for monitoring contractor deliverables, performance, or compliance with Medicaid program requirements.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid contractors and ensuring contract compliance and performance?'
+  },
+  {
+    id: 'BA-CM-2',
+    architecture: 'business',
+    capabilityArea: 'Contractor Management',
+    level: 2,
+    description: 'Core contractor management processes have been identified and documented. Contract requirements, deliverable schedules, and performance expectations are defined in written contracts. Staff responsible for contractor oversight are identified, though monitoring practices vary across contracts.',
+    checklist: [
+      'Contract requirements and deliverable schedules are documented for all major Medicaid contracts',
+      'Performance expectations and SLAs are defined in contract language',
+      'Staff responsible for contractor oversight are identified and assigned'
+    ],
+    evidence: 'Contract documents with SLAs; contractor oversight role assignments; deliverable tracking records',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid contractors and ensuring contract compliance and performance?'
+  },
+  {
+    id: 'BA-CM-3',
+    architecture: 'business',
+    capabilityArea: 'Contractor Management',
+    level: 3,
+    description: 'Contractor management processes are standardized and consistently applied across all Medicaid contracts. A formal contractor performance monitoring program is in place, with regular performance reviews, deliverable acceptance processes, and documented escalation procedures for non-compliance.',
+    checklist: [
+      'A standardized contractor performance monitoring program is documented and applied to all major contracts',
+      'Regular performance reviews are conducted on a defined schedule for all contractors',
+      'Deliverable acceptance processes are documented and consistently followed',
+      'Escalation procedures for contractor non-compliance are documented and enforced'
+    ],
+    evidence: 'Contractor performance monitoring program documentation; performance review records; deliverable acceptance records; escalation records',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid contractors and ensuring contract compliance and performance?'
+  },
+  {
+    id: 'BA-CM-4',
+    architecture: 'business',
+    capabilityArea: 'Contractor Management',
+    level: 4,
+    description: 'Contractor performance is actively measured and managed using a centralized contract management system. Key performance indicators are tracked across all contracts, and performance trends inform contract renewal, remediation, and procurement decisions. Financial and operational risks are proactively identified and managed.',
+    checklist: [
+      'A centralized contract management system tracks all Medicaid contracts, deliverables, and KPIs',
+      'Contractor KPIs are reported to leadership on a regular cadence',
+      'Performance trends inform contract renewal and procurement decisions',
+      'Financial and operational risks associated with contractors are identified and tracked in a risk register',
+      'Corrective action plans are required and tracked for underperforming contractors'
+    ],
+    evidence: 'Contract management system documentation; contractor KPI reports; risk register; corrective action plan records',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid contractors and ensuring contract compliance and performance?'
+  },
+  {
+    id: 'BA-CM-5',
+    architecture: 'business',
+    capabilityArea: 'Contractor Management',
+    level: 5,
+    description: 'Contractor management processes are continuously optimized using performance data, industry best practices, and lessons learned. The state employs outcome-based contracting models, uses advanced analytics to predict contractor performance risks, and shares contracting innovations with peer states and CMS.',
+    checklist: [
+      'Outcome-based contracting models are used for major Medicaid contracts where appropriate',
+      'Advanced analytics predict contractor performance risks and inform proactive intervention',
+      'Contractor management standards are reviewed and updated on a defined cycle',
+      'Contracting innovations and lessons learned are shared with peer states and CMS',
+      'Continuous improvement targets for contractor performance are established and tracked'
+    ],
+    evidence: 'Outcome-based contract examples; predictive analytics documentation; contractor management standards revision history; cross-state collaboration records',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid contractors and ensuring contract compliance and performance?'
+  },
+
+  // ─── Operations Management ───────────────────────────────────────────────────
+
+  {
+    id: 'BA-OM-1',
+    architecture: 'business',
+    capabilityArea: 'Operations Management',
+    level: 1,
+    description: 'Medicaid operations are managed reactively with no standardized processes, documented workflows, or formal performance management. Business rules are embedded in legacy systems or known only to individual staff, creating operational fragility and inconsistent outcomes.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its core Medicaid operational processes, including claims processing, prior authorization, and appeals?'
+  },
+  {
+    id: 'BA-OM-2',
+    architecture: 'business',
+    capabilityArea: 'Operations Management',
+    level: 2,
+    description: 'Core operational processes such as claims processing, prior authorization, and appeals have been identified and documented. Business rules are captured in written procedures, and staff follow documented workflows, though automation is limited and manual intervention is common.',
+    checklist: [
+      'Core operational processes (claims, prior auth, appeals) are documented in written procedures',
+      'Business rules governing operational decisions are captured in documentation',
+      'Staff are trained on documented operational workflows'
+    ],
+    evidence: 'Written operational procedures; business rules documentation; training records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its core Medicaid operational processes, including claims processing, prior authorization, and appeals?'
+  },
+  {
+    id: 'BA-OM-3',
+    architecture: 'business',
+    capabilityArea: 'Operations Management',
+    level: 3,
+    description: 'Operational processes are standardized and consistently implemented. Business rules are externalized from systems and managed in a rules engine, enabling faster updates without system changes. Claims processing, prior authorization, and appeals workflows are automated where feasible, with clear escalation paths for exceptions.',
+    checklist: [
+      'Business rules are externalized and managed in a configurable rules engine',
+      'Claims processing workflows are automated with defined exception handling procedures',
+      'Prior authorization processes are standardized and electronic submission is supported',
+      'Appeals and grievance workflows are documented, tracked, and resolved within regulatory timeframes'
+    ],
+    evidence: 'Rules engine documentation; claims processing workflow documentation; prior authorization system documentation; appeals tracking reports',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its core Medicaid operational processes, including claims processing, prior authorization, and appeals?'
+  },
+  {
+    id: 'BA-OM-4',
+    architecture: 'business',
+    capabilityArea: 'Operations Management',
+    level: 4,
+    description: 'Operational performance is actively measured and managed. Key metrics such as claims processing timeliness, prior authorization turnaround time, and appeals resolution rates are tracked centrally and reported to leadership. Performance data drives continuous process improvement and resource allocation decisions.',
+    checklist: [
+      'Claims processing timeliness metrics are tracked and compared against CMS benchmarks',
+      'Prior authorization turnaround times are measured and reported against regulatory requirements',
+      'Appeals resolution rates and timeliness are tracked centrally',
+      'Operational performance dashboards are available to leadership and program managers',
+      'Performance data informs staffing, automation, and process improvement priorities'
+    ],
+    evidence: 'Operational performance dashboard; claims timeliness reports; prior authorization turnaround reports; appeals resolution reports',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its core Medicaid operational processes, including claims processing, prior authorization, and appeals?'
+  },
+  {
+    id: 'BA-OM-5',
+    architecture: 'business',
+    capabilityArea: 'Operations Management',
+    level: 5,
+    description: 'Operational processes are continuously optimized using real-time data, advanced analytics, and emerging automation technologies. The state employs AI-assisted prior authorization, predictive claims editing, and automated appeals triage. Operational innovations are documented and shared with peer states and CMS.',
+    checklist: [
+      'AI-assisted or automated prior authorization is implemented for high-volume, rule-based services',
+      'Predictive claims editing reduces improper payments before adjudication',
+      'Operational standards are reviewed and updated on a defined cycle using performance data',
+      'Operational innovations and lessons learned are shared with peer states and CMS',
+      'Continuous improvement targets are established for all core operational processes'
+    ],
+    evidence: 'AI/automation implementation documentation; predictive claims editing documentation; operational standards revision history; cross-state collaboration records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its core Medicaid operational processes, including claims processing, prior authorization, and appeals?'
+  },
+
+  // ─── Care Management ─────────────────────────────────────────────────────────
+
+  {
+    id: 'BA-CRM-1',
+    architecture: 'business',
+    capabilityArea: 'Care Management',
+    level: 1,
+    description: 'Care management activities are ad-hoc and not systematically coordinated. There is no standardized approach to identifying high-risk members, developing care plans, or coordinating services across providers. Care management data is not captured or shared in a structured way.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state standardize, coordinate, and continuously improve its care management processes to improve health outcomes and reduce avoidable utilization for Medicaid members?'
+  },
+  {
+    id: 'BA-CRM-2',
+    architecture: 'business',
+    capabilityArea: 'Care Management',
+    level: 2,
+    description: 'Core care management processes have been identified and documented. Criteria for identifying high-risk members are defined, and care management workflows including assessment, care planning, and follow-up are documented. Staff follow written procedures, though coordination across providers and programs is limited.',
+    checklist: [
+      'Criteria for identifying high-risk members eligible for care management are documented',
+      'Care management workflows (assessment, care planning, follow-up) are documented in written procedures',
+      'Staff responsible for care management are identified and trained on documented procedures'
+    ],
+    evidence: 'High-risk identification criteria documentation; care management workflow procedures; training records',
+    dimensionQuestion: 'To what extent does the state standardize, coordinate, and continuously improve its care management processes to improve health outcomes and reduce avoidable utilization for Medicaid members?'
+  },
+  {
+    id: 'BA-CRM-3',
+    architecture: 'business',
+    capabilityArea: 'Care Management',
+    level: 3,
+    description: 'Care management processes are standardized and consistently implemented. Risk stratification is automated using claims and clinical data. Standardized care plans are developed and shared with members and their care teams. Care coordination is supported by electronic tools that enable information sharing across providers.',
+    checklist: [
+      'Automated risk stratification is implemented using claims and available clinical data',
+      'Standardized care plan templates are used and care plans are documented electronically',
+      'Care plans are shared with members and their care teams through electronic means',
+      'Care coordination tools support information sharing across providers and programs'
+    ],
+    evidence: 'Risk stratification algorithm documentation; care plan template; electronic care plan system documentation; care coordination tool documentation',
+    dimensionQuestion: 'To what extent does the state standardize, coordinate, and continuously improve its care management processes to improve health outcomes and reduce avoidable utilization for Medicaid members?'
+  },
+  {
+    id: 'BA-CRM-4',
+    architecture: 'business',
+    capabilityArea: 'Care Management',
+    level: 4,
+    description: 'Care management performance is actively measured and managed. Outcomes metrics such as hospital readmission rates, emergency department utilization, and care plan completion rates are tracked centrally. Performance data is used to refine risk stratification models, target interventions, and demonstrate program value.',
+    checklist: [
+      'Care management outcome metrics (readmissions, ED utilization, care plan completion) are tracked and reported',
+      'Risk stratification model performance is regularly evaluated and refined using outcome data',
+      'Care management program ROI is calculated and reported to leadership',
+      'Performance data drives targeting of care management interventions to highest-impact populations',
+      'Care management metrics are reported to CMS as required'
+    ],
+    evidence: 'Care management outcomes dashboard; risk stratification model evaluation reports; ROI analysis; CMS reporting documentation',
+    dimensionQuestion: 'To what extent does the state standardize, coordinate, and continuously improve its care management processes to improve health outcomes and reduce avoidable utilization for Medicaid members?'
+  },
+  {
+    id: 'BA-CRM-5',
+    architecture: 'business',
+    capabilityArea: 'Care Management',
+    level: 5,
+    description: 'Care management processes are continuously optimized using advanced analytics, social determinants of health data, and whole-person care principles. The state integrates behavioral health, long-term services and supports, and social services into a unified care management model. Innovations are shared with peer states and CMS.',
+    checklist: [
+      'Social determinants of health data are integrated into risk stratification and care planning',
+      'Behavioral health, LTSS, and social services are integrated into a unified care management model',
+      'Advanced predictive models identify members likely to benefit from care management before a crisis occurs',
+      'Care management standards are reviewed and updated on a defined cycle using outcome data',
+      'Care management innovations are shared with peer states and CMS'
+    ],
+    evidence: 'SDOH data integration documentation; integrated care model documentation; predictive model documentation; cross-state collaboration records',
+    dimensionQuestion: 'To what extent does the state standardize, coordinate, and continuously improve its care management processes to improve health outcomes and reduce avoidable utilization for Medicaid members?'
+  },
+
+  // ─── Decision Support & Reporting ────────────────────────────────────────────
+
+  {
+    id: 'BA-DSR-1',
+    architecture: 'business',
+    capabilityArea: 'Decision Support & Reporting',
+    level: 1,
+    description: 'Reporting and decision support are ad-hoc and reactive. Reports are produced manually in response to specific requests, with no standardized definitions, consistent data sources, or repeatable processes. Decision-makers rely on informal data pulls and institutional knowledge rather than structured analytics.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state provide standardized, timely, and actionable decision support and reporting capabilities to Medicaid program managers, executives, and external stakeholders?'
+  },
+  {
+    id: 'BA-DSR-2',
+    architecture: 'business',
+    capabilityArea: 'Decision Support & Reporting',
+    level: 2,
+    description: 'Core reporting requirements have been identified and documented. A report catalog exists listing standard reports, their data sources, and intended audiences. Report definitions and measure specifications are documented, though reports are still largely produced manually and on a scheduled basis.',
+    checklist: [
+      'A report catalog documenting standard reports, data sources, and audiences is maintained',
+      'Report definitions and measure specifications are documented',
+      'Standard reports are produced on a defined schedule and distributed to intended audiences'
+    ],
+    evidence: 'Report catalog; measure specification documents; report distribution records',
+    dimensionQuestion: 'To what extent does the state provide standardized, timely, and actionable decision support and reporting capabilities to Medicaid program managers, executives, and external stakeholders?'
+  },
+  {
+    id: 'BA-DSR-3',
+    architecture: 'business',
+    capabilityArea: 'Decision Support & Reporting',
+    level: 3,
+    description: 'Decision support and reporting capabilities are standardized and consistently delivered. A business intelligence platform provides self-service reporting to authorized users. Standard dashboards are available for key program areas, and data definitions are consistent across reports. CMS mandatory reporting requirements are met on time.',
+    checklist: [
+      'A business intelligence platform provides self-service reporting to authorized program staff',
+      'Standard dashboards are available for key program areas (enrollment, claims, quality)',
+      'Data definitions are consistent and documented across all standard reports',
+      'CMS mandatory reporting requirements (T-MSIS, HEDIS, etc.) are met on time and with high data quality'
+    ],
+    evidence: 'BI platform documentation; dashboard screenshots; data definition documentation; CMS reporting submission records',
+    dimensionQuestion: 'To what extent does the state provide standardized, timely, and actionable decision support and reporting capabilities to Medicaid program managers, executives, and external stakeholders?'
+  },
+  {
+    id: 'BA-DSR-4',
+    architecture: 'business',
+    capabilityArea: 'Decision Support & Reporting',
+    level: 4,
+    description: 'Decision support capabilities are actively measured and managed. Report usage, data quality, and timeliness metrics are tracked centrally. Advanced analytics including predictive modeling and trend analysis are available to program managers. Data governance ensures consistent, trusted data across all reporting.',
+    checklist: [
+      'Report usage and adoption metrics are tracked and used to prioritize reporting investments',
+      'Data quality metrics for reporting data sources are monitored and reported',
+      'Predictive modeling and trend analysis capabilities are available to program managers',
+      'A data governance program ensures consistent, trusted data across all reporting',
+      'Reporting performance metrics are reviewed by leadership on a regular cadence'
+    ],
+    evidence: 'Report usage analytics; data quality monitoring reports; predictive model documentation; data governance program documentation',
+    dimensionQuestion: 'To what extent does the state provide standardized, timely, and actionable decision support and reporting capabilities to Medicaid program managers, executives, and external stakeholders?'
+  },
+  {
+    id: 'BA-DSR-5',
+    architecture: 'business',
+    capabilityArea: 'Decision Support & Reporting',
+    level: 5,
+    description: 'Decision support and reporting capabilities are continuously optimized using advanced analytics, AI-assisted insights, and real-time data. The state provides near-real-time operational dashboards, uses machine learning to surface actionable insights, and contributes to national Medicaid data and analytics initiatives.',
+    checklist: [
+      'Near-real-time operational dashboards are available for critical program areas',
+      'Machine learning models surface actionable insights and anomalies to program managers',
+      'Reporting and analytics standards are reviewed and updated on a defined cycle',
+      'The state contributes to national Medicaid data and analytics initiatives (e.g., CMS data sharing)',
+      'Decision support innovations are shared with peer states and CMS'
+    ],
+    evidence: 'Real-time dashboard documentation; ML model documentation; analytics standards revision history; national initiative participation records',
+    dimensionQuestion: 'To what extent does the state provide standardized, timely, and actionable decision support and reporting capabilities to Medicaid program managers, executives, and external stakeholders?'
+  },
+
+  // ─── Program Integrity ───────────────────────────────────────────────────────
+
+  {
+    id: 'BA-PI-1',
+    architecture: 'business',
+    capabilityArea: 'Program Integrity',
+    level: 1,
+    description: 'Program integrity activities are reactive and uncoordinated. Fraud, waste, and abuse detection relies on individual staff knowledge and manual review of complaints or referrals. There are no standardized processes for identifying, investigating, or resolving program integrity issues.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its program integrity processes to prevent, detect, and address fraud, waste, and abuse in the Medicaid program?'
+  },
+  {
+    id: 'BA-PI-2',
+    architecture: 'business',
+    capabilityArea: 'Program Integrity',
+    level: 2,
+    description: 'Core program integrity processes have been identified and documented. Procedures for receiving and triaging fraud referrals, conducting investigations, and coordinating with law enforcement are documented. Staff responsible for program integrity are identified and trained on documented procedures.',
+    checklist: [
+      'Program integrity processes (referral intake, investigation, resolution) are documented in written procedures',
+      'Staff responsible for program integrity are identified and trained',
+      'Coordination procedures with MFCU and law enforcement are documented'
+    ],
+    evidence: 'Written program integrity procedures; staff role assignments; MFCU coordination documentation',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its program integrity processes to prevent, detect, and address fraud, waste, and abuse in the Medicaid program?'
+  },
+  {
+    id: 'BA-PI-3',
+    architecture: 'business',
+    capabilityArea: 'Program Integrity',
+    level: 3,
+    description: 'Program integrity processes are standardized and consistently implemented. Automated prepayment and post-payment claims review is in place. A Surveillance and Utilization Review System (SURS) or equivalent is used to identify aberrant billing patterns. Provider screening and exclusion checks are automated.',
+    checklist: [
+      'Automated prepayment claims editing is implemented to prevent improper payments',
+      'A SURS or equivalent system is used to identify aberrant billing patterns',
+      'Provider exclusion checks are automated and performed at enrollment and on a regular basis',
+      'Program integrity findings are tracked in a case management system',
+      'Overpayment recovery processes are standardized and consistently applied'
+    ],
+    evidence: 'Claims editing system documentation; SURS documentation; exclusion check process documentation; case management system documentation; overpayment recovery records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its program integrity processes to prevent, detect, and address fraud, waste, and abuse in the Medicaid program?'
+  },
+  {
+    id: 'BA-PI-4',
+    architecture: 'business',
+    capabilityArea: 'Program Integrity',
+    level: 4,
+    description: 'Program integrity performance is actively measured and managed. Metrics such as improper payment rates, overpayment recovery rates, and investigation resolution times are tracked centrally and reported to leadership. Data analytics are used to prioritize program integrity resources toward highest-risk areas.',
+    checklist: [
+      'Improper payment rates are measured and reported against CMS targets',
+      'Overpayment recovery rates and amounts are tracked and reported',
+      'Investigation resolution times are monitored against defined targets',
+      'Data analytics prioritize program integrity resources toward highest-risk providers and services',
+      'Program integrity performance metrics are reported to CMS as required'
+    ],
+    evidence: 'Program integrity performance dashboard; improper payment rate reports; overpayment recovery reports; CMS reporting documentation',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its program integrity processes to prevent, detect, and address fraud, waste, and abuse in the Medicaid program?'
+  },
+  {
+    id: 'BA-PI-5',
+    architecture: 'business',
+    capabilityArea: 'Program Integrity',
+    level: 5,
+    description: 'Program integrity processes are continuously optimized using advanced analytics, machine learning, and cross-state data sharing. The state employs predictive fraud detection models, participates in national program integrity data sharing initiatives, and proactively identifies emerging fraud schemes before they result in significant improper payments.',
+    checklist: [
+      'Machine learning models are used to detect fraud patterns and prioritize investigations',
+      'The state participates in national program integrity data sharing initiatives (e.g., MMIS data sharing)',
+      'Emerging fraud schemes are proactively identified and addressed through policy and system updates',
+      'Program integrity standards are reviewed and updated on a defined cycle',
+      'Program integrity innovations are shared with peer states and CMS'
+    ],
+    evidence: 'ML fraud detection model documentation; national data sharing participation records; emerging fraud response documentation; cross-state collaboration records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its program integrity processes to prevent, detect, and address fraud, waste, and abuse in the Medicaid program?'
+  },
+
+  // ─── Financial Management ────────────────────────────────────────────────────
+
+  {
+    id: 'BA-FM-1',
+    architecture: 'business',
+    capabilityArea: 'Financial Management',
+    level: 1,
+    description: 'Financial management processes are ad-hoc and largely manual. Budget development, expenditure tracking, and federal financial reporting rely on spreadsheets and individual staff knowledge. There is no standardized approach to cost allocation, rate setting, or financial forecasting.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its Medicaid financial management processes, including budgeting, cost allocation, rate setting, and federal financial reporting?'
+  },
+  {
+    id: 'BA-FM-2',
+    architecture: 'business',
+    capabilityArea: 'Financial Management',
+    level: 2,
+    description: 'Core financial management processes have been identified and documented. Budget development, expenditure tracking, cost allocation methodologies, and federal financial reporting procedures are documented. Staff follow written procedures, though automation is limited and manual reconciliation is common.',
+    checklist: [
+      'Budget development and expenditure tracking processes are documented in written procedures',
+      'Cost allocation methodologies are documented and approved',
+      'Federal financial reporting procedures (CMS-64, CMS-37) are documented',
+      'Staff responsible for financial management are identified and trained'
+    ],
+    evidence: 'Written financial management procedures; cost allocation methodology documentation; CMS-64/CMS-37 submission records; training records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its Medicaid financial management processes, including budgeting, cost allocation, rate setting, and federal financial reporting?'
+  },
+  {
+    id: 'BA-FM-3',
+    architecture: 'business',
+    capabilityArea: 'Financial Management',
+    level: 3,
+    description: 'Financial management processes are standardized and consistently implemented. A financial management system supports automated expenditure tracking, cost allocation, and federal financial reporting. Rate setting processes are documented and actuarially sound. Budget-to-actual variance analysis is performed regularly.',
+    checklist: [
+      'A financial management system automates expenditure tracking and cost allocation',
+      'Federal financial reports (CMS-64, CMS-37) are generated from the financial management system',
+      'Rate setting processes are documented, actuarially sound, and consistently applied',
+      'Budget-to-actual variance analysis is performed and reviewed on a regular schedule',
+      'Financial reconciliation processes are standardized and documented'
+    ],
+    evidence: 'Financial management system documentation; CMS-64/CMS-37 submission records; rate setting documentation; variance analysis reports',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its Medicaid financial management processes, including budgeting, cost allocation, rate setting, and federal financial reporting?'
+  },
+  {
+    id: 'BA-FM-4',
+    architecture: 'business',
+    capabilityArea: 'Financial Management',
+    level: 4,
+    description: 'Financial management performance is actively measured and managed. Financial KPIs including expenditure trends, federal match rates, and budget variance are tracked centrally and reported to leadership. Financial forecasting models are used to project future expenditures and inform budget requests.',
+    checklist: [
+      'Financial KPIs (expenditure trends, FMAP utilization, budget variance) are tracked and reported to leadership',
+      'Financial forecasting models project future expenditures and inform budget requests',
+      'Cost allocation accuracy is monitored and deviations trigger corrective action',
+      'Federal financial reporting accuracy and timeliness are measured against targets',
+      'Financial performance data informs rate setting and program design decisions'
+    ],
+    evidence: 'Financial performance dashboard; forecasting model documentation; cost allocation monitoring reports; federal reporting accuracy metrics',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its Medicaid financial management processes, including budgeting, cost allocation, rate setting, and federal financial reporting?'
+  },
+  {
+    id: 'BA-FM-5',
+    architecture: 'business',
+    capabilityArea: 'Financial Management',
+    level: 5,
+    description: 'Financial management processes are continuously optimized using advanced analytics, real-time financial data, and value-based payment models. The state employs sophisticated actuarial modeling, participates in value-based care initiatives, and uses financial data to drive program design improvements. Financial innovations are shared with peer states and CMS.',
+    checklist: [
+      'Value-based payment models are implemented and financial performance under these models is tracked',
+      'Advanced actuarial modeling supports rate setting and financial forecasting',
+      'Real-time financial dashboards provide up-to-date visibility into program expenditures',
+      'Financial management standards are reviewed and updated on a defined cycle',
+      'Financial management innovations are shared with peer states and CMS'
+    ],
+    evidence: 'Value-based payment model documentation; actuarial model documentation; real-time financial dashboard documentation; cross-state collaboration records',
+    dimensionQuestion: 'To what extent does the state standardize, automate, and continuously improve its Medicaid financial management processes, including budgeting, cost allocation, rate setting, and federal financial reporting?'
+  },
+
+  // ─── Plan Management ─────────────────────────────────────────────────────────
+
+  {
+    id: 'BA-PLM-1',
+    architecture: 'business',
+    capabilityArea: 'Plan Management',
+    level: 1,
+    description: 'Managed care plan oversight and contract management are ad-hoc and reactive. There is no standardized approach to monitoring plan performance, reviewing encounter data, or ensuring compliance with contract requirements. Plan data is not systematically collected or analyzed.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid managed care plans, including contract oversight, encounter data validation, and quality monitoring?'
+  },
+  {
+    id: 'BA-PLM-2',
+    architecture: 'business',
+    capabilityArea: 'Plan Management',
+    level: 2,
+    description: 'Core plan management processes have been identified and documented. Managed care contract requirements, encounter data submission requirements, and plan performance expectations are documented. Staff responsible for plan oversight are identified and follow written procedures, though monitoring is inconsistent.',
+    checklist: [
+      'Managed care contract requirements and performance expectations are documented',
+      'Encounter data submission requirements and timelines are documented',
+      'Staff responsible for plan oversight are identified and trained on documented procedures'
+    ],
+    evidence: 'Managed care contract documents; encounter data submission requirements; plan oversight role assignments; training records',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid managed care plans, including contract oversight, encounter data validation, and quality monitoring?'
+  },
+  {
+    id: 'BA-PLM-3',
+    architecture: 'business',
+    capabilityArea: 'Plan Management',
+    level: 3,
+    description: 'Plan management processes are standardized and consistently implemented. Encounter data validation is automated, and data quality issues are tracked and resolved with plans. Plan performance is monitored against contract requirements, and quality metrics (HEDIS, CAHPS) are collected and reviewed on a defined schedule.',
+    checklist: [
+      'Automated encounter data validation is implemented and data quality issues are tracked',
+      'Plan performance is monitored against contract requirements on a defined schedule',
+      'HEDIS and CAHPS quality metrics are collected, validated, and reviewed',
+      'Corrective action processes for underperforming plans are documented and consistently applied',
+      'Capitation rate setting processes are documented and actuarially sound'
+    ],
+    evidence: 'Encounter data validation system documentation; plan performance monitoring reports; HEDIS/CAHPS results; corrective action records; capitation rate documentation',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid managed care plans, including contract oversight, encounter data validation, and quality monitoring?'
+  },
+  {
+    id: 'BA-PLM-4',
+    architecture: 'business',
+    capabilityArea: 'Plan Management',
+    level: 4,
+    description: 'Plan management performance is actively measured and managed. Plan performance metrics including encounter data completeness, quality measure scores, and member satisfaction are tracked centrally and compared across plans. Performance data informs contract renewal, incentive payments, and corrective action decisions.',
+    checklist: [
+      'Plan performance metrics are tracked centrally and compared across plans on a regular cadence',
+      'Encounter data completeness and accuracy rates are monitored and reported',
+      'Quality measure scores (HEDIS, CAHPS) are trended over time and benchmarked',
+      'Performance data informs contract renewal, incentive payment, and corrective action decisions',
+      'Plan management performance metrics are reported to CMS as required'
+    ],
+    evidence: 'Plan performance dashboard; encounter data quality reports; quality measure trend reports; contract renewal decision documentation; CMS reporting records',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid managed care plans, including contract oversight, encounter data validation, and quality monitoring?'
+  },
+  {
+    id: 'BA-PLM-5',
+    architecture: 'business',
+    capabilityArea: 'Plan Management',
+    level: 5,
+    description: 'Plan management processes are continuously optimized using advanced analytics, value-based contracting models, and real-time performance data. The state employs outcome-based incentive structures, uses predictive analytics to identify plan performance risks early, and shares plan management innovations with peer states and CMS.',
+    checklist: [
+      'Value-based contracting models with outcome-based incentives are implemented for managed care plans',
+      'Predictive analytics identify plan performance risks and trigger proactive intervention',
+      'Real-time plan performance dashboards provide up-to-date visibility into key metrics',
+      'Plan management standards are reviewed and updated on a defined cycle using performance data',
+      'Plan management innovations are shared with peer states and CMS'
+    ],
+    evidence: 'Value-based contract documentation; predictive analytics model documentation; real-time performance dashboard documentation; cross-state collaboration records',
+    dimensionQuestion: 'To what extent does the state standardize, monitor, and continuously improve its processes for managing Medicaid managed care plans, including contract oversight, encounter data validation, and quality monitoring?'
+  }
+
+
+    ],
+    information: [
+  /* ── Information Quality ─────────────────────────────────────────────── */
+  {
+    id: "IQ-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Quality",
+    description: "Data quality rules have not been developed for the information asset.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Does the information used to support this capability have documented data quality rules and measures that are accessible to stakeholders and help ensure that the information is fit for use?",
+    dataManagementCapability: "Data Quality"
+  },
+  {
+    id: "IQ-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Quality",
+    description: "Data quality rules have been developed and documented for the information asset and is accessible by stakeholders.",
+    checklist: [
+      "Each Information asset has data quality rules used to validate and assess the quality of the data have been identified and documented",
+      "Each Information asset has data quality measures used to assess the quality of the data have been identified and documented"
+    ],
+    evidence: "Data Rule Catalog, Measure Catalog",
+    dimensionQuestion: "Does the information used to support this capability have documented data quality rules and measures that are accessible to stakeholders and help ensure that the information is fit for use?",
+    dataManagementCapability: "Data Quality"
+  },
+  {
+    id: "IQ-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Quality",
+    description: "Data quality rules have been implemented for the information assets, is applied as the information as it moves across the enterprise, and results produced and made available to key stakeholders.",
+    checklist: [
+      "Data quality rules have been implemented and is being used to validate that the information assets needed for this capability meets SMA expectations",
+      "Data quality assessments have been performed to assess the quality of the information assets needed to support this capability and baseline quality scores known",
+      "Target data quality scores, standards and thresholds are established that define the desired data quality scores for the target information assets needed to support this capability."
+    ],
+    evidence: "Data Quality Report, Measure Catalog",
+    dimensionQuestion: "Does the information used to support this capability have documented data quality rules and measures that are accessible to stakeholders and help ensure that the information is fit for use?",
+    dataManagementCapability: "Data Quality"
+  },
+  {
+    id: "IQ-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Quality",
+    description: "Data quality rules have been aligned to related T-MSIS rules, data anomalies and issues documented and tracked to the related information assets in a central repository. Data quality measures, standards and thresholds have been defined and included on data quality reports that are produced regularly.",
+    checklist: [
+      "Each information asset that impacts T-MSIS reporting has been identified and documented",
+      "Data quality rules for the T-MSIS impacted information assets have been aligned to the corresponding T-MSIS rules",
+      "Data quality measures for the T-MSIS impacted information assets have been aligned to the corresponding T-MSIS measures",
+      "Data quality reports for the information assets that support the capability are generated on a regular basis",
+      "All data quality rules and measures for the information assets that support this capability are stored in the central metadata repository"
+    ],
+    evidence: "Data Rule Catalog, Data Quality Report, Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model, Data quality Metadata Repository Change Workflow",
+    dimensionQuestion: "Does the information used to support this capability have documented data quality rules and measures that are accessible to stakeholders and help ensure that the information is fit for use?",
+    dataManagementCapability: "Data Quality"
+  },
+  {
+    id: "IQ-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Quality",
+    description: "The quality of the information asset adheres to Enterprise Data Quality outcomes, processes, procedures, standards, metadata and technology and are regularly assessed for opportunities to improve the quality of the information asset.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Data Quality: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for Data Quality"
+    ],
+    evidence: "Data Quality Process Diagram, Data Quality Standard Operating Procedure, Data Quality Standard Documentation, Data Quality Metadata Requirements, Data Quality MITA Scorecard",
+    dimensionQuestion: "Does the information used to support this capability have documented data quality rules and measures that are accessible to stakeholders and help ensure that the information is fit for use?",
+    dataManagementCapability: "Data Quality"
+  },
+
+
+  /* ── Information Classification ─────────────────────────────────────── */
+  {
+    id: "IC-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Classification",
+    description: "Data security and privacy requirements have not been documented for the information asset.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the information used to support this capability classified so that stakeholders can understand any security or privacy requirements associated with the access and use of the information?",
+    dataManagementCapability: "Data Security & Privacy"
+  },
+  {
+    id: "IC-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Classification",
+    description: "Data security, sensitivity and privacy requirements have been documented for the information asset.",
+    checklist: [
+      "Data security, sensitivity and privacy requirements have been documented for the information asset."
+    ],
+    evidence: "Data Security and Privacy Requirements",
+    dimensionQuestion: "Is the information used to support this capability classified so that stakeholders can understand any security or privacy requirements associated with the access and use of the information?",
+    dataManagementCapability: "Data Security & Privacy"
+  },
+  {
+    id: "IC-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Classification",
+    description: "Data security, sensitivity and privacy classifications have been defined and applied to the information assets.",
+    checklist: [
+      "Data security, sensitivity and privacy classifications have been defined and applied to the data elements and data sets within the information assets that support this capability"
+    ],
+    evidence: "Physical Data Dictionary",
+    dimensionQuestion: "Is the information used to support this capability classified so that stakeholders can understand any security or privacy requirements associated with the access and use of the information?",
+    dataManagementCapability: "Data Security & Privacy"
+  },
+  {
+    id: "IC-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Classification",
+    description: "Data security, sensitivity and privacy classifications are tracked to the impacted policies, standards and information assets in a central metadata repository that is accessible to stakeholders to search, discover and identify impacts of data security, sensitivity and privacy classification modifications.",
+    checklist: [
+      "All data elements that support this capability have a privacy/sensitivity/security classification assigned in the central metadata repository",
+      "All data sets that support this capability have a privacy/sensitivity/security classification assigned in the central metadata repository"
+    ],
+    evidence: "Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model, Data Classification Metadata Repository Change Workflow",
+    dimensionQuestion: "Is the information used to support this capability classified so that stakeholders can understand any security or privacy requirements associated with the access and use of the information?",
+    dataManagementCapability: "Data Security & Privacy"
+  },
+  {
+    id: "IC-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Classification",
+    description: "Data security, sensitivity and privacy classifications adhere to Enterprise data security & privacy outcomes, processes, procedures, standards, metadata and technology and are regularly assessed for opportunities to improve the sensitivity, privacy and security of the information asset.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Data security, sensitivity & privacy: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for Data security, sensitivity & privacy"
+    ],
+    evidence: "Data security, sensitivity & privacy Process Diagram, Data security, sensitivity & privacy Standard Operating Procedure, Data security, sensitivity & privacy Standard Documentation, Data security, sensitivity & privacy Metadata Requirements, Data security, sensitivity & privacy MITA Scorecard",
+    dimensionQuestion: "Is the information used to support this capability classified so that stakeholders can understand any security or privacy requirements associated with the access and use of the information?",
+    dataManagementCapability: "Data Security & Privacy"
+  },
+
+
+  /* ── Information Analysis ────────────────────────────────────────────── */
+  {
+    id: "IA-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Analysis",
+    description: "Information is used sporadically and in response to specific, immediate queries to support decision-making to support this capability.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is there advanced statistical analysis that is performed and used by stakeholders for decision-making to support this capability?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+  {
+    id: "IA-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Analysis",
+    description: "The measures and information assets needed to produce the reports for this capability have been identified and documented. The type of data analytics performed to support the capability primarily focuses on descriptive analytics to understand what happened in the past to inform decision-making for the capability.",
+    checklist: [
+      "Measures specifications that are used or produced to support this capability have been identified and documented",
+      "Details about the data elements used to generate the reports have been identified and documented",
+      "Details about how the measure is calculated including the data elements used have been identified and documented",
+      "Basic Descriptive analytics (count, mean, average) performed to support the capability"
+    ],
+    evidence: "Report Catalog, Measure Catalog, Measure Specification, Descriptive Analytics Results",
+    dimensionQuestion: "Is there advanced statistical analysis that is performed and used by stakeholders for decision-making to support this capability?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+  {
+    id: "IA-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Analysis",
+    description: "Measure standards have been established and implemented. The SMA performs diagnostic analytics to uncover the root-cause of events through examination of historical data to understand why things happened to inform decision-making for the capability.",
+    checklist: [
+      "Measure standards have been identified and documented",
+      "Measures align to measure standards and are calculated and provided to stakeholders to support this capability",
+      "Diagnostic analytics performed to support the capability"
+    ],
+    evidence: "Measure Standard, Example Measure Calculation, Prescriptive Analytics Results",
+    dimensionQuestion: "Is there advanced statistical analysis that is performed and used by stakeholders for decision-making to support this capability?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+  {
+    id: "IA-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Analysis",
+    description: "The measure specifications, statistical models and other information assets are traced to the reports that use them in the central metadata repository. The SMA performs predictive analytics to predict future outcomes through the evaluation of probability estimates to inform decision-making for the capability.",
+    checklist: [
+      "All reports that support this capability are tracked to the data elements used to create the report in the central metadata repository",
+      "All measures that support this capability are tracked to the data elements used to calculate the report in the central metadata repository",
+      "Descriptive analytics performed to support the capability"
+    ],
+    evidence: "Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model, Report/Measure Metadata Repository Change Workflow, Example Predictive analytical model, Predictive Analytics Results",
+    dimensionQuestion: "Is there advanced statistical analysis that is performed and used by stakeholders for decision-making to support this capability?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+  {
+    id: "IA-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Analysis",
+    description: "The measures and the analysis performed to support the capability adhere to enterprise business intelligence processes, procedures, standards, metadata and technology and are regularly assessed to improve the quality of the measures and analysis. The SMA performs prescriptive analytics to define actions that will affect outcomes, rather than just predicting the outcomes from actions that have occurred to inform decision-making for the capability.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Business Intelligence & Data Science: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for Business Intelligence & Data Science",
+      "Descriptive analytics performed to support the capability"
+    ],
+    evidence: "Business Intelligence & Data Science Process Diagram, Business Intelligence & Data Science Standard Operating Procedure, Business Intelligence & Data Science Standard Documentation, Business Intelligence & Data Science Metadata Requirements, Business Intelligence & Data Science MITA Scorecard, Prescribe Analytics Model, Prescribe Analytics Results",
+    dimensionQuestion: "Is there advanced statistical analysis that is performed and used by stakeholders for decision-making to support this capability?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+
+
+  /* ── Information Exchange ────────────────────────────────────────────── */
+  {
+    id: "IE-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Exchange",
+    description: "Information assets for every exchange of information that supports this capability have not been identified and documented.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the movement and transformation of information that is exchanged with trading partners to support this capability tracked and does it adhere to structure data standards?",
+    dataManagementCapability: "Data Integration and Interoperability"
+  },
+  {
+    id: "IE-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Exchange",
+    description: "Information assets for every exchange of information that supports this capability have been identified and documented.",
+    checklist: [
+      "Each exchange of information that supports the capability has been identified",
+      "The information asset (e.g. File, Data Set, etc.) used in each exchange has been identified and documented"
+    ],
+    evidence: "Data Catalog, Data Flow Model",
+    dimensionQuestion: "Is the movement and transformation of information that is exchanged with trading partners to support this capability tracked and does it adhere to structure data standards?",
+    dataManagementCapability: "Data Integration and Interoperability"
+  },
+  {
+    id: "IE-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Exchange",
+    description: "Structure data standards that meet the business needs have been identified for every exchange of information that supports this capability and are traced to the applicable information asset.",
+    checklist: [
+      "Baseline structure data standards have been established for each information asset used to exchange information for this capability",
+      "Target structure data standards have been established for each information asset needed to exchange information for this capability"
+    ],
+    evidence: "Data Catalog, Data Standard Documentation",
+    dimensionQuestion: "Is the movement and transformation of information that is exchanged with trading partners to support this capability tracked and does it adhere to structure data standards?",
+    dataManagementCapability: "Data Integration and Interoperability"
+  },
+  {
+    id: "IE-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Exchange",
+    description: "Detailed documentation about how data moves across the enterprise, including detailed transformation logic, has been documented, is traced to the applicable information assets maintained in a central metadata repository that is accessible to stakeholders to search, discover and identify impacts of data exchange modifications.",
+    checklist: [
+      "Each information asset used for exchange includes a source to target mapping that shows how data is transformed to integrate the information asset",
+      "SMA can track how data moves and is transformed throughout the life of the information assets used to support this capability (e.g. Creation, Storage, etc.)",
+      "All data mappings, transformations and lineage for the information assets that impact the capability are tracked in a central metadata repository"
+    ],
+    evidence: "Data Lineage Diagram, Map Specification, Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model, Data exchange Metadata Repository Change Workflow",
+    dimensionQuestion: "Is the movement and transformation of information that is exchanged with trading partners to support this capability tracked and does it adhere to structure data standards?",
+    dataManagementCapability: "Data Integration and Interoperability"
+  },
+  {
+    id: "IE-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Exchange",
+    description: "All information exchanges that support this capability align to enterprise data integration and interoperability outcomes, processes, policies, standards and technology and are regularly assessed for opportunities to improve the exchange of information.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Data Integration and Interoperability: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for Data Integration and Interoperability"
+    ],
+    evidence: "Data Integration and Interoperability Process Diagram, Data Integration and Interoperability Standard Operating Procedure, Data Integration and Interoperability Standard Documentation, Data Integration and Interoperability Metadata Requirements, Data Integration and Interoperability MITA Scorecard",
+    dimensionQuestion: "Is the movement and transformation of information that is exchanged with trading partners to support this capability tracked and does it adhere to structure data standards?",
+    dataManagementCapability: "Data Integration and Interoperability"
+  },
+
+
+  /* ── Information Reporting ───────────────────────────────────────────── */
+  {
+    id: "IR-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Reporting",
+    description: "Reports and measures that are produced to support this capability have not been identified and documented.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Are the reports that are created to support this capability documented and traceable to the specific data used to create each report?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+  {
+    id: "IR-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Reporting",
+    description: "Reports and measures that are produced to support this capability have been identified and documented.",
+    checklist: [
+      "Reports that are used or produced to support this capability have been identified and documented",
+      "Measures/Metrics that are used or produced to support this capability have been identified and documented",
+      "Details about the data elements used to generate the reports have been identified and documented",
+      "Details about how the measure is calculated including the data elements used have been identified and documented"
+    ],
+    evidence: "Report Catalog, Measure Catalog, Measure Specification",
+    dimensionQuestion: "Are the reports that are created to support this capability documented and traceable to the specific data used to create each report?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+  {
+    id: "IR-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Reporting",
+    description: "Reports and measure standards have been established and implemented and are delivered to key stakeholders to support this capability.",
+    checklist: [
+      "Measure standards have been identified and documented",
+      "Reports are generated and provided to stakeholders to support the capability",
+      "Measures align to measure standards and are calculated and provided to stakeholders to support this capability"
+    ],
+    evidence: "Measure Standard, Example Report, Example Measure Calculation",
+    dimensionQuestion: "Are the reports that are created to support this capability documented and traceable to the specific data used to create each report?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+  {
+    id: "IR-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Reporting",
+    description: "Detailed measure specifications and report definitions have been documented and are tracked to the impacted information used to produce the measure and report in a central metadata repository.",
+    checklist: [
+      "All reports that support this capability are tracked to the data elements used to create the report in the central metadata repository",
+      "All measures that support this capability are tracked to the data elements used to calculate the report in the central metadata repository"
+    ],
+    evidence: "Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model, Report/Measure Metadata Repository Change Workflow",
+    dimensionQuestion: "Are the reports that are created to support this capability documented and traceable to the specific data used to create each report?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+  {
+    id: "IR-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Reporting",
+    description: "Reports and measures that are used to support this capability adhere to enterprise business intelligence processes, procedures, standards, metadata and technology and are regularly assessed to improve the quality of the reports and measures.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Business Intelligence: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for Business Intelligence"
+    ],
+    evidence: "Business Intelligence Process Diagram, Business Intelligence Standard Operating Procedure, Business Intelligence Standard Documentation, Business Intelligence Metadata Requirements, Business Intelligence MITA Scorecard",
+    dimensionQuestion: "Are the reports that are created to support this capability documented and traceable to the specific data used to create each report?",
+    dataManagementCapability: "Business Intelligence & Data Science"
+  },
+
+
+  /* ── Information Content ─────────────────────────────────────────────── */
+  {
+    id: "ICO-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Content",
+    description: "The unstructured data, documents and content, that is used to support this capability have not been identified and documented.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the unstructured data (e.g. paper documents) that supports this capability organized, controlled and categorized so that it can be stored, published and discovered by stakeholders that need it?",
+    dataManagementCapability: "Document and Content Management"
+  },
+  {
+    id: "ICO-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Content",
+    description: "The unstructured data, documents and content, that is used to support this capability have been identified and documented. Some documents exist that have not been converted to machine-readable and searchable content.",
+    checklist: [
+      "Unstructured data used to support this capability have been identified",
+      "Some of the documents used to support this capability are paper-based and have not been converted to machine-readable content."
+    ],
+    evidence: "Document and Content Management Standard Documentation",
+    dimensionQuestion: "Is the unstructured data (e.g. paper documents) that supports this capability organized, controlled and categorized so that it can be stored, published and discovered by stakeholders that need it?",
+    dataManagementCapability: "Document and Content Management"
+  },
+  {
+    id: "ICO-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Content",
+    description: "All documents that are produced and/or used to support this capability are converted to machine-readable content and the content adheres to enterprise unstructured data standards.",
+    checklist: [
+      "All paper-based documents have been converted to machine readable content",
+      "Enterprise established unstructured data standards"
+    ],
+    evidence: "Document and Content Management Standard Documentation, Document and Content Management Metadata Requirements",
+    dimensionQuestion: "Is the unstructured data (e.g. paper documents) that supports this capability organized, controlled and categorized so that it can be stored, published and discovered by stakeholders that need it?",
+    dataManagementCapability: "Document and Content Management"
+  },
+  {
+    id: "ICO-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Content",
+    description: "The unstructured data that supports this capability adheres to enterprise unstructured data standards and is organized, controlled and categorized so that it can be stored, published, discovered and easily accessed by stakeholders.",
+    checklist: [
+      "Unstructured data is categorized",
+      "Unstructured data is searchable",
+      "Unstructured data is available to stakeholders with the authority to access it"
+    ],
+    evidence: "Document and Content Management Process Diagram, Document and Content Management Standard Operating Procedure, Document and Content Management Standard Documentation, Document and Content Management Metadata Requirements",
+    dimensionQuestion: "Is the unstructured data (e.g. paper documents) that supports this capability organized, controlled and categorized so that it can be stored, published and discovered by stakeholders that need it?",
+    dataManagementCapability: "Document and Content Management"
+  },
+  {
+    id: "ICO-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Content",
+    description: "The unstructured data that supports this capability adheres to Enterprise document and content processes, procedures, standards, metadata and technology and are regularly assessed to improve the quality of the unstructured data.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Document and Content Management: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for Document and Content Management"
+    ],
+    evidence: "Document and Content Management Process Diagram, Document and Content Management Standard Operating Procedure, Document and Content Management Standard Documentation, Document and Content Management Metadata Requirements, Document and Content Management MITA Scorecard",
+    dimensionQuestion: "Is the unstructured data (e.g. paper documents) that supports this capability organized, controlled and categorized so that it can be stored, published and discovered by stakeholders that need it?",
+    dataManagementCapability: "Document and Content Management"
+  },
+
+
+  /* ── Information Metadata ────────────────────────────────────────────── */
+  {
+    id: "IM-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Metadata",
+    description: "Metadata for the information assets that support this capability have not been identified and documented.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the metadata about the information used to support this capability captured, adhere to standards and stored in a central location so that stakeholders can search and discover information that is available for them to use?",
+    dataManagementCapability: "Metadata Management"
+  },
+  {
+    id: "IM-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Metadata",
+    description: "Some metadata for the information assets are defined and stored locally.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the metadata about the information used to support this capability captured, adhere to standards and stored in a central location so that stakeholders can search and discover information that is available for them to use?",
+    dataManagementCapability: "Metadata Management"
+  },
+  {
+    id: "IM-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Metadata",
+    description: "All required metadata needed to support the information asset have been identified and is stored in a metadata repository, but it is managed in a silo.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the metadata about the information used to support this capability captured, adhere to standards and stored in a central location so that stakeholders can search and discover information that is available for them to use?",
+    dataManagementCapability: "Metadata Management"
+  },
+  {
+    id: "IM-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Metadata",
+    description: "Metadata for the information asset adhere to enterprise standards for metadata, Ingestion of Metadata is automatic to the fullest extent possible, stored in a central repository, and is perceived and used as a strategic enterprise asset.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the metadata about the information used to support this capability captured, adhere to standards and stored in a central location so that stakeholders can search and discover information that is available for them to use?",
+    dataManagementCapability: "Metadata Management"
+  },
+  {
+    id: "IM-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Metadata",
+    description: "Metadata for the information asset adhere to Enterprise Metadata processes, procedures, and technology and are assessed regularly to identify metadata improvement opportunities.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the metadata about the information used to support this capability captured, adhere to standards and stored in a central location so that stakeholders can search and discover information that is available for them to use?",
+    dataManagementCapability: "Metadata Management"
+  },
+
+
+  /* ── Information Governance ──────────────────────────────────────────── */
+  {
+    id: "IG-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Governance",
+    description: "Data governance roles and responsibilities have not been established or assigned to individuals for the impacted information assets.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Are there individuals assigned to data governance roles that actively participate in the governance of the information used to support this capability and are there business terms that describe the meaning of the information documented?",
+    dataManagementCapability: "Data Governance"
+  },
+  {
+    id: "IG-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Governance",
+    description: "Data governance roles and responsibilities for the information asset have been identified and assigned to individuals to fulfill them, and key business terms and acronyms used to support the capability have been identified and documented.",
+    checklist: [
+      "SMA has established data governance roles such as Data Owner, Data Steward, Data Custodian",
+      "SMA has assigned individuals to the data governance roles responsible for the information assets that support this capability",
+      "Business terms and acronyms that are used to support this capability have been identified and documented."
+    ],
+    evidence: "Data Catalog (with assignments), Business Glossary",
+    dimensionQuestion: "Are there individuals assigned to data governance roles that actively participate in the governance of the information used to support this capability and are there business terms that describe the meaning of the information documented?",
+    dataManagementCapability: "Data Governance"
+  },
+  {
+    id: "IG-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Governance",
+    description: "The SMA monitors assignment of individuals assigned to govern the information assets to ensure minimal vacancy, and the assigned individuals actively participate in data the governance of the information assets.",
+    checklist: [
+      "Vacancy rate for the data governance roles that are assigned to support the information assets for this capability is low",
+      "Participation rate of the individuals assigned to the row is high",
+      "Individuals assigned to support the information asset participate in data governance meetings, review and approval of business terms and acronyms, information asset changes, etc."
+    ],
+    evidence: "Information Asset Assignment Vacancy Rate, Information Asset Assignment Participation Rate, Average Information Asset Approval Time",
+    dimensionQuestion: "Are there individuals assigned to data governance roles that actively participate in the governance of the information used to support this capability and are there business terms that describe the meaning of the information documented?",
+    dataManagementCapability: "Data Governance"
+  },
+  {
+    id: "IG-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Governance",
+    description: "The business terms, acronyms and information asset data governance role assignments are stored in a central metadata repository and is accessible to stakeholders to search and discover the information assets that are governed by the SMA.",
+    checklist: [
+      "Data governance roles assignments and Business glossary maintained in central metadata repository",
+      "Business glossary terms mapped to other key metadata in central metadata repository",
+      "Key stakeholders have access to the business glossary in central metadata repository",
+      "Key stakeholders can search and find business glossary terms and definitions",
+      "Key stakeholders can search and find individuals assigned to data governance roles for the information assets for this capability in the central metadata repository"
+    ],
+    evidence: "Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model",
+    dimensionQuestion: "Are there individuals assigned to data governance roles that actively participate in the governance of the information used to support this capability and are there business terms that describe the meaning of the information documented?",
+    dataManagementCapability: "Data Governance"
+  },
+  {
+    id: "IG-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Governance",
+    description: "Information assets adhere to the enterprise data governance outcomes, processes, policies, standards and technology and are regularly assessed for opportunities to improve the governance of the information asset.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Data Governance: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for data governance"
+    ],
+    evidence: "Data Governance Process Diagram, Data Governance Standard Operating Procedure, Data Governance Standard Documentation, Data Governance Metadata Requirements, Data Governance MITA Scorecard",
+    dimensionQuestion: "Are there individuals assigned to data governance roles that actively participate in the governance of the information used to support this capability and are there business terms that describe the meaning of the information documented?",
+    dataManagementCapability: "Data Governance"
+  },
+
+
+  /* ── Information Design ──────────────────────────────────────────────── */
+  {
+    id: "ID-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Design",
+    description: "No or few information assets that support this capability have detailed design documentation.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Are the data dictionaries and other detailed definitions that describe the structure and relationships of the information used to support this capability defined and accessible to stakeholders?",
+    dataManagementCapability: "Data Architecture, Modeling, and Design"
+  },
+  {
+    id: "ID-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Design",
+    description: "Each information asset needed to support this capability includes detailed design documentation.",
+    checklist: [
+      "SMA has Physical Data Models for all information assets",
+      "SMA has data dictionaries for all information assets",
+      "SMA has Matrix linking processes to information",
+      "SMA has Matrix linking applications to Applications"
+    ],
+    evidence: "Physical Data Model, Physical Data Dictionary, Process to Data Matrix, Application to Data Matrix",
+    dimensionQuestion: "Are the data dictionaries and other detailed definitions that describe the structure and relationships of the information used to support this capability defined and accessible to stakeholders?",
+    dataManagementCapability: "Data Architecture, Modeling, and Design"
+  },
+  {
+    id: "ID-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Design",
+    description: "Enterprise Information Reference Models including target data definitions that are needed to support the capability have been identified and aligned to the detailed data definitions and/or models for each information asset.",
+    checklist: [
+      "SMA established Enterprise Conceptual Data Model",
+      "SMA established Enterprise Logical Data Model and Data Dictionary",
+      "SMA mapped concepts from Enterprise Conceptual Data Model to Physical Data Dictionary",
+      "SMA mapped attributes from Enterprise Logical Data Model to Physical Data Dictionary"
+    ],
+    evidence: "Enterprise Conceptual Data Model, Enterprise Logical Data Model, Physical Data Dictionary",
+    dimensionQuestion: "Are the data dictionaries and other detailed definitions that describe the structure and relationships of the information used to support this capability defined and accessible to stakeholders?",
+    dataManagementCapability: "Data Architecture, Modeling, and Design"
+  },
+  {
+    id: "ID-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Design",
+    description: "Mappings of Enterprise Information Reference Models to physical data design documentation are maintained in a central enterprise metadata repository that is accessible to stakeholders to search, discover and identify impacts of data design modifications.",
+    checklist: [
+      "Enterprise Conceptual, Logical Data Model and data dictionary maintained in central metadata repository",
+      "Physical Data Dictionary maintained in central metadata repository",
+      "Changes to data dictionary trigger notifications to be sent to impacted stakeholders automatically"
+    ],
+    evidence: "Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model, Data design Metadata Repository Change Workflow",
+    dimensionQuestion: "Are the data dictionaries and other detailed definitions that describe the structure and relationships of the information used to support this capability defined and accessible to stakeholders?",
+    dataManagementCapability: "Data Architecture, Modeling, and Design"
+  },
+  {
+    id: "ID-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Design",
+    description: "The design of the information asset adheres to Enterprise Data Architecture & Modeling outcomes, processes, procedures, standards, metadata and technology and are regularly assessed to improve the quality of the unstructured data.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Data Architecture, Modeling & Design: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for data architecture, modeling & design"
+    ],
+    evidence: "Data Architecture, Modeling & Design Process Diagram, Data Architecture, Modeling & Design Standard Operating Procedure, Data Architecture, Modeling & Design Standard Documentation, Data Architecture, Modeling & Design Metadata Requirements, Data Architecture, Modeling & Design MITA Scorecard",
+    dimensionQuestion: "Are the data dictionaries and other detailed definitions that describe the structure and relationships of the information used to support this capability defined and accessible to stakeholders?",
+    dataManagementCapability: "Data Architecture, Modeling, and Design"
+  },
+
+
+  /* ── Reference Information ───────────────────────────────────────────── */
+  {
+    id: "RI-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Reference Information",
+    description: "Little or no reference data that is used to support the information asset for this capability has been identified and documented, including all code sets and code values.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Does the reference data that is included in the information used to support this capability adhere to standards and is documented, controlled and stored in a location that is accessible to stakeholders?",
+    dataManagementCapability: "Reference Data Management"
+  },
+  {
+    id: "RI-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Reference Information",
+    description: "The reference data that is used to support this capability has been identified and documented, and aligned to the corresponding data elements.",
+    checklist: [
+      "The reference data sets used in the information assets that support this capability have been documented.",
+      "The reference data values for each reference data set that support this capability have been documented.",
+      "The crosswalk of common reference data values across reference data sets used for data transformation have been documented",
+      "The reference data sets are aligned to the corresponding data elements in the physical data dictionaries and/or reports and measures"
+    ],
+    evidence: "Reference Data Catalog",
+    dimensionQuestion: "Does the reference data that is included in the information used to support this capability adhere to standards and is documented, controlled and stored in a location that is accessible to stakeholders?",
+    dataManagementCapability: "Reference Data Management"
+  },
+  {
+    id: "RI-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Reference Information",
+    description: "Target reference data standards that meet the business needs have been identified, adopted and implemented.",
+    checklist: [
+      "Reference Data Standard has been adopted",
+      "Reference data values in existing information assets use the reference data values identified in the reference data standard",
+      "Reference data values are mapped from existing reference data values to reference data values in the adopted data standard"
+    ],
+    evidence: "Data Standard Document, Reference Data Catalog, Reference Data Crosswalk",
+    dimensionQuestion: "Does the reference data that is included in the information used to support this capability adhere to standards and is documented, controlled and stored in a location that is accessible to stakeholders?",
+    dataManagementCapability: "Reference Data Management"
+  },
+  {
+    id: "RI-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Reference Information",
+    description: "Reference data adheres to reference data metadata standards and is traced to the applicable data elements in the data dictionary in a central metadata repository that is accessible to stakeholders to search, discover and identify the impact of reference data modifications.",
+    checklist: [
+      "Reference data adheres to reference data metadata standards including effective start and end dates for all reference data sets, values and crosswalk",
+      "Reference data is traced to the applicable data elements in the data dictionary",
+      "Reference data is stored in a central metadata repository"
+    ],
+    evidence: "Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model, Reference Data Metadata Repository Change Workflow",
+    dimensionQuestion: "Does the reference data that is included in the information used to support this capability adhere to standards and is documented, controlled and stored in a location that is accessible to stakeholders?",
+    dataManagementCapability: "Reference Data Management"
+  },
+  {
+    id: "RI-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Reference Information",
+    description: "The reference data used to support the information asset adheres to Enterprise Reference Data outcomes, processes, procedures, standards, metadata and technology and are regularly assessed for opportunities to improve the management of reference data for the information asset.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Reference Data Management: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for Reference Data Management"
+    ],
+    evidence: "Reference Data Management Process Diagram, Reference Data Management Standard Operating Procedure, Reference Data Management Standard Documentation, Reference Data Management Metadata Requirements, Reference Data Management MITA Scorecard",
+    dimensionQuestion: "Does the reference data that is included in the information used to support this capability adhere to standards and is documented, controlled and stored in a location that is accessible to stakeholders?",
+    dataManagementCapability: "Reference Data Management"
+  },
+
+
+  /* ── Master Information ──────────────────────────────────────────────── */
+  {
+    id: "MI-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Master Information",
+    description: "Information assets used to support this capability do not use or contribute to Master Data.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the information used to support this capability mastered so that all entities represented in the information are unique?",
+    dataManagementCapability: "Master Data Management"
+  },
+  {
+    id: "MI-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Master Information",
+    description: "Master data rules have been developed to ensure that the entities represented in the information assets are unique.",
+    checklist: [
+      "Data matching rules have been developed that define how to match the entities identified in the information asset to the master record",
+      "Data survivorship (merge/link) rules have been developed that define how to merge and or link specific attributes about an entity identified in the information asset to create the master record"
+    ],
+    evidence: "Data Rule Catalog",
+    dimensionQuestion: "Is the information used to support this capability mastered so that all entities represented in the information are unique?",
+    dataManagementCapability: "Master Data Management"
+  },
+  {
+    id: "MI-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Master Information",
+    description: "Master data rules have been harmonized across the enterprise for common data and implemented within the information assets that support this capability. Entities represented in the information asset are unique entities that do not have duplicate records within the SMA.",
+    checklist: [
+      "Information asset is transactional and uses master data to uniquely identify the entity that is the subject of the transaction; or Information asset contributes to the definition of master data and is matched and integrated into the master data record",
+      "SMA has a defined 'Master Data Record' established for key entities that is stored centrally and available to stakeholders with the authority to access it",
+      "SMA continuously monitors the match rate for the information assets and makes modifications to master data rules as needed"
+    ],
+    evidence: "MDM Match Report",
+    dimensionQuestion: "Is the information used to support this capability mastered so that all entities represented in the information are unique?",
+    dataManagementCapability: "Master Data Management"
+  },
+  {
+    id: "MI-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Master Information",
+    description: "Master data rules are traced to the related information asset in a central metadata repository that is accessible to stakeholders to search, discover and identify the impact of master data rule modifications.",
+    checklist: [
+      "Master data is traced to the applicable data elements in the data dictionary",
+      "Master data rules are stored in a central metadata repository"
+    ],
+    evidence: "Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model, Reference Data Metadata Repository Change Workflow",
+    dimensionQuestion: "Is the information used to support this capability mastered so that all entities represented in the information are unique?",
+    dataManagementCapability: "Master Data Management"
+  },
+  {
+    id: "MI-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Master Information",
+    description: "The master data used to support the information asset adheres to Enterprise Master Management outcomes, processes, procedures, standards, metadata and technology and are regularly assessed for opportunities to improve the management of master data for the information asset.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Master Data Management: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for Master Data Management"
+    ],
+    evidence: "Master Data Management Process Diagram, Master Data Management Standard Operating Procedure, Master Data Management Standard Documentation, Master Data Management Metadata Requirements, Master Data Management MITA Scorecard",
+    dimensionQuestion: "Is the information used to support this capability mastered so that all entities represented in the information are unique?",
+    dataManagementCapability: "Master Data Management"
+  },
+
+
+  /* ── Information Storage ─────────────────────────────────────────────── */
+  {
+    id: "IS-1",
+    level: 1,
+    architecture: "information",
+    capabilityArea: "Information Storage",
+    description: "Data store repositories (e.g. databases) used for persistently storing and managing the information assets used for this capability have not been identified and documented.",
+    checklist: [],
+    evidence: "",
+    dimensionQuestion: "Is the information used for this capability stored in locations that reduces duplication with defined retention and access policies?",
+    dataManagementCapability: "Data Storage and Warehousing"
+  },
+  {
+    id: "IS-2",
+    level: 2,
+    architecture: "information",
+    capabilityArea: "Information Storage",
+    description: "Data store repositories (e.g. databases) used for persistently storing and managing the information assets used for this capability have been identified and documented.",
+    checklist: [
+      "The databases and data stores accessed to support the capability have been defined and documented"
+    ],
+    evidence: "Data Catalog",
+    dimensionQuestion: "Is the information used for this capability stored in locations that reduces duplication with defined retention and access policies?",
+    dataManagementCapability: "Data Storage and Warehousing"
+  },
+  {
+    id: "IS-3",
+    level: 3,
+    architecture: "information",
+    capabilityArea: "Information Storage",
+    description: "The Information assets that are used for this capability are not stored in multiple data store repositories resulting in no or low data duplication.",
+    checklist: [
+      "The information asset used for this capability are not stored in multiple locations across the enterprise"
+    ],
+    evidence: "",
+    dimensionQuestion: "Is the information used for this capability stored in locations that reduces duplication with defined retention and access policies?",
+    dataManagementCapability: "Data Storage and Warehousing"
+  },
+  {
+    id: "IS-4",
+    level: 4,
+    architecture: "information",
+    capabilityArea: "Information Storage",
+    description: "The information assets have defined policies for data retention and access that define how long the information must be retained and the roles that have access to the information. The metadata about data storage and policies are stored in a central metadata repository that is accessible to stakeholders to search, discover and identify impacts of data storage modifications.",
+    checklist: [
+      "The information asset have defined and implemented data retention policies",
+      "The information asset have defined and implemented access policies"
+    ],
+    evidence: "Data Retention Policy, Data Access Policy, Metadata Repository Screenshots, Metamodel, Metadata Repository Operating Model, Data Storage Metadata Repository Change Workflow",
+    dimensionQuestion: "Is the information used for this capability stored in locations that reduces duplication with defined retention and access policies?",
+    dataManagementCapability: "Data Storage and Warehousing"
+  },
+  {
+    id: "IS-5",
+    level: 5,
+    architecture: "information",
+    capabilityArea: "Information Storage",
+    description: "The information assets used to support this capability adhere to enterprise data storage & warehousing outcomes, business processes, role, metadata and technology and are regularly assessed to improve the quality of the information asset.",
+    checklist: [
+      "SMA has established and applied to the impacted assets Enterprise Data Storage & Warehousing: Outcomes & Metrics, Processes & procedures, Policies & Standards, Metadata requirements, Technology",
+      "SMA performs regular SS-A assessments for Data Storage & Warehousing"
+    ],
+    evidence: "Data Storage & Warehousing Process Diagram, Data Storage & Warehousing Standard Operating Procedure, Data Storage & Warehousing Standard Documentation, Data Storage & Warehousing Metadata Requirements, Data Storage & Warehousing MITA Scorecard",
+    dimensionQuestion: "Is the information used for this capability stored in locations that reduces duplication with defined retention and access policies?",
+    dataManagementCapability: "Data Storage and Warehousing"
+  }
+
+    ],
+    technical: [
+
+  // ─── Application Architecture ───────────────────────────────────────────────
+
+  {
+    id: 'TA-AA-1',
+    architecture: 'technical',
+    capabilityArea: 'Application Architecture',
+    level: 1,
+    description: 'Application architecture is ad-hoc and undocumented. Individual systems are designed and deployed independently without reference to enterprise standards or shared patterns. There is no formal inventory of applications or their interdependencies.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state define, document, and govern the architecture of its Medicaid applications as a coherent enterprise portfolio?'
+  },
+  {
+    id: 'TA-AA-2',
+    architecture: 'technical',
+    capabilityArea: 'Application Architecture',
+    level: 2,
+    description: 'The state has identified and documented its major Medicaid applications and their primary functions. An informal application inventory exists, and some architectural patterns have been recognized, but standards are not consistently applied across projects or vendors.',
+    checklist: [
+      'An application inventory listing major Medicaid systems and their primary functions exists',
+      'Key application interdependencies are identified and informally documented',
+      'Some architectural patterns (e.g., layered, service-based) are recognized and used on an ad-hoc basis'
+    ],
+    evidence: 'Application inventory document or spreadsheet; system context diagrams for major applications',
+    dimensionQuestion: 'To what extent does the state define, document, and govern the architecture of its Medicaid applications as a coherent enterprise portfolio?'
+  },
+  {
+    id: 'TA-AA-3',
+    architecture: 'technical',
+    capabilityArea: 'Application Architecture',
+    level: 3,
+    description: 'The state has adopted and consistently applies a defined application architecture framework aligned with MITA principles. Application designs follow documented standards for modularity, separation of concerns, and API-first design. New projects are required to conform to the enterprise application architecture.',
+    checklist: [
+      'A formal application architecture framework is documented and approved',
+      'All new application development projects reference and conform to the enterprise architecture standards',
+      'API-first design principles are applied consistently across Medicaid systems',
+      'Application architecture reviews are conducted as part of the project approval process'
+    ],
+    evidence: 'Enterprise application architecture framework document; architecture review board records; API design standards',
+    dimensionQuestion: 'To what extent does the state define, document, and govern the architecture of its Medicaid applications as a coherent enterprise portfolio?'
+  },
+  {
+    id: 'TA-AA-4',
+    architecture: 'technical',
+    capabilityArea: 'Application Architecture',
+    level: 4,
+    description: 'Application architecture conformance is actively measured and managed. The state maintains a central application architecture repository, tracks compliance metrics, and uses architecture health indicators to guide investment decisions. Deviations from standards are formally tracked and remediated.',
+    checklist: [
+      'A central application architecture repository is maintained and kept current',
+      'Architecture conformance metrics are collected and reported on a regular cadence',
+      'Deviations from architecture standards are logged, reviewed, and assigned remediation plans',
+      'Architecture health indicators inform the IT investment and modernization roadmap'
+    ],
+    evidence: 'Architecture repository; conformance metrics dashboard; deviation log with remediation status',
+    dimensionQuestion: 'To what extent does the state define, document, and govern the architecture of its Medicaid applications as a coherent enterprise portfolio?'
+  },
+  {
+    id: 'TA-AA-5',
+    architecture: 'technical',
+    capabilityArea: 'Application Architecture',
+    level: 5,
+    description: 'Application architecture is continuously optimized using enterprise standards, industry best practices, and feedback from operational metrics. The state proactively adopts emerging architectural patterns (e.g., microservices, event-driven architecture) where they improve outcomes. Architecture lessons learned are shared across state agencies and with CMS.',
+    checklist: [
+      'Architecture standards are reviewed and updated on a defined cycle using operational data and industry benchmarks',
+      'Emerging architectural patterns are evaluated and piloted in a structured manner',
+      'Architecture improvements are driven by measurable outcome targets (e.g., reduced integration latency, improved system availability)',
+      'Architecture knowledge and lessons learned are shared with peer states and CMS'
+    ],
+    evidence: 'Architecture standards revision history; pilot program documentation; outcome metrics tied to architecture decisions; cross-state collaboration records',
+    dimensionQuestion: 'To what extent does the state define, document, and govern the architecture of its Medicaid applications as a coherent enterprise portfolio?'
+  },
+
+  // ─── Integration Architecture ────────────────────────────────────────────────
+
+  {
+    id: 'TA-IA-1',
+    architecture: 'technical',
+    capabilityArea: 'Integration Architecture',
+    level: 1,
+    description: 'System integrations are implemented on a point-to-point, ad-hoc basis with no documented standards or reusable patterns. Integration logic is embedded within individual applications, creating tight coupling and making changes costly and error-prone.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state use standardized, reusable integration patterns and platforms to connect Medicaid systems and external partners?'
+  },
+  {
+    id: 'TA-IA-2',
+    architecture: 'technical',
+    capabilityArea: 'Integration Architecture',
+    level: 2,
+    description: 'The state has identified its major system integration points and documented the data flows between key Medicaid systems. Some reusable integration components or middleware exist, but their use is inconsistent. Integration standards (e.g., HL7, X12) are recognized but not uniformly enforced.',
+    checklist: [
+      'Major integration points between Medicaid systems are identified and documented',
+      'Data flow diagrams exist for key system-to-system exchanges',
+      'Some middleware or integration platform components are in use, though not consistently'
+    ],
+    evidence: 'Integration inventory; data flow diagrams; list of integration standards in use',
+    dimensionQuestion: 'To what extent does the state use standardized, reusable integration patterns and platforms to connect Medicaid systems and external partners?'
+  },
+  {
+    id: 'TA-IA-3',
+    architecture: 'technical',
+    capabilityArea: 'Integration Architecture',
+    level: 3,
+    description: 'The state has implemented a defined integration architecture using a standardized platform (e.g., an enterprise service bus or API gateway). Integration patterns, data formats, and transport protocols are documented and consistently applied. All new integrations are required to use the approved platform and patterns.',
+    checklist: [
+      'An enterprise integration platform (ESB, API gateway, or equivalent) is deployed and in active use',
+      'Integration patterns, data formats, and transport protocols are documented in an integration standards guide',
+      'All new system integrations are required to use the approved platform and conform to documented patterns',
+      'Integration testing standards and environments are defined and used for all new integrations'
+    ],
+    evidence: 'Integration architecture standards guide; integration platform documentation; integration test results',
+    dimensionQuestion: 'To what extent does the state use standardized, reusable integration patterns and platforms to connect Medicaid systems and external partners?'
+  },
+  {
+    id: 'TA-IA-4',
+    architecture: 'technical',
+    capabilityArea: 'Integration Architecture',
+    level: 4,
+    description: 'Integration performance and reliability are actively monitored and managed. The state maintains a central integration registry, tracks SLA compliance for all integration endpoints, and uses metrics to prioritize integration improvements. Integration failures are detected automatically and trigger defined remediation workflows.',
+    checklist: [
+      'A central integration registry documents all active integration endpoints and their SLAs',
+      'Integration monitoring dashboards track availability, latency, and error rates in real time',
+      'SLA compliance is reported regularly and drives prioritization of integration improvements',
+      'Automated alerting and remediation workflows are in place for integration failures'
+    ],
+    evidence: 'Integration registry; monitoring dashboard screenshots; SLA compliance reports; incident response records',
+    dimensionQuestion: 'To what extent does the state use standardized, reusable integration patterns and platforms to connect Medicaid systems and external partners?'
+  },
+  {
+    id: 'TA-IA-5',
+    architecture: 'technical',
+    capabilityArea: 'Integration Architecture',
+    level: 5,
+    description: 'Integration architecture is continuously optimized based on performance data, emerging standards (e.g., FHIR R4, SMART on FHIR), and evolving interoperability requirements. The state actively participates in national interoperability initiatives and contributes reusable integration assets to the broader Medicaid community.',
+    checklist: [
+      'Integration standards are reviewed and updated on a defined cycle, incorporating emerging federal and industry standards',
+      'FHIR-based APIs are implemented for all applicable data exchanges in alignment with CMS interoperability rules',
+      'Reusable integration assets (adapters, mappings, schemas) are catalogued and shared with peer states',
+      'Integration architecture improvements are tied to measurable interoperability outcome targets'
+    ],
+    evidence: 'Integration standards revision history; FHIR API inventory; shared asset catalogue; interoperability outcome metrics',
+    dimensionQuestion: 'To what extent does the state use standardized, reusable integration patterns and platforms to connect Medicaid systems and external partners?'
+  },
+
+  // ─── Infrastructure Architecture ─────────────────────────────────────────────
+
+  {
+    id: 'TA-INFRA-1',
+    architecture: 'technical',
+    capabilityArea: 'Infrastructure Architecture',
+    level: 1,
+    description: 'Infrastructure is provisioned and managed on an ad-hoc basis with no documented standards, capacity planning, or formal change management. Environments are inconsistently configured, and there is no separation between development, test, and production environments.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state use standardized, scalable, and resilient infrastructure to host and operate its Medicaid systems?'
+  },
+  {
+    id: 'TA-INFRA-2',
+    architecture: 'technical',
+    capabilityArea: 'Infrastructure Architecture',
+    level: 2,
+    description: 'The state has documented its current infrastructure inventory and established basic environment separation (development, test, production). Informal capacity planning occurs, and some infrastructure standards are recognized, but they are not consistently enforced across all systems.',
+    checklist: [
+      'An infrastructure inventory documenting servers, networks, and hosting environments exists',
+      'Separate development, test, and production environments are established for major systems',
+      'Basic capacity planning is performed, though informally and inconsistently'
+    ],
+    evidence: 'Infrastructure inventory; environment topology diagrams; capacity planning records',
+    dimensionQuestion: 'To what extent does the state use standardized, scalable, and resilient infrastructure to host and operate its Medicaid systems?'
+  },
+  {
+    id: 'TA-INFRA-3',
+    architecture: 'technical',
+    capabilityArea: 'Infrastructure Architecture',
+    level: 3,
+    description: 'The state has adopted a defined infrastructure architecture that includes documented standards for compute, storage, networking, and hosting. Infrastructure-as-code practices are used for environment provisioning. Disaster recovery and business continuity plans are documented and tested on a regular schedule.',
+    checklist: [
+      'Infrastructure architecture standards are documented and cover compute, storage, networking, and hosting',
+      'Infrastructure-as-code (IaC) tools are used to provision and manage environments consistently',
+      'Disaster recovery and business continuity plans are documented, approved, and tested at least annually',
+      'Change management processes govern all infrastructure changes in production environments'
+    ],
+    evidence: 'Infrastructure architecture standards; IaC scripts/templates; DR/BCP documentation; DR test results; change management records',
+    dimensionQuestion: 'To what extent does the state use standardized, scalable, and resilient infrastructure to host and operate its Medicaid systems?'
+  },
+  {
+    id: 'TA-INFRA-4',
+    architecture: 'technical',
+    capabilityArea: 'Infrastructure Architecture',
+    level: 4,
+    description: 'Infrastructure performance, availability, and cost are actively measured and managed. The state uses centralized monitoring and observability tools to track infrastructure health across all Medicaid systems. Capacity and cost optimization decisions are data-driven, and infrastructure KPIs are reported to leadership.',
+    checklist: [
+      'Centralized monitoring and observability tools provide real-time visibility into infrastructure health across all systems',
+      'Infrastructure KPIs (availability, latency, cost per transaction) are tracked and reported to leadership',
+      'Capacity planning is data-driven and uses historical utilization trends and forecasting models',
+      'Cloud cost optimization reviews are conducted regularly and findings are acted upon'
+    ],
+    evidence: 'Monitoring dashboard; infrastructure KPI reports; capacity planning models; cost optimization review records',
+    dimensionQuestion: 'To what extent does the state use standardized, scalable, and resilient infrastructure to host and operate its Medicaid systems?'
+  },
+  {
+    id: 'TA-INFRA-5',
+    architecture: 'technical',
+    capabilityArea: 'Infrastructure Architecture',
+    level: 5,
+    description: 'Infrastructure architecture is continuously optimized using operational data, emerging cloud-native technologies, and evolving federal standards. The state employs auto-scaling, self-healing infrastructure patterns, and continuous compliance monitoring. Infrastructure innovations are documented and shared with peer states.',
+    checklist: [
+      'Auto-scaling and self-healing infrastructure patterns are implemented for critical Medicaid workloads',
+      'Continuous compliance monitoring (e.g., FedRAMP, FISMA) is automated and integrated into the CI/CD pipeline',
+      'Infrastructure architecture is reviewed and updated on a defined cycle using operational metrics and emerging technology assessments',
+      'Infrastructure innovations and lessons learned are shared with peer states and CMS'
+    ],
+    evidence: 'Auto-scaling configuration documentation; continuous compliance monitoring reports; architecture review records; cross-state sharing artifacts',
+    dimensionQuestion: 'To what extent does the state use standardized, scalable, and resilient infrastructure to host and operate its Medicaid systems?'
+  },
+
+  // ─── Security Architecture ───────────────────────────────────────────────────
+
+  {
+    id: 'TA-SA-1',
+    architecture: 'technical',
+    capabilityArea: 'Security Architecture',
+    level: 1,
+    description: 'Security controls are applied reactively and inconsistently. There is no formal security architecture, and security requirements are not systematically incorporated into system design. Security incidents are addressed on an ad-hoc basis with no documented response procedures.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state embed security and privacy requirements into the architecture and lifecycle of its Medicaid systems?'
+  },
+  {
+    id: 'TA-SA-2',
+    architecture: 'technical',
+    capabilityArea: 'Security Architecture',
+    level: 2,
+    description: 'The state has identified its key security requirements and documented baseline security controls for Medicaid systems. A security incident response plan exists, though it may not be regularly tested. Security assessments are conducted for major systems, but the process is not standardized.',
+    checklist: [
+      'Baseline security controls for Medicaid systems are documented and reference applicable federal standards (NIST, HIPAA)',
+      'A security incident response plan is documented and assigned to responsible parties',
+      'Security assessments (e.g., vulnerability scans, penetration tests) are conducted for major systems'
+    ],
+    evidence: 'Security controls baseline document; incident response plan; security assessment reports',
+    dimensionQuestion: 'To what extent does the state embed security and privacy requirements into the architecture and lifecycle of its Medicaid systems?'
+  },
+  {
+    id: 'TA-SA-3',
+    architecture: 'technical',
+    capabilityArea: 'Security Architecture',
+    level: 3,
+    description: 'The state has implemented a defined security architecture aligned with NIST SP 800-53 and HIPAA requirements. Security-by-design principles are embedded in the system development lifecycle. All Medicaid systems undergo formal security and privacy impact assessments before deployment, and security controls are consistently applied.',
+    checklist: [
+      'A formal security architecture aligned with NIST SP 800-53 and HIPAA is documented and approved',
+      'Security-by-design requirements are embedded in the SDLC and enforced at project initiation',
+      'All new systems undergo a formal Security and Privacy Impact Assessment (SPIA) before deployment',
+      'Identity and access management (IAM) standards are documented and consistently applied across all systems'
+    ],
+    evidence: 'Security architecture document; SDLC security requirements; SPIA records; IAM standards and implementation evidence',
+    dimensionQuestion: 'To what extent does the state embed security and privacy requirements into the architecture and lifecycle of its Medicaid systems?'
+  },
+  {
+    id: 'TA-SA-4',
+    architecture: 'technical',
+    capabilityArea: 'Security Architecture',
+    level: 4,
+    description: 'Security posture is continuously monitored and managed using a centralized security information and event management (SIEM) platform. Security metrics are tracked and reported to leadership. Risk acceptance decisions are formally documented, and the security architecture is updated based on threat intelligence and audit findings.',
+    checklist: [
+      'A SIEM platform provides centralized, real-time monitoring of security events across all Medicaid systems',
+      'Security metrics (e.g., mean time to detect, mean time to respond, open vulnerability count) are tracked and reported to leadership',
+      'Risk acceptance decisions are formally documented with business justification and time-bound remediation plans',
+      'Threat intelligence feeds are integrated into security monitoring and used to update controls proactively'
+    ],
+    evidence: 'SIEM platform documentation; security metrics dashboard; risk register with acceptance records; threat intelligence integration evidence',
+    dimensionQuestion: 'To what extent does the state embed security and privacy requirements into the architecture and lifecycle of its Medicaid systems?'
+  },
+  {
+    id: 'TA-SA-5',
+    architecture: 'technical',
+    capabilityArea: 'Security Architecture',
+    level: 5,
+    description: 'Security architecture is continuously optimized through a formal security improvement program that incorporates threat modeling, red team exercises, and zero-trust principles. The state proactively contributes to national Medicaid security initiatives and shares threat intelligence and security patterns with peer states and CMS.',
+    checklist: [
+      'Zero-trust architecture principles are implemented and validated across Medicaid systems',
+      'Regular red team / purple team exercises are conducted and findings drive architecture improvements',
+      'Threat modeling is performed for all significant system changes and new capabilities',
+      'Security improvements and threat intelligence are shared with peer states and CMS through formal channels'
+    ],
+    evidence: 'Zero-trust implementation documentation; red team exercise reports; threat modeling records; cross-state security sharing artifacts',
+    dimensionQuestion: 'To what extent does the state embed security and privacy requirements into the architecture and lifecycle of its Medicaid systems?'
+  },
+
+  // ─── Data Architecture ───────────────────────────────────────────────────────
+
+  {
+    id: 'TA-DA-1',
+    architecture: 'technical',
+    capabilityArea: 'Data Architecture',
+    level: 1,
+    description: 'Data architecture is ad-hoc and undocumented. Data models, data dictionaries, and data governance policies do not exist or are confined to individual systems. Data quality issues are addressed reactively, and there is no enterprise view of Medicaid data assets.',
+    checklist: [],
+    evidence: '',
+    dimensionQuestion: 'To what extent does the state define, govern, and manage its Medicaid data assets as a strategic enterprise resource?'
+  },
+  {
+    id: 'TA-DA-2',
+    architecture: 'technical',
+    capabilityArea: 'Data Architecture',
+    level: 2,
+    description: 'The state has identified its major Medicaid data assets and documented data models for key systems. A basic data dictionary exists for critical data elements. Data governance roles are informally assigned, and some data quality rules are defined, though enforcement is inconsistent.',
+    checklist: [
+      'Major Medicaid data assets are identified and catalogued at a high level',
+      'Data models (logical or physical) are documented for key Medicaid systems',
+      'A basic data dictionary covering critical data elements is maintained',
+      'Data governance roles (e.g., data steward, data owner) are informally assigned'
+    ],
+    evidence: 'Data asset catalogue; data model documentation; data dictionary; data governance role assignments',
+    dimensionQuestion: 'To what extent does the state define, govern, and manage its Medicaid data assets as a strategic enterprise resource?'
+  },
+  {
+    id: 'TA-DA-3',
+    architecture: 'technical',
+    capabilityArea: 'Data Architecture',
+    level: 3,
+    description: 'The state has implemented a defined enterprise data architecture aligned with MITA information architecture principles. A formal data governance program is in place with documented policies, stewardship roles, and data quality standards. Master data management practices are applied to key Medicaid data domains (member, provider, claims).',
+    checklist: [
+      'An enterprise data architecture aligned with MITA information architecture principles is documented and approved',
+      'A formal data governance program with documented policies, stewardship roles, and escalation procedures is operational',
+      'Data quality standards and validation rules are defined and enforced for all critical data domains',
+      'Master data management (MDM) practices are applied to member, provider, and claims data domains'
+    ],
+    evidence: 'Enterprise data architecture document; data governance program charter and policies; data quality standards; MDM implementation documentation',
+    dimensionQuestion: 'To what extent does the state define, govern, and manage its Medicaid data assets as a strategic enterprise resource?'
+  },
+  {
+    id: 'TA-DA-4',
+    architecture: 'technical',
+    capabilityArea: 'Data Architecture',
+    level: 4,
+    description: 'Data quality, lineage, and usage are actively measured and managed through a central data governance platform. Data quality metrics are tracked and reported to leadership. A central data catalogue provides enterprise-wide visibility into data assets, their lineage, and their quality scores. Data architecture decisions are informed by usage analytics.',
+    checklist: [
+      'A central data catalogue provides enterprise-wide visibility into data assets, lineage, and quality scores',
+      'Data quality metrics are tracked, trended, and reported to leadership on a regular cadence',
+      'Data lineage is documented for all critical data flows from source to consumption',
+      'Data architecture decisions are informed by data usage analytics and business value assessments'
+    ],
+    evidence: 'Data catalogue platform documentation; data quality metrics reports; data lineage documentation; data usage analytics reports',
+    dimensionQuestion: 'To what extent does the state define, govern, and manage its Medicaid data assets as a strategic enterprise resource?'
+  },
+  {
+    id: 'TA-DA-5',
+    architecture: 'technical',
+    capabilityArea: 'Data Architecture',
+    level: 5,
+    description: 'Data architecture is continuously optimized to support advanced analytics, AI/ML capabilities, and evolving federal data standards (e.g., FHIR, T-MSIS). The state operates a mature data mesh or data lakehouse architecture that enables self-service analytics. Data architecture innovations and governance practices are shared with peer states and CMS.',
+    checklist: [
+      'Advanced analytics and AI/ML capabilities are supported by a modern data platform (data mesh, data lakehouse, or equivalent)',
+      'Data architecture is aligned with and continuously updated to reflect evolving federal standards (FHIR, T-MSIS, CMS data requirements)',
+      'Self-service analytics capabilities are available to authorized Medicaid program staff',
+      'Data architecture innovations and governance practices are shared with peer states and CMS through formal channels'
+    ],
+    evidence: 'Modern data platform architecture documentation; federal standards alignment assessment; self-service analytics platform documentation; cross-state sharing artifacts',
+    dimensionQuestion: 'To what extent does the state define, govern, and manage its Medicaid data assets as a strategic enterprise resource?'
+  }
+
+
+    ]
+  };
+
+  /* ─── Level labels ────────────────────────────────────────────────── */
+  var LEVEL_LABELS = { 1: 'Initial', 2: 'Developing', 3: 'Defined', 4: 'Managed', 5: 'Optimizing' };
+
+  /* ─── Utilities ───────────────────────────────────────────────────── */
+  function escapeHtml(str) {
+    if (typeof str !== 'string') return '';
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  /* ─── Card renderer ───────────────────────────────────────────────── */
+  function renderCard(criterion) {
+    var level    = criterion.level;
+    var label    = LEVEL_LABELS[level] || '';
+    var checklist = criterion.checklist || [];
+    var evidence  = criterion.evidence || '';
+    var dimQ      = criterion.dimensionQuestion || '';
+
+    var checklistHtml = '';
+    if (checklist.length) {
+      checklistHtml = '<div class="criteria-card-checklist">' +
+        '<p class="eyebrow-mini">Indicators</p><ul>' +
+        checklist.map(function(item) {
+          return '<li>' + escapeHtml(item) + '</li>';
+        }).join('') +
+        '</ul></div>';
+    }
+
+    var evidenceHtml = evidence
+      ? '<div class="criteria-card-evidence"><p class="eyebrow-mini">Evidence</p><p>' + escapeHtml(evidence) + '</p></div>'
+      : '';
+
+    var dimQHtml = dimQ
+      ? '<div class="criteria-card-dimq"><p class="eyebrow-mini">Guiding Question</p><p>' + escapeHtml(dimQ) + '</p></div>'
+      : '';
+
+    return '<article class="criteria-card" role="listitem">' +
+      '<div class="criteria-card-header">' +
+      '<span class="level-badge level-badge--' + level + '">Level ' + level + ' &mdash; ' + escapeHtml(label) + '</span>' +
+      '<span class="criteria-id">' + escapeHtml(criterion.id || '') + '</span>' +
+      '</div>' +
+      '<div class="criteria-card-dimension">' + escapeHtml(criterion.capabilityArea || '') + '</div>' +
+      '<p class="criteria-card-desc">' + escapeHtml(criterion.description || '') + '</p>' +
+      checklistHtml +
+      evidenceHtml +
+      dimQHtml +
+      '</article>';
+  }
+
+  /* ─── Panel population ────────────────────────────────────────── */
+  function populateAreaSelect(arch) {
+    var data = MITA_CRITERIA[arch];
+    var select = document.getElementById('filter-area-' + arch);
+    if (!select || !data) return;
+
+    // Collect unique capability areas in insertion order
+    var seen = {};
+    var areas = [];
+    for (var i = 0; i < data.length; i++) {
+      var area = data[i].capabilityArea;
+      if (area && !seen[area]) {
+        seen[area] = true;
+        areas.push(area);
+      }
+    }
+
+    // Remove all options except the first ("All Capability Areas")
+    while (select.options.length > 1) {
+      select.remove(1);
+    }
+
+    // Append one option per unique area
+    for (var j = 0; j < areas.length; j++) {
+      var opt = document.createElement('option');
+      opt.value = areas[j];
+      opt.textContent = areas[j];
+      select.appendChild(opt);
+    }
+  }
+
+  /* ─── Panel renderer ──────────────────────────────────────────── */
+  function renderPanel(arch) {
+    var areaSelect  = document.getElementById('filter-area-'  + arch);
+    var levelSelect = document.getElementById('filter-level-' + arch);
+    var resultsEl   = document.getElementById('results-'      + arch);
+    var statusEl    = document.getElementById('status-'       + arch);
+
+    if (!resultsEl || !statusEl) return;
+
+    var area   = areaSelect  ? areaSelect.value  : '';
+    var lvlRaw = levelSelect ? levelSelect.value : '';
+    var lvl    = lvlRaw ? parseInt(lvlRaw, 10) : null;
+    var data   = MITA_CRITERIA[arch];
+
+    // Empty/missing data fallback
+    if (!data || !data.length) {
+      resultsEl.innerHTML = '<div class="criteria-empty-state"><p>Criteria data for this architecture is not yet available.</p></div>';
+      statusEl.textContent = '';
+      return;
+    }
+
+    // Filter
+    var filtered = data.filter(function(c) {
+      var areaMatch  = !area || c.capabilityArea === area;
+      var levelMatch = !lvl  || c.level === lvl;
+      return areaMatch && levelMatch;
+    });
+
+    // No-match empty state
+    if (!filtered.length) {
+      resultsEl.innerHTML = '<div class="criteria-empty-state"><p>No criteria match the selected filters. Try adjusting the capability area or level.</p></div>';
+      statusEl.textContent = 'No criteria match the selected filters.';
+      return;
+    }
+
+    // Render cards
+    resultsEl.innerHTML = filtered.map(renderCard).join('');
+    statusEl.textContent = 'Showing ' + filtered.length + ' ' + (filtered.length === 1 ? 'criterion' : 'criteria') + '.';
+  }
+
+  /* ─── Architecture constants ──────────────────────────────────── */
+  var ARCH_KEYS = ['business', 'information', 'technical'];
+
+  /* ─── Tab activation ──────────────────────────────────────────── */
+  function activateTab(arch) {
+    ARCH_KEYS.forEach(function(key) {
+      var tab   = document.getElementById('tab-'   + key);
+      var panel = document.getElementById('panel-' + key);
+      var isActive = key === arch;
+      if (tab) {
+        tab.classList.toggle('active', isActive);
+        tab.setAttribute('aria-selected', String(isActive));
+      }
+      if (panel) {
+        panel.classList.toggle('active', isActive);
+      }
+    });
+
+    // Reset filters for the newly activated panel
+    var areaSelect  = document.getElementById('filter-area-'  + arch);
+    var levelSelect = document.getElementById('filter-level-' + arch);
+    if (areaSelect)  areaSelect.value  = '';
+    if (levelSelect) levelSelect.value = '';
+
+    // Re-render the full criteria set
+    renderPanel(arch);
+  }
+
+  /* ─── Tab click listeners ─────────────────────────────────────── */
+  ARCH_KEYS.forEach(function(key) {
+    var tab = document.getElementById('tab-' + key);
+    if (tab) {
+      tab.addEventListener('click', function() {
+        activateTab(key);
+      });
+    }
+  });
+
+  /* ─── Keyboard navigation ─────────────────────────────────────── */
+  var tablist = document.querySelector('[role="tablist"]');
+  if (tablist) {
+    tablist.addEventListener('keydown', function(e) {
+      var currentIndex = ARCH_KEYS.indexOf(
+        (document.activeElement && document.activeElement.id || '').replace('tab-', '')
+      );
+      if (currentIndex === -1) return;
+
+      var nextIndex;
+      if (e.key === 'ArrowRight') {
+        nextIndex = (currentIndex + 1) % ARCH_KEYS.length;
+      } else if (e.key === 'ArrowLeft') {
+        nextIndex = (currentIndex - 1 + ARCH_KEYS.length) % ARCH_KEYS.length;
+      } else if (e.key === 'Home') {
+        nextIndex = 0;
+      } else if (e.key === 'End') {
+        nextIndex = ARCH_KEYS.length - 1;
+      } else if (e.key === 'Enter' || e.key === ' ') {
+        activateTab(ARCH_KEYS[currentIndex]);
+        e.preventDefault();
+        return;
+      } else {
+        return;
+      }
+
+      e.preventDefault();
+      var nextTab = document.getElementById('tab-' + ARCH_KEYS[nextIndex]);
+      if (nextTab) {
+        nextTab.focus();
+        activateTab(ARCH_KEYS[nextIndex]);
+      }
+    });
+  }
+
+  /* ─── Filter change listeners ─────────────────────────────────── */
+  ARCH_KEYS.forEach(function(key) {
+    var areaSelect  = document.getElementById('filter-area-'  + key);
+    var levelSelect = document.getElementById('filter-level-' + key);
+    if (areaSelect)  areaSelect.addEventListener('change',  function() { renderPanel(key); });
+    if (levelSelect) levelSelect.addEventListener('change', function() { renderPanel(key); });
+  });
+
+  /* ─── Page initialization ─────────────────────────────────────── */
+  ARCH_KEYS.forEach(function(key) {
+    populateAreaSelect(key);
+  });
+  renderPanel('business');
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "name": "Update Readme",
+  "description": "Update readme anytime enhancements are made ",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Update readme anytime enhancements are made to explain the new content"
+  }
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MITA 4.0 Companion Guide</title>
+<meta name="description" content="A step-by-step MITA 4.0 Companion Guide covering path selection, outcomes-based planning, capabilities, architecture, State Self-Assessment, and wrap-up.">
+<meta property="og:title" content="MITA 4.0 Companion Guide">
+<meta property="og:description" content="A step-by-step MITA 4.0 Companion Guide covering path selection, outcomes-based planning, capabilities, architecture, State Self-Assessment, and wrap-up.">
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./sitemap-pages.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Navigation menu">
+  <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </button>
+  <div class="mobile-nav-group">
+    <a href="./index.html" class="mobile-nav-parent">Welcome</a>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./introduction.html" class="mobile-nav-parent">Introduction</a>
+    <div class="mobile-nav-children">
+      <a href="./introduction.html#new-features" class="mobile-nav-child">New Features</a>
+      <a href="./introduction.html#benefits" class="mobile-nav-child">Benefits of Adoption</a>
+      <a href="./introduction.html#effective-use" class="mobile-nav-child">Effective Use</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group active">
+    <a href="./companion-guide.html" class="mobile-nav-parent active">Companion Guide</a>
+    <div class="mobile-nav-children">
+      <a href="./companion-guide.html#scope" class="mobile-nav-child active">Scope Your Assessment</a>
+      <a href="./companion-guide.html#capabilities" class="mobile-nav-child active">Choose Your Capabilities</a>
+      <a href="./companion-guide.html#architecture" class="mobile-nav-child active">Define Your Architecture</a>
+      <a href="./companion-guide.html#document-ssa" class="mobile-nav-child active">State Self-Assessment</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./outcomes-based-planning.html" class="mobile-nav-parent">Outcomes-based Planning</a>
+    <div class="mobile-nav-children">
+      <a href="./outcomes-based-planning.html#what-is-obp" class="mobile-nav-child">What is OBP?</a>
+      <a href="./outcomes-based-planning.html#why-it-matters" class="mobile-nav-child">Why It Matters</a>
+      <a href="./outcomes-based-planning.html#key-objectives" class="mobile-nav-child">Key Objectives</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./architectures.html" class="mobile-nav-parent">Architectures</a>
+    <div class="mobile-nav-children">
+      <a href="./architectures.html#capability-ref" class="mobile-nav-child">Capability Reference Model</a>
+      <a href="./architectures.html#viewpoints-ref" class="mobile-nav-child">Viewpoints Reference Model</a>
+      <a href="./architectures.html#business-ref" class="mobile-nav-child">Business Architecture</a>
+      <a href="./information-architecture.html" class="mobile-nav-child">Information Architecture</a>
+      <a href="./ia-data-crosswalks.html" class="mobile-nav-child">IA Data Crosswalks</a>
+      <a href="./ia-maturity-criteria.html" class="mobile-nav-child">IA Maturity Criteria</a>
+      <a href="./architectures.html#technical-ref" class="mobile-nav-child">Technical Architecture</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./maturity-criteria.html" class="mobile-nav-parent">Maturity Criteria</a>
+    <div class="mobile-nav-children">
+      <a href="./maturity-criteria.html#maturity" class="mobile-nav-child">Maturity Criteria</a>
+      <a href="./ssa-tool.html" class="mobile-nav-child">SS-A Tool</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./tools-resources.html" class="mobile-nav-parent">Tools & Resources</a>
+    <div class="mobile-nav-children">
+      <a href="./tools-resources.html#obp-tool" class="mobile-nav-child">Outcomes-based Planning Tool</a>
+      <a href="./tools-resources.html#ssa-tool-resource" class="mobile-nav-child">State Self-Assessment Tool</a>
+      <a href="./tools-resources.html#conops-template" class="mobile-nav-child">Concept of Operations Template</a>
+      <a href="./tools-resources.html#quick-guides" class="mobile-nav-child">Quick Reference Guides</a>
+    </div>
+  </div>
+  <div class="mobile-nav-group">
+    <a href="./references.html" class="mobile-nav-parent">References</a>
+    <div class="mobile-nav-children">
+      <a href="./site-map.html" class="mobile-nav-child">Visual Sitemap</a>
+      <a href="./implementation-process.html" class="mobile-nav-child">Implementation Walkthrough</a>
+      <a href="./references.html#faq" class="mobile-nav-child">FAQs</a>
+      <a href="./references.html#glossary" class="mobile-nav-child">Glossary</a>
+      <a href="./references.html#support" class="mobile-nav-child">Support Channels</a>
+    </div>
+  </div>
+</div>
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="./index.html" class="logo-group" aria-label="MITA 4.0 Home">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="1" y="1" width="34" height="34" rx="8" fill="var(--color-primary)" fill-opacity="0.1" stroke="var(--color-primary)" stroke-opacity="0.2" stroke-width="1"/>
+        <rect x="8" y="22" width="4" height="6" rx="1" fill="var(--color-primary)" fill-opacity="0.4"/>
+        <rect x="14" y="18" width="4" height="10" rx="1" fill="var(--color-primary)" fill-opacity="0.6"/>
+        <rect x="20" y="14" width="4" height="14" rx="1" fill="var(--color-primary)" fill-opacity="0.8"/>
+        <rect x="26" y="9" width="4" height="19" rx="1" fill="var(--color-primary)"/>
+        <path d="M10 11l8-3 10 0" stroke="var(--color-primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+      </svg>
+      <div class="logo-text">MITA <span>4.0</span></div>
+    </a>
+    <nav class="nav-main" aria-label="Primary navigation">
+      <div class="nav-item-group">
+        <a href="./index.html" class="nav-parent">Welcome</a>
+      </div>
+      <div class="nav-item-group">
+        <a href="./introduction.html" class="nav-parent">Introduction</a>
+        <div class="nav-dropdown">
+          <a href="./introduction.html#new-features">New Features</a>
+          <a href="./introduction.html#benefits">Benefits of Adoption</a>
+          <a href="./introduction.html#effective-use">Effective Use</a>
+        </div>
+      </div>
+      <div class="nav-item-group active">
+        <a href="./companion-guide.html" class="nav-parent active">Companion Guide</a>
+        <div class="nav-dropdown">
+          <a href="./companion-guide.html#scope" class="active">Scope Your Assessment</a>
+          <a href="./companion-guide.html#capabilities" class="active">Choose Your Capabilities</a>
+          <a href="./companion-guide.html#architecture" class="active">Define Your Architecture</a>
+          <a href="./companion-guide.html#document-ssa" class="active">State Self-Assessment</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./outcomes-based-planning.html" class="nav-parent">Outcomes-based Planning</a>
+        <div class="nav-dropdown">
+          <a href="./outcomes-based-planning.html#what-is-obp">What is OBP?</a>
+          <a href="./outcomes-based-planning.html#why-it-matters">Why It Matters</a>
+          <a href="./outcomes-based-planning.html#key-objectives">Key Objectives</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./architectures.html" class="nav-parent">Architectures</a>
+        <div class="nav-dropdown">
+          <a href="./architectures.html#capability-ref">Capability Reference Model</a>
+          <a href="./architectures.html#viewpoints-ref">Viewpoints Reference Model</a>
+          <a href="./architectures.html#business-ref">Business Architecture</a>
+          <a href="./information-architecture.html">Information Architecture</a>
+          <a href="./ia-data-crosswalks.html">IA Data Crosswalks</a>
+          <a href="./ia-maturity-criteria.html">IA Maturity Criteria</a>
+          <a href="./architectures.html#technical-ref">Technical Architecture</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./maturity-criteria.html" class="nav-parent">Maturity Criteria</a>
+        <div class="nav-dropdown">
+          <a href="./maturity-criteria.html#maturity">Maturity Criteria</a>
+          <a href="./ssa-tool.html">SS-A Tool</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./tools-resources.html" class="nav-parent">Tools & Resources</a>
+        <div class="nav-dropdown">
+          <a href="./tools-resources.html#obp-tool">Outcomes-based Planning Tool</a>
+          <a href="./tools-resources.html#ssa-tool-resource">State Self-Assessment Tool</a>
+          <a href="./tools-resources.html#conops-template">Concept of Operations Template</a>
+          <a href="./tools-resources.html#quick-guides">Quick Reference Guides</a>
+        </div>
+      </div>
+      <div class="nav-item-group">
+        <a href="./references.html" class="nav-parent">References</a>
+        <div class="nav-dropdown">
+          <a href="./site-map.html">Visual Sitemap</a>
+          <a href="./implementation-process.html">Implementation Walkthrough</a>
+          <a href="./references.html#faq">FAQs</a>
+          <a href="./references.html#glossary">Glossary</a>
+          <a href="./references.html#support">Support Channels</a>
+        </div>
+      </div>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open navigation menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero page-hero">
+    <div class="container hero-content">
+      <div class="hero-badge">MITA 4.0 Companion Guide</div>
+      <h1>Follow the <em>MITA 4.0 process</em></h1>
+      <p class="hero-sub">This page now uses the companion guide’s actual path selection logic and four-step implementation flow, organized in a step-based format similar to the reference process file.</p>
+      <div class="hero-actions">
+        <a href="#scope" class="btn btn-primary">Start with Scope Your Assessment</a>
+        <a href="#conduct-obp" class="btn btn-ghost">Jump to Step 1</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container page-shell">
+      <div class="page-subnav reveal">
+        <a href="#welcome-guide">Welcome</a>
+        <a href="#scope">Scope Your Assessment</a>
+        <a href="#conduct-obp">Conduct Outcomes-based Planning</a>
+        <a href="#capabilities">Choose Your Capabilities</a>
+        <a href="#architecture">Define Your Architecture</a>
+        <a href="#document-ssa">Document Your State Self-Assessment</a>
+        <a href="#wrap-up">Wrap Up MITA 4.0</a>
+      </div>
+
+      <section class="content-section reveal" id="welcome-guide">
+        <p class="section-eyebrow">Welcome to the MITA 4.0 Companion Guide</p>
+        <h2 class="section-title">A guided walkthrough of the MITA 4.0 process</h2>
+        <p class="section-desc">The Centers for Medicare & Medicaid Services (CMS) Medicaid Information Technology Architecture (MITA) 4.0 helps your State Medicaid Agency align business and information technology strategies to achieve enterprise goals, support CMS and state-prioritized outcomes, align to ORBIT capabilities, and prepare for enhanced funding requirements.</p>
+        <article class="resource-card">
+          <h3>The Companion Guide helps you move through four main steps</h3>
+          <ol class="prose-list ordered">
+            <li>Conduct outcomes-based planning</li>
+            <li>Choose your capabilities</li>
+            <li>Define your architecture</li>
+            <li>Document your State Self-Assessment</li>
+          </ol>
+        </article>
+      </section>
+
+      <section class="content-section reveal" id="scope">
+        <p class="section-eyebrow">Scope Your Assessment</p>
+        <h2 class="section-title">Select the MITA 4.0 path that fits your trigger</h2>
+        <p class="section-desc">MITA 4.0 offers a flexible approach with two possible paths. The primary trigger for your MITA effort should inform your path selection.</p>
+        <div class="path-grid">
+          <article class="resource-card">
+            <h3>Path 1 — Targeted SS-A</h3>
+            <p>Use Path 1 when the focus is a specific business need or challenge and the goal is a more actionable roadmap and concept of operations.</p>
+            <ul class="prose-list">
+              <li>Modernize or implement a module or system</li>
+              <li>Transition from legacy systems or vendors</li>
+              <li>Respond to Medicaid policy or strategic shifts</li>
+              <li>Address isolated issues from reviews or audits</li>
+              <li>Respond to incidents that revealed capability deficiencies</li>
+            </ul>
+            <div class="note-card">
+              <h4>Path 1 order</h4>
+              <p>Conduct OBP → Choose Capabilities → Define Architecture → Document SS-A → Wrap Up</p>
+            </div>
+          </article>
+          <article class="resource-card">
+            <h3>Path 2 — Full SS-A</h3>
+            <p>Use Path 2 when the goal is a comprehensive enterprise baseline, maturity profile, and roadmap for the full Medicaid Enterprise.</p>
+            <ul class="prose-list">
+              <li>Know the maturity of Medicaid business capabilities and gaps</li>
+              <li>Create a baseline of the Medicaid Enterprise</li>
+              <li>Support broad enterprise modernization</li>
+            </ul>
+            <div class="note-card">
+              <h4>Path 2 order</h4>
+              <p>Choose Capabilities → Define Baseline Architecture → Document Current-State SS-A → Revisit Capabilities → Define Target Architecture → Document Future-State SS-A → Conduct OBP → Wrap Up</p>
+            </div>
+          </article>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="#conduct-obp">Following Path 1? Start with Step 1</a>
+          <a class="btn btn-outline" href="#capabilities">Following Path 2? Start with Step 2</a>
+        </div>
+      </section>
+
+      <section class="content-section reveal" id="conduct-obp">
+        <article class="step-card">
+          <div class="step-card-header">
+            <span class="step-number">1</span>
+            <span class="step-label">Conduct Outcomes-based Planning</span>
+          </div>
+          <h3>Put improved results at the center of MES investments</h3>
+          <p class="section-desc">Outcomes-based planning places improved results at the center of Medicaid Enterprise Systems investments. It helps define needs, value, measurable indicators, and return on investment.</p>
+          <div class="detail-grid">
+            <div class="note-card">
+              <h4>When to begin</h4>
+              <ul class="prose-list">
+                <li>Path 1: new modernization effort, vendor transition, policy shift, audit finding, or corrective action</li>
+                <li>Path 2: after documenting the SS-A or when preparing to define future-state outcomes</li>
+              </ul>
+            </div>
+            <div class="note-card">
+              <h4>Objectives</h4>
+              <ul class="prose-list">
+                <li>Demonstrate the value of system investments</li>
+                <li>Improve program performance through strategic alignment</li>
+                <li>Strengthen organizational readiness and capability</li>
+                <li>Create a culture of measurement and accountability</li>
+                <li>Enable consistency and reusability across state projects</li>
+              </ul>
+            </div>
+          </div>
+          <div class="substep-list">
+            <article class="substep-item"><h4>1. Define the business challenge</h4><p>Identify the business challenge and describe the current state. This may be a new initiative or a problem the SMA is trying to solve.</p></article>
+            <article class="substep-item"><h4>2. Identify goals</h4><p>Identify the main concern that explains why the agency has not already reached its goal.</p></article>
+            <article class="substep-item"><h4>3. Identify factors that cause or worsen the challenge</h4><p>Focus on specific, observable, real-world issues that can be changed.</p></article>
+            <article class="substep-item"><h4>4. Summarize the challenge</h4><p>Capture the concerns and drivers in a clear business challenge statement.</p></article>
+            <article class="substep-item"><h4>5. Develop desired outcomes</h4><p>Describe the changes, improvements, or benefits that define the future state. Identify the audience, the needed capability, and the actor responsible for implementing it.</p></article>
+            <article class="substep-item"><h4>6. Determine how to measure success</h4><p>Identify success factors, metrics, milestones, and reporting approaches that will show progress and benefits.</p></article>
+            <article class="substep-item"><h4>7. Define success</h4><p>Set time frames, target measurements, and a SMART objective that summarizes the definition of success.</p></article>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-outline" href="./outcomes-based-planning.html">Open detailed OBP page</a>
+            <a class="btn btn-primary" href="#capabilities">Next: Choose Your Capabilities</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="content-section reveal" id="capabilities">
+        <article class="step-card">
+          <div class="step-card-header">
+            <span class="step-number">2</span>
+            <span class="step-label">Choose Your Capabilities</span>
+          </div>
+          <h3>Select the capabilities needed to achieve the outcome or assess the baseline</h3>
+          <p class="section-desc">Choosing capabilities helps align information, technology, and business resources with strategic goals and provides insight into the projects needed to achieve success.</p>
+          <div class="detail-grid">
+            <div class="note-card">
+              <h4>When to begin</h4>
+              <ul class="prose-list">
+                <li>Path 1: after outcomes and metrics are developed</li>
+                <li>Path 2: when assessing the current state of the SMA</li>
+              </ul>
+            </div>
+            <div class="note-card">
+              <h4>Objectives</h4>
+              <ul class="prose-list">
+                <li>Improve insight into needed changes and improvements</li>
+                <li>Better understand the projects needed to achieve success</li>
+                <li>Align state capabilities with MITA 4.0 capability areas</li>
+              </ul>
+            </div>
+          </div>
+          <div class="substep-list">
+            <article class="substep-item"><h4>1. Map outcomes to MITA Capability Areas</h4><p>If already defined, map outcomes to each MITA 4.0 Capability Area.</p></article>
+            <article class="substep-item"><h4>2. Revisit maturity assessments</h4><p>Document the current and target maturity for the capability areas mapped to outcomes.</p></article>
+            <article class="substep-item"><h4>3. Create a state-specific capability model</h4><p>If not already established, use the MITA 4.0 Capability Domains and Capability Areas as the starting point.</p></article>
+            <article class="substep-item"><h4>4. Update capability mapping</h4><p>Refresh the mapping as state-specific capabilities are defined and maturity assessments are conducted.</p></article>
+          </div>
+          <div class="note-card">
+            <h4>Path guidance</h4>
+            <p>Path 1 completes all applicable sub-steps once. Path 2 usually completes sub-steps 2–4 first, then returns later to complete or update all sub-steps after the current-state SS-A.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="#architecture">Next: Define Your Architecture</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="content-section reveal" id="architecture">
+        <article class="step-card">
+          <div class="step-card-header">
+            <span class="step-number">3</span>
+            <span class="step-label">Define Your Architecture</span>
+          </div>
+          <h3>Document the current state, future state, and the gaps between them</h3>
+          <p class="section-desc">This step defines business, information, and technical architecture for the selected capabilities, aligns those views, and prepares the concept of operations and requirements needed for planning.</p>
+          <div class="detail-grid">
+            <div class="note-card">
+              <h4>When to begin</h4>
+              <ul class="prose-list">
+                <li>After selecting the desired capabilities</li>
+              </ul>
+            </div>
+            <div class="note-card">
+              <h4>Objectives</h4>
+              <ul class="prose-list">
+                <li>Document the current state</li>
+                <li>Document the future state</li>
+                <li>Assess maturity and gaps</li>
+                <li>Develop the ConOps and architecture requirements</li>
+              </ul>
+            </div>
+          </div>
+          <div class="substep-list">
+            <article class="substep-item">
+              <h4>1. Define Architectural Approach</h4>
+              <ul class="prose-list">
+                <li>Business Architecture: select viewpoints, catalogs, matrices, diagrams, requirements, reference models, and tools</li>
+                <li>Information Architecture: select data viewpoints, catalogs of building blocks, matrices, diagrams, requirements, reference models, and tools</li>
+                <li>Technical Architecture: identify viewpoints, requirement types, reference models, and tools</li>
+              </ul>
+            </article>
+            <article class="substep-item">
+              <h4>2. Define Baseline Capability Architecture</h4>
+              <ul class="prose-list">
+                <li>Business: document processes, activities, roles, regulations, supporting documentation, performance metrics, and baseline maturity</li>
+                <li>Information: document data usage, assets, governance roles, standards, data dictionaries, quality, and baseline maturity</li>
+                <li>Technical: inventory applications and components, map them to capabilities and processes, identify requirements, standards, gaps, risks, debt, and baseline maturity</li>
+              </ul>
+            </article>
+            <article class="substep-item">
+              <h4>3. Define Target Capability Architecture</h4>
+              <ul class="prose-list">
+                <li>Business: define target maturity, target processes, activities, roles, regulations, and business architecture artifacts</li>
+                <li>Information: define target maturity, target data usage, source data, relationships, governance roles, standards, logical elements, rules, metrics, and target views</li>
+                <li>Technical: define target maturity, technology strategy, future components and hosting, compliance principles, target-state diagrams, non-functional requirements, and debt remediation plans</li>
+              </ul>
+            </article>
+            <article class="substep-item">
+              <h4>4. Align Architecture and Compile ConOps</h4>
+              <ul class="prose-list">
+                <li>Align information to business processes and policies</li>
+                <li>Align information to applications</li>
+                <li>Map technical components to technical capabilities</li>
+                <li>Map applications to business capabilities and processes</li>
+                <li>Map target data lineage to applications</li>
+                <li>Define integration architecture and architectural requirements</li>
+                <li>Develop the concept of operations</li>
+              </ul>
+            </article>
+            <article class="substep-item">
+              <h4>5. Perform Gap Analysis</h4>
+              <ul class="prose-list">
+                <li>Business: compare baseline and target processes, roles, measures, standards, and maturity</li>
+                <li>Information: compare dictionaries, roles, reports, reference data, validation rules, quality measures, and maturity</li>
+                <li>Technical: compare current and target technology, standards, integrations, non-functional needs, resilience, and capability gaps</li>
+                <li>Develop requirements, prioritize gaps, estimate effort and dependencies, validate findings, and shape the roadmap</li>
+              </ul>
+            </article>
+          </div>
+          <div class="note-card">
+            <h4>Path guidance</h4>
+            <p>Path 1 continues directly into target-state work and gap analysis. Path 2 often completes baseline architecture first, documents the current-state SS-A, then returns later to complete target-state work and gap analysis.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-outline" href="./architectures.html">Open architecture page</a>
+            <a class="btn btn-primary" href="#document-ssa">Next: Document Your State Self-Assessment</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="content-section reveal" id="document-ssa">
+        <article class="step-card">
+          <div class="step-card-header">
+            <span class="step-number">4</span>
+            <span class="step-label">Document Your State Self-Assessment</span>
+          </div>
+          <h3>Capture maturity results, summarize priorities, and prepare the roadmap</h3>
+          <p class="section-desc">In this step, the SMA documents maturity assessment results in the Maturity Profile, synthesizes findings in the SS-A executive summary, and drafts a roadmap of planned projects to address maturity findings and business challenges.</p>
+          <div class="detail-grid">
+            <div class="note-card">
+              <h4>When to begin</h4>
+              <ul class="prose-list">
+                <li>After the maturity assessment has been completed as part of defining the capability architecture</li>
+              </ul>
+            </div>
+            <div class="note-card">
+              <h4>Objectives</h4>
+              <ul class="prose-list">
+                <li>Create the CMS Maturity Profile</li>
+                <li>Help leadership understand current and future-state priorities</li>
+                <li>Set clear priorities aligned to strategic objectives</li>
+                <li>Create a visual roadmap of planned initiatives</li>
+              </ul>
+            </div>
+          </div>
+          <div class="substep-list">
+            <article class="substep-item">
+              <h4>1. Document maturity assessment results in a Maturity Profile</h4>
+              <p>Capture all maturity assessments performed during architecture definition. Use the SS-A Tool if desired, generate the CMS-required Maturity Profile, and import the results into MESH for review.</p>
+            </article>
+            <article class="substep-item">
+              <h4>2. Use the SS-A Executive Summary template and Roadmap visual</h4>
+              <ul class="prose-list">
+                <li>Goals of the initiative or project</li>
+                <li>Prioritized features and functionalities</li>
+                <li>Potential risks and mitigation strategies</li>
+                <li>A visual timeline of initiatives and projects</li>
+                <li>Resources and support needed</li>
+              </ul>
+            </article>
+            <article class="substep-item">
+              <h4>3. Review the SS-A Executive Summary with leadership</h4>
+              <p>Submit the executive summary, maturity profile, and draft roadmap to leadership, discuss priorities and maturity findings, and update the roadmap to align with leadership direction.</p>
+            </article>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-outline" href="./ssa-tool.html">Open SS-A Tool Overview</a>
+            <a class="btn btn-primary" href="#wrap-up">Next: Wrap Up MITA 4.0</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="content-section reveal" id="wrap-up">
+        <p class="section-eyebrow">Wrap Up MITA 4.0</p>
+        <h2 class="section-title">Close the cycle, then repeat as priorities evolve</h2>
+        <div class="substep-list">
+          <article class="substep-item"><h4>1. Monitor and update outcomes through the OBP process</h4><p>Work with subject matter experts to define new outcomes or update existing ones, use metrics to assess progress, and restart the OBP process if goals change or if a new priority emerges.</p></article>
+          <article class="substep-item"><h4>2. Execute projects to achieve desired outcomes</h4><p>Initiate projects and periodically assess progress toward achieving the desired results.</p></article>
+          <article class="substep-item"><h4>3. Refresh the SS-A Executive Summary and repeat the process</h4><p>Repeat the cycle as needed until desired outcomes are met.</p></article>
+        </div>
+        <div class="note-card">
+          <h4>Take note</h4>
+          <p>MITA 4.0 is an iterative cycle. You can return to these steps at any time to support and update enterprise strategic planning.</p>
+        </div>
+      </section>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-info">
+        <a href="./index.html" class="logo-group" aria-label="MITA 4.0 Home">
+          <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="1" y="1" width="34" height="34" rx="8" fill="#5ec6d0" fill-opacity="0.12" stroke="#5ec6d0" stroke-opacity="0.25" stroke-width="1"/>
+            <rect x="8" y="22" width="4" height="6" rx="1" fill="#5ec6d0" fill-opacity="0.4"/>
+            <rect x="14" y="18" width="4" height="10" rx="1" fill="#5ec6d0" fill-opacity="0.6"/>
+            <rect x="20" y="14" width="4" height="14" rx="1" fill="#5ec6d0" fill-opacity="0.8"/>
+            <rect x="26" y="9" width="4" height="19" rx="1" fill="#5ec6d0"/>
+            <path d="M10 11l8-3 10 0" stroke="#5ec6d0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+          </svg>
+          <div class="logo-text">MITA <span style="color:#5ec6d0;">4.0</span></div>
+        </a>
+        <p>This companion guide page now follows the actual guide steps and the stepwise structure from the reference process file.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#scope">Scope Your Assessment</a>
+        <a href="#conduct-obp">Conduct Outcomes-based Planning</a>
+        <a href="#capabilities">Choose Your Capabilities</a>
+        <a href="#architecture">Define Your Architecture</a>
+        <a href="#document-ssa">Document Your State Self-Assessment</a>
+        <a href="#wrap-up">Wrap Up MITA 4.0</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MITA 4.0 website.</p>
+      <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+    </div>
+  </div>
+</footer>
+
+<script src="./app.js" defer></script>
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>
