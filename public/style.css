@@ -17,6 +17,20 @@
   top: var(--space-2);
 }
 
+/* Disclaimer banner placed above the header */
+.site-disclaimer {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  text-align: center;
+  padding-block: 0.5rem;
+  font-size: var(--text-sm);
+  border-bottom: 1px solid oklch(from var(--color-text) l c h / 0.06);
+}
+
+[data-theme="dark"] .site-disclaimer {
+  background: var(--color-primary-hover);
+}
+
 /* === LAYOUT === */
 .container {
   max-width: var(--content-wide);

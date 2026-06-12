@@ -3,6 +3,28 @@
 (function () {
   'use strict';
 
+  // ===================== SITE DISCLAIMER BANNER =====================
+  function insertDisclaimer() {
+    var message = 'This site is a demo and not final; content is subject to change.';
+    var headerEl = document.getElementById('siteHeader');
+    if (!headerEl) return;
+    var banner = document.createElement('div');
+    banner.className = 'site-disclaimer';
+    banner.setAttribute('role', 'region');
+    banner.setAttribute('aria-label', 'Site disclaimer');
+    var inner = document.createElement('div');
+    inner.className = 'container';
+    inner.textContent = message;
+    banner.appendChild(inner);
+    headerEl.parentNode.insertBefore(banner, headerEl);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', insertDisclaimer);
+  } else {
+    insertDisclaimer();
+  }
+
   // ===================== DARK MODE TOGGLE =====================
   const toggle = document.querySelector('[data-theme-toggle]');
   const root = document.documentElement;
